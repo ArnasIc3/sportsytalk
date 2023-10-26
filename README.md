@@ -1,1 +1,1 @@
-Copyright sportsytalk.com
+(Copyright sportsytalk.com)
