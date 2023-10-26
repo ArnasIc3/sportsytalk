@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Doc - Blogzine Theme</title>
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Webestica.com">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+
+	<!-- Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/doc.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/prism.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/glightbox/css/glightbox.css">
+
+</head>
+
+<body>
+
+<!-- **************** MAIN CONTENT START **************** -->
+<main>
+<!-- Navbar top START -->
+<div class="navbar-top bg-dark px-3 px-sm-4 px-md-5">
+	<div class="d-flex justify-content-between align-items-center">
+		<!-- Logo START -->
+			<a class="navbar-brand py-3" href="index.html">
+				<img class="navbar-brand-item" src="assets/images/logo.svg" alt="logo">			
+			</a>
+			<!-- Logo END -->
+
+		<!-- Navbar right -->
+		<div>
+			<ul class="text-end list-inline m-0">
+        <li class="list-inline-item me-2 me-md-4"> <a class="text-white" href="https://blogzine.webestica.com">Live Preview</a> </li>
+        <li class="list-inline-item me-2 me-md-4"> <a class="text-white" href="https://support.webestica.com" target="_blank">Support</a> </li>
+        <li class="list-inline-item text-white"> <span class="badge bg-danger text-white">v1.3.1</span></li>
+      </ul>
+		</div>
+	</div>
+</div>
+<!-- Navbar top END -->
+
+<div class="container-fluid px-0">
+	<div class="page-wrapper">
+		<!-- Left sidebar START -->
+		<nav class="navbar navbar-expand-sm navbar-light bg-light px-3">
+		  <a class="navbar-brand py-2 d-sm-none" href="#">Doc nav</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#docNav" aria-controls="docNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="docNav">
+		    <div class="left-sidebar bg-light">
+					<div class="content h-100vh">
+						 <div class="list-group list-group-borderless p-3 p-md-4">
+							<b class="text-dark text-uppercase mb-2">Getting Started</b>
+								<a class="list-group-item" href="index.html">Introduction</a>
+								<a class="list-group-item" href="gulp.html">Gulp</a>
+								<a class="list-group-item" href="customization.html">Customization</a>
+				        <a class="list-group-item" href="color-scheme.html">Color Scheme</a>
+								<a class="list-group-item" href="logo-settings.html">Logo Settings</a>
+								<a class="list-group-item" href="page-loading.html">Page Loading</a>
+								<a class="list-group-item" href="fonts.html">Fonts</a>
+								<a class="list-group-item" href="dark-mode.html">Dark mode</a>
+								<a class="list-group-item" href="rtl.html">RTL Version</a>
+								<a class="list-group-item" href="lazy-load.html">Lazy Load</a>
+				        <a class="list-group-item" href="sources-and-credits.html">Sources and Credits</a>
+				        <a class="list-group-item" href="changelog.html">Changelog</a>
+				        <a class="list-group-item" href="updates.html">Updates</a>
+				        <a class="list-group-item" href="support.html">Support</a>
+							<b class="text-dark text-uppercase mt-3 mb-2">Component</b>
+								<a class="list-group-item" href="alerts.html">Alerts</a>
+								<a class="list-group-item" href="avatar.html">Avatar</a>
+								<a class="list-group-item" href="badges.html">Badges</a>
+								<a class="list-group-item" href="breadcrumb.html">Breadcrumb</a>
+								<a class="list-group-item" href="buttons.html">Buttons</a>
+								<a class="list-group-item" href="card.html">Card</a>
+								<a class="list-group-item" href="font-icons.html">Font icons</a>
+								<a class="list-group-item" href="google-map.html">Google Map</a>
+								<a class="list-group-item" href="nav-and-tabs.html">Nav and Tabs</a>
+								<a class="list-group-item" href="pagination.html">Pagination</a>
+								<a class="list-group-item" href="progress.html">Progress</a>
+				        <a class="list-group-item" href="sticky-element.html">Sticky element</a>
+				        <a class="list-group-item" href="sticky-footer.html">Sticky footer</a>
+				        <a class="list-group-item" href="utility-classes.html">Utility classes</a>
+							<b class="text-dark text-uppercase mt-3 mb-2">Plugins</b>
+				        <a class="list-group-item" href="tiny-slider.html">Tiny Slider</a>
+						</div>
+					</div>
+				</div>
+		  </div>
+		</nav>		
+		<!-- Left sidebar END -->
+
+		<!-- Main content START -->
+		<div class="main-content">
+			<div class="row">
+				<div class="col-12">
+					<!-- Page title -->
+					<div class="my-5">
+						<h1>Navs and tabs</h1>
+            			<p class="lead">Documentation and examples for how to use Bootstrap’s included navigation components.</p>
+						<hr class="my-5">
+					</div>
+<!-- Page content START -->
+
+
+<!-- Base nav Examples -->
+<h3 class="mt-5">Base nav</h3>
+<p>Navigation available in Bootstrap share general markup and styles, from the base <code>.nav</code> class to the active and disabled states. Swap modifier classes to switch between each style.</p>
+<div class="p-3 border border-2 mb-3">
+	<p>The base <code>.nav</code> component does not include any <code>.active</code> state. The following examples include the class, mainly to demonstrate that this particular class does not trigger any special styling.</p>
+	<p>To convey the active state to assistive technologies, use the <code>aria-current</code> attribute — using the page value for current page, or <code>true</code> for the current item in a set.</p>
+</div>
+<!-- Tab START -->
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-1">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-2">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<div class="tab-pane show active" id="tab-1">
+		<ul class="nav">
+		  <li class="nav-item">
+		    <a class="nav-link active" aria-current="page" href="#">Active</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="#">Link</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="#">Link</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+		  </li>
+		</ul>
+	</div>
+
+<div class="tab-pane" id="tab-2">
+<div class="position-relative">
+<pre id="copy-1" class="my-3">
+<code class="language-markup" data-lang="html">&lt;ul class="nav"&gt;
+  &lt;li class="nav-item"&gt;
+    &lt;a class="nav-link active" aria-current="page" href="#"&gt;Active&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class="nav-item"&gt;
+    &lt;a class="nav-link" href="#"&gt;Link&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class="nav-item"&gt;
+    &lt;a class="nav-link" href="#"&gt;Link&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class="nav-item"&gt;
+    &lt;a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"&gt;Disabled&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+<button id="copy_id-1" data-clipboard-action="copy" data-clipboard-target="#copy-1" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+
+<h3 class="mt-5">Dots divider nav</h3>
+<p>Add <code>.nav-divider</code> to enable dot separator style for a nav.</p>
+
+<!-- Tab START -->
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-50">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-60">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<div class="tab-pane show active" id="tab-50">
+		<ul class="nav nav-divider align-items-center">
+			<li class="nav-item">
+				<div class="nav-link">
+					<div class="d-flex align-items-center position-relative">
+						<div class="avatar avatar-sm">
+							<img class="avatar-img rounded-circle" src="assets/images/avatar/01.jpg" alt="avatar">
+						</div>
+						<span class="ms-3">by <a href="#" class="stretched-link text-reset btn-link">Louis</a></span>
+					</div>
+				</div>
+			</li>
+			<li class="nav-item">Nov 15, 2021</li>
+			<li class="nav-item">5 min read</li>
+		</ul>
+	</div>
+
+<div class="tab-pane" id="tab-60">
+<div class="position-relative">
+<pre id="copy-50" class="my-3">
+<code class="language-markup" data-lang="html">&lt;ul class="nav nav-divider align-items-center"&gt;
+  &lt;li class="nav-item"&gt;
+    &lt;div class="nav-link"&gt;
+      &lt;div class="d-flex align-items-center position-relative"&gt;
+        &lt;div class="avatar avatar-sm"&gt;
+          &lt;img class="avatar-img rounded-circle" src="assets/images/avatar/01.jpg" alt="avatar"&gt;
+        &lt;/div&gt;
+        &lt;span class="ms-3"&gt;by &lt;a href="#" class="stretched-link text-reset btn-link"&gt;Louis&lt;/a&gt;&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li class="nav-item"&gt;Nov 15, 2021&lt;/li&gt;
+  &lt;li class="nav-item"&gt;5 min read&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+<button id="copy_id-50" data-clipboard-action="copy" data-clipboard-target="#copy-50" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+
+
+<h4 class="mt-5">Tab default</h4>
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-19">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-20">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<div class="tab-pane show active" id="tab-19">
+		<ul class="nav nav-tabs">
+			<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-1-1"> Research </a> </li>
+			<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-1-2"> Design </a> </li>
+			<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-1-3"> Develop </a> </li>
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane show active" id="tab-1-1">
+				We have a strong foundation built on legacy and emerging technologies, including excellent track record of on-time deliveries. We are emerging as one of the most promising private talent sourcing and management firms in the world. The real challenge before companies in today's world is to make their products and services appealing to everyone.
+			</div>
+			<div class="tab-pane" id="tab-1-2">
+				We pride ourselves on the service we give to our clients. Our friendly team members are always willing to help you understand your present technology requirements and provide suggestions on your future needs. It can be the packaging of an item or the design of its website and Applications.
+			</div>
+			<div class="tab-pane" id="tab-1-3">
+				blogzine an innovative Internet marketing solutions company that offers comprehensive web development, SMO services, SEO strategies and various other types of Internet marketing related services. With us at your side, you will find the IT solution to achieve your strategic and financial goals.
+			</div>
+		</div>
+	</div>
+
+<div class="tab-pane" id="tab-20">
+<div class="position-relative">
+<pre id="copy-10" class="my-3">
+<code class="language-markup" data-lang="html">&lt;ul class="nav nav-tabs"&gt;
+	&lt;li class="nav-item"&gt; &lt;a class="nav-link active" data-bs-toggle="tab" href="#tab-1-1"&gt; Research &lt;/a&gt; &lt;/li&gt;
+	&lt;li class="nav-item"&gt; &lt;a class="nav-link" data-bs-toggle="tab" href="#tab-1-2"&gt; Design &lt;/a&gt; &lt;/li&gt;
+	&lt;li class="nav-item"&gt; &lt;a class="nav-link" data-bs-toggle="tab" href="#tab-1-3"&gt; Develop &lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="tab-content"&gt;
+	&lt;div class="tab-pane show active" id="tab-1-1"&gt;
+		We have a strong foundation built on legacy and emerging technologies, including excellent track record of on-time deliveries. We are emerging as one of the most promising private talent sourcing and management firms in the world. The real challenge before companies in today's world is to make their products and services appealing to everyone.
+	&lt;/div&gt;
+	&lt;div class="tab-pane" id="tab-1-2"&gt;
+		We pride ourselves on the service we give to our clients. Our friendly team members are always willing to help you understand your present technology requirements and provide suggestions on your future needs. It can be the packaging of an item or the design of its website and Applications.
+	&lt;/div&gt;
+	&lt;div class="tab-pane" id="tab-1-3"&gt;
+		blogzine an innovative Internet marketing solutions company that offers comprehensive web development, SMO services, SEO strategies and various other types of Internet marketing related services. With us at your side, you will find the IT solution to achieve your strategic and financial goals.
+	&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<button id="copy_id-10" data-clipboard-action="copy" data-clipboard-target="#copy-10" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+
+<!-- Tab default Justified -->
+<h4 class="mt-5">Tab default Justified</h4>
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-21">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-22">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<div class="tab-pane show active" id="tab-21">
+		<ul class="nav nav-tabs nav-justified">
+			<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-2-1"> Research </a> </li>
+			<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-2-2"> Design </a> </li>
+			<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-2-3"> Develop </a> </li>
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane show active" id="tab-2-1">
+				We have a strong foundation built on legacy and emerging technologies, including excellent track record of on-time deliveries. We are emerging as one of the most promising private talent sourcing and management firms in the world. The real challenge before companies in today's world is to make their products and services appealing to everyone.
+			</div>
+			<div class="tab-pane" id="tab-2-2">
+				We pride ourselves on the service we give to our clients. Our friendly team members are always willing to help you understand your present technology requirements and provide suggestions on your future needs. It can be the packaging of an item or the design of its website and Applications.
+			</div>
+			<div class="tab-pane" id="tab-2-3">
+				blogzine an innovative Internet marketing solutions company that offers comprehensive web development, SMO services, SEO strategies and various other types of Internet marketing related services. With us at your side, you will find the IT solution to achieve your strategic and financial goals.
+			</div>
+		</div>
+	</div>
+
+<div class="tab-pane" id="tab-22">
+<div class="position-relative">
+<pre id="copy-11" class="my-3">
+<code class="language-markup" data-lang="html">&lt;ul class="nav nav-tabs nav-justified"&gt;
+	&lt;li class="nav-item"&gt; &lt;a class="nav-link active" data-bs-toggle="tab" href="#tab-2-1"&gt; Research &lt;/a&gt; &lt;/li&gt;
+	&lt;li class="nav-item"&gt; &lt;a class="nav-link" data-bs-toggle="tab" href="#tab-2-2"&gt; Design &lt;/a&gt; &lt;/li&gt;
+	&lt;li class="nav-item"&gt; &lt;a class="nav-link" data-bs-toggle="tab" href="#tab-2-3"&gt; Develop &lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="tab-content"&gt;
+	&lt;div class="tab-pane show active" id="tab-2-1"&gt;
+		We have a strong foundation built on legacy and emerging technologies, including excellent track record of on-time deliveries. We are emerging as one of the most promising private talent sourcing and management firms in the world. The real challenge before companies in today's world is to make their products and services appealing to everyone.
+	&lt;/div&gt;
+	&lt;div class="tab-pane" id="tab-2-2"&gt;
+		We pride ourselves on the service we give to our clients. Our friendly team members are always willing to help you understand your present technology requirements and provide suggestions on your future needs. It can be the packaging of an item or the design of its website and Applications.
+	&lt;/div&gt;
+	&lt;div class="tab-pane" id="tab-2-3"&gt;
+		blogzine an innovative Internet marketing solutions company that offers comprehensive web development, SMO services, SEO strategies and various other types of Internet marketing related services. With us at your side, you will find the IT solution to achieve your strategic and financial goals.
+	&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<button id="copy_id-11" data-clipboard-action="copy" data-clipboard-target="#copy-11" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+<!-- Tab line -->
+<h4 class="mt-5">Tab line</h4>
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-23">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-24">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<div class="tab-pane show active" id="tab-23">
+		<ul class="nav nav-tabs nav-tabs-line">
+			<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-3-1"> Research </a> </li>
+			<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-3-2"> Design </a> </li>
+			<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-3-3"> Develop </a> </li>
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane show active" id="tab-3-1">
+				We have a strong foundation built on legacy and emerging technologies, including excellent track record of on-time deliveries. We are emerging as one of the most promising private talent sourcing and management firms in the world. The real challenge before companies in today's world is to make their products and services appealing to everyone.
+			</div>
+			<div class="tab-pane" id="tab-3-2">
+				We pride ourselves on the service we give to our clients. Our friendly team members are always willing to help you understand your present technology requirements and provide suggestions on your future needs. It can be the packaging of an item or the design of its website and Applications.
+			</div>
+			<div class="tab-pane" id="tab-3-3">
+				blogzine an innovative Internet marketing solutions company that offers comprehensive web development, SMO services, SEO strategies and various other types of Internet marketing related services. With us at your side, you will find the IT solution to achieve your strategic and financial goals.
+			</div>
+		</div>
+	</div>
+
+<div class="tab-pane" id="tab-24">
+<div class="position-relative">
+<pre id="copy-12" class="my-3">
+<code class="language-markup" data-lang="html">&lt;ul class="nav nav-tabs nav-tabs-line"&gt;
+	&lt;li class="nav-item"&gt; &lt;a class="nav-link active" data-bs-toggle="tab" href="#tab-3-1"&gt; Research &lt;/a&gt; &lt;/li&gt;
+	&lt;li class="nav-item"&gt; &lt;a class="nav-link" data-bs-toggle="tab" href="#tab-3-2"&gt; Design &lt;/a&gt; &lt;/li&gt;
+	&lt;li class="nav-item"&gt; &lt;a class="nav-link" data-bs-toggle="tab" href="#tab-3-3"&gt; Develop &lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="tab-content"&gt;
+	&lt;div class="tab-pane show active" id="tab-3-1"&gt;
+		We have a strong foundation built on legacy and emerging technologies, including excellent track record of on-time deliveries. We are emerging as one of the most promising private talent sourcing and management firms in the world. The real challenge before companies in today's world is to make their products and services appealing to everyone.
+	&lt;/div&gt;
+	&lt;div class="tab-pane" id="tab-3-2"&gt;
+		We pride ourselves on the service we give to our clients. Our friendly team members are always willing to help you understand your present technology requirements and provide suggestions on your future needs. It can be the packaging of an item or the design of its website and Applications.
+	&lt;/div&gt;
+	&lt;div class="tab-pane" id="tab-3-3"&gt;
+		blogzine an innovative Internet marketing solutions company that offers comprehensive web development, SMO services, SEO strategies and various other types of Internet marketing related services. With us at your side, you will find the IT solution to achieve your strategic and financial goals.
+	&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<button id="copy_id-12" data-clipboard-action="copy" data-clipboard-target="#copy-12" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+<!-- Tab Dark -->
+<h4 class="mt-5">Tab Dark</h4>
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-25">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-26">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<div class="tab-pane show active" id="tab-25">
+		<ul class="nav nav-tabs nav-tabs-dark">
+			<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-6-1"> Research </a> </li>
+			<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-6-2"> Design </a> </li>
+			<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-6-3"> Develop </a> </li>
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane show active" id="tab-6-1">
+				We have a strong foundation built on legacy and emerging technologies, including excellent track record of on-time deliveries. We are emerging as one of the most promising private talent sourcing and management firms in the world. The real challenge before companies in today's world is to make their products and services appealing to everyone.
+			</div>
+			<div class="tab-pane" id="tab-6-2">
+				We pride ourselves on the service we give to our clients. Our friendly team members are always willing to help you understand your present technology requirements and provide suggestions on your future needs. It can be the packaging of an item or the design of its website and Applications.
+			</div>
+			<div class="tab-pane" id="tab-6-3">
+				blogzine an innovative Internet marketing solutions company that offers comprehensive web development, SMO services, SEO strategies and various other types of Internet marketing related services. With us at your side, you will find the IT solution to achieve your strategic and financial goals.
+			</div>
+		</div>
+	</div>
+
+<div class="tab-pane" id="tab-26">
+<div class="position-relative">
+<pre id="copy-13" class="my-3">
+<code class="language-markup" data-lang="html">&lt;ul class="nav nav-tabs nav-tabs-dark"&gt;
+	&lt;li class="nav-item"&gt; &lt;a class="nav-link active" data-bs-toggle="tab" href="#tab-6-1"&gt; Research &lt;/a&gt; &lt;/li&gt;
+	&lt;li class="nav-item"&gt; &lt;a class="nav-link" data-bs-toggle="tab" href="#tab-6-2"&gt; Design &lt;/a&gt; &lt;/li&gt;
+	&lt;li class="nav-item"&gt; &lt;a class="nav-link" data-bs-toggle="tab" href="#tab-6-3"&gt; Develop &lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="tab-content"&gt;
+	&lt;div class="tab-pane show active" id="tab-6-1"&gt;
+		We have a strong foundation built on legacy and emerging technologies, including excellent track record of on-time deliveries. We are emerging as one of the most promising private talent sourcing and management firms in the world. The real challenge before companies in today's world is to make their products and services appealing to everyone.
+	&lt;/div&gt;
+	&lt;div class="tab-pane" id="tab-6-2"&gt;
+		We pride ourselves on the service we give to our clients. Our friendly team members are always willing to help you understand your present technology requirements and provide suggestions on your future needs. It can be the packaging of an item or the design of its website and Applications.
+	&lt;/div&gt;
+	&lt;div class="tab-pane" id="tab-6-3"&gt;
+		blogzine an innovative Internet marketing solutions company that offers comprehensive web development, SMO services, SEO strategies and various other types of Internet marketing related services. With us at your side, you will find the IT solution to achieve your strategic and financial goals.
+	&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<button id="copy_id-13" data-clipboard-action="copy" data-clipboard-target="#copy-13" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+<!-- Tab vertical -->
+<h4 class="mt-5">Tab vertical</h4>
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-27">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-28">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<div class="tab-pane show active" id="tab-27">
+		<div class="row">
+		  <div class="col-4 col-sm-3">
+		    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+		      <a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+		      <a class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+		      <a class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+		      <a class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+		    </div>
+		  </div>
+		  <div class="col-8 col-sm-9">
+		    <div class="tab-content pt-0" id="v-pills-tabContent">
+		      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+		      	We have a strong foundation built on legacy and emerging technologies, including excellent track record of on-time deliveries. We are emerging as one of the most promising private talent sourcing and management firms in the world. The real challenge before companies in today's world is to make their products and services appealing to everyone.
+		    	</div>
+		      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+		      	We pride ourselves on the service we give to our clients. Our friendly team members are always willing to help you understand your present technology requirements and provide suggestions on your future needs. It can be the packaging of an item or the design of its website and Applications.
+		    	</div>
+		      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+		      	blogzine an innovative Internet marketing solutions company that offers comprehensive web development, SMO services, SEO strategies and various other types of Internet marketing related services. With us at your side, you will find the IT solution to achieve your strategic and financial goals.
+		    	</div>
+		      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+		      	Our friendly team members are always willing to help you understand your present technology requirements and provide suggestions on your future needs. It can be the packaging of an item or the design of its website and Applications. We pride ourselves on the service we give to our clients.
+		    	</div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+
+<div class="tab-pane" id="tab-28">
+<div class="position-relative">
+<pre id="copy-14" class="my-3">
+<code class="language-markup" data-lang="html">&lt;div class="row"&gt;
+  &lt;div class="col-4 col-sm-3"&gt;
+    &lt;div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"&gt;
+      &lt;a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"&gt;Home&lt;/a&gt;
+      &lt;a class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"&gt;Profile&lt;/a&gt;
+      &lt;a class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"&gt;Messages&lt;/a&gt;
+      &lt;a class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"&gt;Settings&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="col-8 col-sm-9"&gt;
+    &lt;div class="tab-content pt-0" id="v-pills-tabContent"&gt;
+      &lt;div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"&gt;
+      	We have a strong foundation built on legacy and emerging technologies, including excellent track record of on-time deliveries. We are emerging as one of the most promising private talent sourcing and management firms in the world. The real challenge before companies in today's world is to make their products and services appealing to everyone.
+    	&lt;/div&gt;
+      &lt;div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"&gt;
+      	We pride ourselves on the service we give to our clients. Our friendly team members are always willing to help you understand your present technology requirements and provide suggestions on your future needs. It can be the packaging of an item or the design of its website and Applications.
+    	&lt;/div&gt;
+      &lt;div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"&gt;
+      	blogzine an innovative Internet marketing solutions company that offers comprehensive web development, SMO services, SEO strategies and various other types of Internet marketing related services. With us at your side, you will find the IT solution to achieve your strategic and financial goals.
+    	&lt;/div&gt;
+      &lt;div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"&gt;
+      	Our friendly team members are always willing to help you understand your present technology requirements and provide suggestions on your future needs. It can be the packaging of an item or the design of its website and Applications. We pride ourselves on the service we give to our clients.
+    	&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<button id="copy_id-14" data-clipboard-action="copy" data-clipboard-target="#copy-14" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+ 
+<!-- Page content END -->	
+				</div>
+			</div>
+		</div>
+		<!-- Main content END -->
+	</div>
+</div>
+</main>
+
+<!-- =======================
+JavaScripts -->
+
+<!-- Bootstrap JS -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+<script src="assets/js/simple-scrollbar.min.js"></script>
+<script src="assets/js/prism.js"></script>
+<script src="assets/js/clipboard.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.js"></script>
+ 
+<!-- Template Functions -->
+<script src="assets/js/functions.js"></script>
+
+</body>
+</html>

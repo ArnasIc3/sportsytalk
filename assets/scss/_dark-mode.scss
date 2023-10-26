@@ -1,0 +1,114 @@
+// 
+// dark-mode.scss
+// Theme Component
+// Dark mode related CSS
+
+[data-bs-theme="dark"] {
+
+  //Dark mode styles
+    --bs-light: #202227;
+    --bs-gray-100: #0f0f10;
+    --bs-gray-200: #464950;
+    --bs-gray-300: #3e3e40;
+    --bs-gray-400: #a1a1a8;
+    --bs-gray-500: #bfc0c9;
+    --bs-gray-600: #c5c6cc;
+    --bs-gray-700: #f3f1f1;
+    --bs-gray-800: #f7f5f5;
+    --bs-gray-900: #fff;
+    --bs-body-bg: #191a1f;
+    --bs-body-bg-rgb: #191a1f;
+    --bs-body-color: #a1a1a8;
+    --bs-border-color: rgba(255, 255, 255, 0.08);
+    --bs-heading-color: var(--bs-gray-900);
+
+    .navbar {
+    --bs-navbar-color: var(--#{$prefix}gray-600);
+    --bs-navbar-disabled-color: var(--#{$prefix}gray-400);
+    }
+    .navbar-dark {
+      --bs-navbar-color: var(--#{$prefix}gray-900);
+    }
+    .nav{
+      --bs-nav-link-color: var(--#{$prefix}gray-600);
+      --bs-nav-link-hover-color: var(--#{$prefix}primary);
+    }
+    .dropdown-menu {
+      --bs-dropdown-bg: var(--#{$prefix}gray-100);
+      --bs-dropdown-color: var(--#{$prefix}body-color);
+      box-shadow:none;
+    }
+    .btn-light{
+      --bs-btn-color: #fff;
+      --bs-btn-bg: var(--#{$prefix}light);
+      --bs-btn-border-color: var(--#{$prefix}light);
+      --bs-btn-hover-color: var(--#{$prefix}gray-900);
+      --bs-btn-hover-bg: var(--#{$prefix}gray-200);
+      --bs-btn-hover-border-color:  var(--#{$prefix}gray-200);
+      --bs-btn-focus-shadow-rgb: 210, 211, 212;
+      --bs-btn-active-color:  var(--#{$prefix}gray-900);
+      --bs-btn-active-bg:  var(--#{$prefix}gray-200);
+      --bs-btn-active-border-color:  var(--#{$prefix}gray-200);
+      --bs-btn-active-shadow: none;
+    }
+    .modal {
+      --bs-modal-bg: var(--#{$prefix}body-bg);
+      --bs-modal-border-color: var(--#{$prefix}border-color-translucent);
+      --bs-modal-footer-border-color: var(--#{$prefix}border-color);
+    }
+    .table-light {
+      --bs-table-bg: var(--#{$prefix}light);
+      --bs-table-color: var(--#{$prefix}gray-900);
+    }
+    .offcanvas, .offcanvas-xxl, .offcanvas-xl, .offcanvas-lg, .offcanvas-md, .offcanvas-sm {
+      --bs-offcanvas-bg: var(--#{$prefix}body-bg);
+    }
+    .fill-primary{
+      fill: var(--#{$prefix}primary) !important;
+    }
+    .fill-dark{
+      fill: var(--#{$prefix}dark) !important;
+    }
+    .bg-light{
+      background-color: var(--#{$prefix}light) !important;
+    }
+    .border-light{
+      border-color: var(--#{$prefix}light) !important
+    }
+    .bg-body{
+      background-color: var(--#{$prefix}body-bg) !important;
+    }
+    .navbar-nav .dropdown .dropdown-submenu:hover>.dropdown-menu {
+      box-shadow: none;
+    }
+    .btn-close {
+      filter: invert(1) grayscale(100%) brightness(300%);
+    }
+    .bg-dark{
+      background-color: var(--#{$prefix}gray-100) !important;
+    }
+    .btn-dark{
+      --bs-btn-bg: var(--#{$prefix}gray-100);
+      --bs-btn-border-color: var(--#{$prefix}gray-100);
+      --bs-btn-disabled-bg: var(--#{$prefix}gray-100);
+      --bs-btn-disabled-border-color: var(--#{$prefix}gray-100);
+    }
+    hr{
+      color: var(--bs-border-color);
+      opacity: 1;
+    }
+}
+
+// Dark mode item hide and show For Brand logo
+.dark-mode-item{
+  display: none !important;
+}
+
+[data-bs-theme="dark"]{
+  .dark-mode-item{
+    display: inline-block !important;
+  }
+  .light-mode-item{
+    display: none !important;
+  }
+}

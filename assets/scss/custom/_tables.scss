@@ -1,0 +1,22 @@
+// 
+// tables.scss
+// Extended from Bootstrap
+// 
+
+// 
+// Additional styles for theme
+// 
+
+// Table shrink for better responsive
+@include media-breakpoint-up(md) {
+  .table-shrink.table td, .table-shrink.table th {
+    white-space: inherit;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .table-shrink .table-title{
+    width: 200px;
+    white-space: normal;
+  }
+}

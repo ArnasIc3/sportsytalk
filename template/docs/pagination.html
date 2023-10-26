@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Doc - Blogzine Theme</title>
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Webestica.com">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+
+	<!-- Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/doc.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/prism.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/glightbox/css/glightbox.css">
+
+</head>
+
+<body>
+
+<!-- **************** MAIN CONTENT START **************** -->
+<main>
+<!-- Navbar top START -->
+<div class="navbar-top bg-dark px-3 px-sm-4 px-md-5">
+	<div class="d-flex justify-content-between align-items-center">
+		<!-- Logo START -->
+			<a class="navbar-brand py-3" href="index.html">
+				<img class="navbar-brand-item" src="assets/images/logo.svg" alt="logo">			
+			</a>
+			<!-- Logo END -->
+
+		<!-- Navbar right -->
+		<div>
+			<ul class="text-end list-inline m-0">
+        <li class="list-inline-item me-2 me-md-4"> <a class="text-white" href="https://blogzine.webestica.com">Live Preview</a> </li>
+        <li class="list-inline-item me-2 me-md-4"> <a class="text-white" href="https://support.webestica.com" target="_blank">Support</a> </li>
+        <li class="list-inline-item text-white"> <span class="badge bg-danger text-white">v1.3.1</span></li>
+      </ul>
+		</div>
+	</div>
+</div>
+<!-- Navbar top END -->
+
+<div class="container-fluid px-0">
+	<div class="page-wrapper">
+		<!-- Left sidebar START -->
+		<nav class="navbar navbar-expand-sm navbar-light bg-light px-3">
+		  <a class="navbar-brand py-2 d-sm-none" href="#">Doc nav</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#docNav" aria-controls="docNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="docNav">
+		    <div class="left-sidebar bg-light">
+					<div class="content h-100vh">
+						<div class="list-group list-group-borderless p-3 p-md-4">
+							<b class="text-dark text-uppercase mb-2">Getting Started</b>
+								<a class="list-group-item" href="index.html">Introduction</a>
+								<a class="list-group-item" href="gulp.html">Gulp</a>
+								<a class="list-group-item" href="customization.html">Customization</a>
+				        <a class="list-group-item" href="color-scheme.html">Color Scheme</a>
+								<a class="list-group-item" href="logo-settings.html">Logo Settings</a>
+								<a class="list-group-item" href="page-loading.html">Page Loading</a>
+								<a class="list-group-item" href="fonts.html">Fonts</a>
+								<a class="list-group-item" href="dark-mode.html">Dark mode</a>
+								<a class="list-group-item" href="rtl.html">RTL Version</a>
+								<a class="list-group-item" href="lazy-load.html">Lazy Load</a>
+				        <a class="list-group-item" href="sources-and-credits.html">Sources and Credits</a>
+				        <a class="list-group-item" href="changelog.html">Changelog</a>
+				        <a class="list-group-item" href="updates.html">Updates</a>
+				        <a class="list-group-item" href="support.html">Support</a>
+							<b class="text-dark text-uppercase mt-3 mb-2">Component</b>
+								<a class="list-group-item" href="alerts.html">Alerts</a>
+								<a class="list-group-item" href="avatar.html">Avatar</a>
+								<a class="list-group-item" href="badges.html">Badges</a>
+								<a class="list-group-item" href="breadcrumb.html">Breadcrumb</a>
+								<a class="list-group-item" href="buttons.html">Buttons</a>
+								<a class="list-group-item" href="card.html">Card</a>
+								<a class="list-group-item" href="font-icons.html">Font icons</a>
+								<a class="list-group-item" href="google-map.html">Google Map</a>
+								<a class="list-group-item" href="nav-and-tabs.html">Nav and Tabs</a>
+								<a class="list-group-item" href="pagination.html">Pagination</a>
+								<a class="list-group-item" href="progress.html">Progress</a>
+				        <a class="list-group-item" href="sticky-element.html">Sticky element</a>
+				        <a class="list-group-item" href="sticky-footer.html">Sticky footer</a>
+				        <a class="list-group-item" href="utility-classes.html">Utility classes</a>
+							<b class="text-dark text-uppercase mt-3 mb-2">Plugins</b>
+				        <a class="list-group-item" href="tiny-slider.html">Tiny Slider</a>
+						</div>
+					</div>
+				</div>
+		  </div>
+		</nav>		
+		<!-- Left sidebar END -->
+
+		<!-- Main content START -->
+		<div class="main-content">
+			<div class="row">
+				<div class="col-12">
+					<!-- Page title -->
+					<div class="my-5">
+						<h1>Pagination</h1>
+            			<p class="lead">Documentation and examples for showing pagination to indicate a series of related content exists across multiple pages.</p>
+						<hr class="my-5">
+					</div>
+<!-- Page content START -->
+
+
+<!-- Pagination Overview -->
+<h3 class="mt-5">Overview</h3>
+<p>We use a large block of connected links for our pagination, making links hard to miss and easily scalable—all while providing large hit areas. Pagination is built with list HTML elements so screen readers can announce the number of available links. Use a wrapping <code>&lt;nav&gt;</code> element to identify it as a navigation section to screen readers and other assistive technologies.</p>
+
+<p>In addition, as pages likely have more than one such navigation section, it’s advisable to provide a descriptive <code>aria-label</code> for the <code>&lt;nav&gt;</code> to reflect its purpose. For example, if the pagination component is used to navigate between a set of search results, an appropriate label could be <code>aria-label="Search results pages"</code>.</p>
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-1">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-2">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<nav aria-label="Page navigation example">
+	  <ul class="pagination">
+	    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+	    <li class="page-item"><a class="page-link" href="#">1</a></li>
+	    <li class="page-item"><a class="page-link" href="#">2</a></li>
+	    <li class="page-item"><a class="page-link" href="#">3</a></li>
+	    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+	  </ul>
+	</nav>
+
+<div class="tab-pane" id="tab-2">
+<div class="position-relative">
+<pre id="copy-1" class="my-3">
+<code class="language-markup" data-lang="html">&lt;nav aria-label="Page navigation example"&gt;
+ &lt;ul class="pagination"&gt;
+    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;Previous&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;Next&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;  
+</code></pre>
+<button id="copy_id-1" data-clipboard-action="copy" data-clipboard-target="#copy-1" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+<!-- Working with icons Examples -->
+<h3 class="mt-5">Working with icons</h3>
+<p>Looking to use an icon or symbol in place of text for some pagination links? Be sure to provide proper screen reader support with <code>aria</code> attributes.</p>
+
+<!-- Tab START -->
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-9">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-10">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<div class="tab-pane show active" id="tab-9">
+		<nav aria-label="Page navigation example">
+		  <ul class="pagination">
+		    <li class="page-item">
+		      <a class="page-link" href="#" aria-label="Previous">
+		        <span aria-hidden="true">&laquo;</span>
+		      </a>
+		    </li>
+		    <li class="page-item"><a class="page-link" href="#">1</a></li>
+		    <li class="page-item"><a class="page-link" href="#">2</a></li>
+		    <li class="page-item"><a class="page-link" href="#">3</a></li>
+		    <li class="page-item">
+		      <a class="page-link" href="#" aria-label="Next">
+		        <span aria-hidden="true">&raquo;</span>
+		      </a>
+		    </li>
+		  </ul>
+		</nav>
+	</div>
+
+<div class="tab-pane" id="tab-10">
+<div class="position-relative">
+<pre id="copy-5" class="my-3">
+<code class="language-markup" data-lang="html">&lt;nav aria-label="Page navigation example"&gt;
+  &lt;ul class="pagination"&gt;
+    &lt;li class="page-item"&gt;
+      &lt;a class="page-link" href="#" aria-label="Previous"&gt;
+        &lt;span aria-hidden="true"&gt;&amp;laquo;&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="page-item"&gt;
+      &lt;a class="page-link" href="#" aria-label="Next"&gt;
+        &lt;span aria-hidden="true"&gt;&amp;raquo;&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+</code></pre>
+<button id="copy_id-5" data-clipboard-action="copy" data-clipboard-target="#copy-5" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+<!-- Default Examples -->
+<h3 class="mt-5">Default</h3>
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-31">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-41">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<div class="tab-pane show active" id="tab-31">
+		<div class="col-12">
+			<h5 class="text-center">Pagination sm</h5>
+			<nav class="mb-5" aria-label="navigation">
+			  <ul class="pagination pagination-sm d-inline-block d-md-flex justify-content-center">
+			    <li class="page-item disabled">
+			      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Prev</a>
+			    </li>
+			    <li class="page-item"><a class="page-link" href="#">1</a></li>
+			    <li class="page-item active"><a class="page-link" href="#">2</a></li>
+			    <li class="page-item disabled"><a class="page-link" href="#">..</a></li>
+			    <li class="page-item"><a class="page-link" href="#">15</a></li>
+			    <li class="page-item">
+			      <a class="page-link" href="#">Next</a>
+			    </li>
+			  </ul>
+			</nav>
+			<h5 class="text-center">Pagination default</h5>
+			<nav class="mb-5" aria-label="navigation">
+			  <ul class="pagination d-inline-block d-md-flex justify-content-center">
+			    <li class="page-item disabled">
+			      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Prev</a>
+			    </li>
+			    <li class="page-item"><a class="page-link" href="#">1</a></li>
+			    <li class="page-item active"><a class="page-link" href="#">2</a></li>
+			    <li class="page-item disabled"><a class="page-link" href="#">..</a></li>
+			    <li class="page-item"><a class="page-link" href="#">15</a></li>
+			    <li class="page-item">
+			      <a class="page-link" href="#">Next</a>
+			    </li>
+			  </ul>
+			</nav>
+			<h5 class="text-center">Pagination lg</h5>
+			<nav class="mb-5" aria-label="navigation">
+			  <ul class="pagination pagination-lg d-inline-block d-md-flex justify-content-center">
+			    <li class="page-item disabled">
+			      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Prev</a>
+			    </li>
+			    <li class="page-item"><a class="page-link" href="#">1</a></li>
+			    <li class="page-item active"><a class="page-link" href="#">2</a></li>
+			    <li class="page-item disabled"><a class="page-link" href="#">..</a></li>
+			    <li class="page-item"><a class="page-link" href="#">15</a></li>
+			    <li class="page-item">
+			      <a class="page-link" href="#">Next</a>
+			    </li>
+			  </ul>
+			</nav>
+		</div>
+	</div>
+
+<div class="tab-pane" id="tab-41">
+<div class="position-relative">
+<pre id="copy-2" class="my-3">
+<code class="language-markup" data-lang="html">&lt;div class="col-12"&gt;
+	&lt;h5 class="text-center"&gt;Pagination sm&lt;/h5&gt;
+	&lt;nav class="mb-5" aria-label="navigation"&gt;
+	  &lt;ul class="pagination pagination-sm d-inline-block d-md-flex justify-content-center"&gt;
+	    &lt;li class="page-item disabled"&gt;
+	      &lt;a class="page-link" href="#" tabindex="-1" aria-disabled="true"&gt;Prev&lt;/a&gt;
+	    &lt;/li&gt;
+	    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+	    &lt;li class="page-item active"&gt;&lt;a class="page-link" href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+	    &lt;li class="page-item disabled"&gt;&lt;a class="page-link" href="#"&gt;..&lt;/a&gt;&lt;/li&gt;
+	    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;15&lt;/a&gt;&lt;/li&gt;
+	    &lt;li class="page-item"&gt;
+	      &lt;a class="page-link" href="#"&gt;Next&lt;/a&gt;
+	    &lt;/li&gt;
+	  &lt;/ul&gt;
+	&lt;/nav&gt;
+	&lt;h5 class="text-center"&gt;Pagination default&lt;/h5&gt;
+	&lt;nav class="mb-5" aria-label="navigation"&gt;
+	  &lt;ul class="pagination d-inline-block d-md-flex justify-content-center"&gt;
+	    &lt;li class="page-item disabled"&gt;
+	      &lt;a class="page-link" href="#" tabindex="-1" aria-disabled="true"&gt;Prev&lt;/a&gt;
+	    &lt;/li&gt;
+	    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+	    &lt;li class="page-item active"&gt;&lt;a class="page-link" href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+	    &lt;li class="page-item disabled"&gt;&lt;a class="page-link" href="#"&gt;..&lt;/a&gt;&lt;/li&gt;
+	    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;15&lt;/a&gt;&lt;/li&gt;
+	    &lt;li class="page-item"&gt;
+	      &lt;a class="page-link" href="#"&gt;Next&lt;/a&gt;
+	    &lt;/li&gt;
+	  &lt;/ul&gt;
+	&lt;/nav&gt;
+	&lt;h5 class="text-center"&gt;Pagination lg&lt;/h5&gt;
+	&lt;nav class="mb-5" aria-label="navigation"&gt;
+	  &lt;ul class="pagination pagination-lg d-inline-block d-md-flex justify-content-center"&gt;
+	    &lt;li class="page-item disabled"&gt;
+	      &lt;a class="page-link" href="#" tabindex="-1" aria-disabled="true"&gt;Prev&lt;/a&gt;
+	    &lt;/li&gt;
+	    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+	    &lt;li class="page-item active"&gt;&lt;a class="page-link" href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+	    &lt;li class="page-item disabled"&gt;&lt;a class="page-link" href="#"&gt;..&lt;/a&gt;&lt;/li&gt;
+	    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;15&lt;/a&gt;&lt;/li&gt;
+	    &lt;li class="page-item"&gt;
+	      &lt;a class="page-link" href="#"&gt;Next&lt;/a&gt;
+	    &lt;/li&gt;
+	  &lt;/ul&gt;
+	&lt;/nav&gt;
+&lt;/div&gt;
+</code></pre>
+<button id="copy_id-2" data-clipboard-action="copy" data-clipboard-target="#copy-2" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+<!-- Border pagination Examples -->
+<h3 class="mt-5">Bordered pagination</h3>
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-11">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-12">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<div class="tab-pane show active" id="tab-11">
+		<div class="col-12">
+			<nav class="mb-4 d-flex justify-content-center" aria-label="navigation">
+				<ul class="pagination pagination-bordered ">
+					<li class="page-item disabled">
+						<a class="page-link" href="#" tabindex="-1" aria-disabled="true">Prev</a>
+					</li>
+					<li class="page-item"><a class="page-link" href="#">1</a></li>
+					<li class="page-item active"><a class="page-link" href="#">2</a></li>
+					<li class="page-item disabled"><a class="page-link" href="#">..</a></li>
+					<li class="page-item"><a class="page-link" href="#">15</a></li>
+					<li class="page-item">
+						<a class="page-link" href="#">Next</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+<div class="tab-pane" id="tab-12">
+<div class="position-relative">
+<pre id="copy-6" class="my-3">
+<code class="language-markup" data-lang="html">&lt;div class="col-12"&gt;
+	&lt;nav class="mb-4 d-flex justify-content-center" aria-label="navigation"&gt;
+		&lt;ul class="pagination pagination-bordered "&gt;
+			&lt;li class="page-item disabled"&gt;
+				&lt;a class="page-link" href="#" tabindex="-1" aria-disabled="true"&gt;Prev&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+			&lt;li class="page-item active"&gt;&lt;a class="page-link" href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+			&lt;li class="page-item disabled"&gt;&lt;a class="page-link" href="#"&gt;..&lt;/a&gt;&lt;/li&gt;
+			&lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;15&lt;/a&gt;&lt;/li&gt;
+			&lt;li class="page-item"&gt;
+				&lt;a class="page-link" href="#"&gt;Next&lt;/a&gt;
+			&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/nav&gt;
+&lt;/div&gt;
+</code></pre>
+<button id="copy_id-6" data-clipboard-action="copy" data-clipboard-target="#copy-6" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+<!-- Jump pagination Examples -->
+<h3 class="mt-5">Jump pagination</h3>
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-3">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-4">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<div class="tab-pane show active" id="tab-3">
+		<nav class="mb-5 d-lg-flex justify-content-between" aria-label="navigation">
+		  <!-- Pagination 1 2 3  -->
+		  <ul class="pagination pagination-bordered justify-content-center d-inline-block d-lg-flex">
+		    <li class="page-item">
+		      <a class="page-link" href="#">First</a>
+		    </li>
+		    <li class="page-item"><a class="page-link" href="#">1</a></li>
+		    <li class="page-item active"><a class="page-link" href="#">2</a></li>
+		    <li class="page-item disabled"><a class="page-link" href="#">..</a></li>
+		    <li class="page-item"><a class="page-link" href="#">22</a></li>
+		    <li class="page-item"><a class="page-link" href="#">23</a></li>
+		    <li class="page-item">
+		      <a class="page-link" href="#">Last</a>
+		    </li>
+		  </ul>
+		  <!-- Pagination jump -->
+		  <ul class="pagination pagination-bordered justify-content-center d-none d-lg-flex">
+		    <li class="page-item disabled">
+		      <span class="page-link">Total 25 pages</span>
+		    </li>
+		    <li class="page-item disabled">
+		      <span class="page-link">|</span>
+		    </li>
+		    <li class="page-item disabled">
+		      <span class="page-link">Go to page:</span>
+		    </li>
+		    <li class="page-item">
+		      <input class="form-control h-100 icon-lg fs-6" type="text" placeholder="12">
+		    </li>
+		    <li class="page-item active">
+		      <a class="page-link" href="#">Jump <i class="bi bi-arrow-90deg-right ms-2"></i></a>
+		    </li>
+		  </ul>
+		</nav>
+	</div>
+
+<div class="tab-pane" id="tab-4">
+<div class="position-relative">
+<pre id="copy-22" class="my-3">
+<code class="language-markup" data-lang="html">&lt;nav class="mb-5 d-lg-flex justify-content-between" aria-label="navigation"&gt;
+  &lt;!-- Pagination 1 2 3  --&gt;
+  &lt;ul class="pagination pagination-bordered justify-content-center d-inline-block d-lg-flex"&gt;
+    &lt;li class="page-item"&gt;
+      &lt;a class="page-link" href="#"&gt;First&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="page-item active"&gt;&lt;a class="page-link" href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="page-item disabled"&gt;&lt;a class="page-link" href="#"&gt;..&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;22&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;23&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="page-item"&gt;
+      &lt;a class="page-link" href="#"&gt;Last&lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;!-- Pagination jump --&gt;
+  &lt;ul class="pagination pagination-bordered justify-content-center d-none d-lg-flex"&gt;
+    &lt;li class="page-item disabled"&gt;
+      &lt;span class="page-link"&gt;Total 25 pages&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class="page-item disabled"&gt;
+      &lt;span class="page-link"&gt;|&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class="page-item disabled"&gt;
+      &lt;span class="page-link"&gt;Go to page:&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class="page-item"&gt;
+      &lt;input class="form-control h-100 icon-lg fs-6" type="text" placeholder="12"&gt;
+    &lt;/li&gt;
+    &lt;li class="page-item active"&gt;
+      &lt;a class="page-link" href="#"&gt;Jump &lt;i class="bi bi-arrow-90deg-right ms-2"&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+</code></pre>
+<button id="copy_id-22" data-clipboard-action="copy" data-clipboard-target="#copy-22" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+<!-- Full-width pagination Examples -->
+<h3 class="mt-5">Full width pagination</h3>
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-5">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-6">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<div class="tab-pane show active" id="tab-5">
+		<nav class="my-5" aria-label="navigation">
+	      <ul class="pagination pagination-bordered d-flex justify-content-between">
+	        <li>
+						<ul class="list-unstyled">
+							<li class="page-item">
+								<a class="page-link" href="#">First</a>
+							</li>
+						</ul>
+					</li>
+	        <li>
+						<ul class="list-unstyled">
+							<li class="page-item"><a class="page-link" href="#">1</a></li>
+							<li class="page-item active"><a class="page-link" href="#">2</a></li>
+							<li class="page-item disabled"><a class="page-link" href="#">..</a></li>
+							<li class="page-item"><a class="page-link" href="#">22</a></li>
+							<li class="page-item"><a class="page-link" href="#">23</a></li>
+						</ul>
+					</li>
+	        <li>
+						<ul class="list-unstyled">
+							<li class="page-item">
+								<a class="page-link" href="#">Last</a>
+							</li>
+						</ul>
+					</li>
+	      </ul>
+  		</nav>
+	</div>
+
+<div class="tab-pane" id="tab-6">
+<div class="position-relative">
+<pre id="copy-3" class="my-3">
+<code class="language-markup" data-lang="html">&lt;nav class="my-5" aria-label="navigation"&gt;
+	&lt;ul class="pagination pagination-bordered d-flex justify-content-between"&gt;
+		&lt;li&gt;
+			&lt;ul class="list-unstyled"&gt;
+				&lt;li class="page-item"&gt;
+					&lt;a class="page-link" href="#"&gt;First&lt;/a&gt;
+				&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;ul class="list-unstyled"&gt;
+				&lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+				&lt;li class="page-item active"&gt;&lt;a class="page-link" href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+				&lt;li class="page-item disabled"&gt;&lt;a class="page-link" href="#"&gt;..&lt;/a&gt;&lt;/li&gt;
+				&lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;22&lt;/a&gt;&lt;/li&gt;
+				&lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;23&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;ul class="list-unstyled"&gt;
+				&lt;li class="page-item"&gt;
+					&lt;a class="page-link" href="#"&gt;Last&lt;/a&gt;
+				&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/nav&gt;
+</code></pre>
+<button id="copy_id-3" data-clipboard-action="copy" data-clipboard-target="#copy-3" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+<!-- Newer Older Pagination Examples -->
+<h3 class="mt-5">Newer Older Pagination</h3>
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-7">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-8">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<div class="tab-pane show active" id="tab-7">
+		<nav class="mt-5" aria-label="navigation">
+		    <ul class="pagination d-flex justify-content-between">
+		      <li class="page-item flex-fill text-center">
+		        <a href="#" class="page-link"> <i class="fas fa-long-arrow-alt-left me-2 rtl-flip"></i> Older</a>
+		      </li>
+		      <li class="page-item flex-fill text-center">
+		        <a href="#" class="page-link">Newer <i class="fas fa-long-arrow-alt-right ms-2 rtl-flip"></i></a>
+		      </li>
+		    </ul>
+		 </nav>
+	</div>
+
+<div class="tab-pane" id="tab-8">
+<div class="position-relative">
+<pre id="copy-4" class="my-3">
+<code class="language-markup" data-lang="html">&lt;nav class="mt-5" aria-label="navigation"&gt;
+    &lt;ul class="pagination d-flex justify-content-between"&gt;
+      &lt;li class="page-item flex-fill text-center"&gt;
+        &lt;a href="#" class="page-link"&gt; &lt;i class="fas fa-long-arrow-alt-left me-2 rtl-flip"&gt;&lt;/i&gt; Older&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="page-item flex-fill text-center"&gt;
+        &lt;a href="#" class="page-link"&gt;Newer &lt;i class="fas fa-long-arrow-alt-right ms-2 rtl-flip"&gt;&lt;/i&gt;&lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+ &lt;/nav&gt;
+</code></pre>
+<button id="copy_id-4" data-clipboard-action="copy" data-clipboard-target="#copy-4" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+<!--  Load more button Pagination Examples -->
+<h3 class="mt-5">Load more button Pagination</h3>
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-17">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-18">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<div class="tab-pane show active" id="tab-17">
+		<div class="col-12 text-center mt-5">
+			<button type="button" class="btn btn-primary-soft">Load more post <i class="bi bi-arrow-down-circle align-middle ms-2"></i></button>
+		</div>
+		<div class="col-12 text-center mt-3">
+			<button type="button" class="btn btn-primary-soft w-100">Load more post <i class="bi bi-arrow-down-circle ms-2 align-middle"></i></button>
+		</div>
+
+	</div>
+
+<div class="tab-pane" id="tab-18">
+<div class="position-relative">
+<pre id="copy-9" class="my-3">
+<code class="language-markup" data-lang="html">&lt;div class="col-12 text-center mt-5"&gt;
+	&lt;button type="button" class="btn btn-primary-soft"&gt;Load more post &lt;i class="bi bi-arrow-down-circle align-middle ms-2"&gt;&lt;/i&	gt;&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="col-12 text-center mt-3"&gt;
+	&lt;button type="button" class="btn btn-primary-soft w-100"&gt;Load more post &lt;i class="bi bi-arrow-down-circle ms-2 align-middle"&gt;&lt;/i&gt;&lt;/button&gt;
+&lt;/div&gt;
+</code></pre>
+<button id="copy_id-9" data-clipboard-action="copy" data-clipboard-target="#copy-9" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+
+<!--  Alignment Pagination Examples -->
+<h3 class="mt-5">Alignment</h3>
+<p>Change the alignment of pagination components with <a href="">flexbox utilities</a>.</p>
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-15">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-16">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<div class="tab-pane show active" id="tab-15">
+		<nav aria-label="Page navigation example">
+		  <ul class="pagination justify-content-start">
+		    <li class="page-item disabled">
+		      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+		    </li>
+		    <li class="page-item"><a class="page-link" href="#">1</a></li>
+		    <li class="page-item"><a class="page-link" href="#">2</a></li>
+		    <li class="page-item"><a class="page-link" href="#">3</a></li>
+		    <li class="page-item">
+		      <a class="page-link" href="#">Next</a>
+		    </li>
+		  </ul>
+		</nav>
+		<nav aria-label="Page navigation example">
+		  <ul class="pagination justify-content-end">
+		    <li class="page-item disabled">
+		      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+		    </li>
+		    <li class="page-item"><a class="page-link" href="#">1</a></li>
+		    <li class="page-item"><a class="page-link" href="#">2</a></li>
+		    <li class="page-item"><a class="page-link" href="#">3</a></li>
+		    <li class="page-item">
+		      <a class="page-link" href="#">Next</a>
+		    </li>
+		  </ul>
+		</nav>
+	</div>
+
+<div class="tab-pane" id="tab-16">
+<div class="position-relative">
+<pre id="copy-10" class="my-3">
+<code class="language-markup" data-lang="html">&lt;nav aria-label="Page navigation example"&gt;
+  &lt;ul class="pagination justify-content-start"&gt;
+    &lt;li class="page-item disabled"&gt;
+      &lt;a class="page-link" href="#" tabindex="-1" aria-disabled="true"&gt;Previous&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="page-item"&gt;
+      &lt;a class="page-link" href="#"&gt;Next&lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;nav aria-label="Page navigation example"&gt;
+  &lt;ul class="pagination justify-content-end"&gt;
+    &lt;li class="page-item disabled"&gt;
+      &lt;a class="page-link" href="#" tabindex="-1" aria-disabled="true"&gt;Previous&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="page-item"&gt;
+      &lt;a class="page-link" href="#"&gt;Next&lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+</code></pre>
+<button id="copy_id-10" data-clipboard-action="copy" data-clipboard-target="#copy-10" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+ 
+<!-- Page content END -->	
+				</div>
+			</div>
+		</div>
+		<!-- Main content END -->
+	</div>
+</div>
+</main>
+
+<!-- =======================
+JavaScripts -->
+
+<!-- Bootstrap JS -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+<script src="assets/js/simple-scrollbar.min.js"></script>
+<script src="assets/js/prism.js"></script>
+<script src="assets/js/clipboard.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.js"></script>
+ 
+<!-- Template Functions -->
+<script src="assets/js/functions.js"></script>
+
+</body>
+</html>

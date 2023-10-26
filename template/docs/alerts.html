@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Doc - Blogzine Theme</title>
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Webestica.com">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+
+	<!-- Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/doc.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/prism.css">
+
+</head>
+
+<body>
+
+<!-- **************** MAIN CONTENT START **************** -->
+<main>
+<!-- Navbar top START -->
+<div class="navbar-top bg-dark px-3 px-sm-4 px-md-5">
+	<div class="d-flex justify-content-between align-items-center">
+		<!-- Logo START -->
+			<a class="navbar-brand py-3" href="index.html">
+				<img class="navbar-brand-item" src="assets/images/logo.svg" alt="logo">			
+			</a>
+			<!-- Logo END -->
+
+		<!-- Navbar right -->
+		<div>
+			<ul class="text-end list-inline m-0">
+        <li class="list-inline-item me-2 me-md-4"> <a class="text-white" href="https://blogzine.webestica.com">Live Preview</a> </li>
+        <li class="list-inline-item me-2 me-md-4"> <a class="text-white" href="https://support.webestica.com" target="_blank">Support</a> </li>
+        <li class="list-inline-item text-white"> <span class="badge bg-danger text-white">v1.3.1</span></li>
+      </ul>
+		</div>
+	</div>
+</div>
+<!-- Navbar top END -->
+
+<div class="container-fluid px-0">
+	<div class="page-wrapper">
+		<!-- Left sidebar START -->
+		<nav class="navbar navbar-expand-sm navbar-light bg-light px-3">
+		  <a class="navbar-brand py-2 d-sm-none" href="#">Doc nav</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#docNav" aria-controls="docNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="docNav">
+		    <div class="left-sidebar bg-light">
+					<div class="content h-100vh">
+						 <div class="list-group list-group-borderless p-3 p-md-4">
+							<b class="text-dark text-uppercase mb-2">Getting Started</b>
+								<a class="list-group-item" href="index.html">Introduction</a>
+								<a class="list-group-item" href="gulp.html">Gulp</a>
+								<a class="list-group-item" href="customization.html">Customization</a>
+				        <a class="list-group-item" href="color-scheme.html">Color Scheme</a>
+								<a class="list-group-item" href="logo-settings.html">Logo Settings</a>
+								<a class="list-group-item" href="page-loading.html">Page Loading</a>
+								<a class="list-group-item" href="fonts.html">Fonts</a>
+								<a class="list-group-item" href="dark-mode.html">Dark mode</a>
+								<a class="list-group-item" href="rtl.html">RTL Version</a>
+								<a class="list-group-item" href="lazy-load.html">Lazy Load</a>
+				        <a class="list-group-item" href="sources-and-credits.html">Sources and Credits</a>
+				        <a class="list-group-item" href="changelog.html">Changelog</a>
+				        <a class="list-group-item" href="updates.html">Updates</a>
+				        <a class="list-group-item" href="support.html">Support</a>
+							<b class="text-dark text-uppercase mt-3 mb-2">Component</b>
+								<a class="list-group-item" href="alerts.html">Alerts</a>
+								<a class="list-group-item" href="avatar.html">Avatar</a>
+								<a class="list-group-item" href="badges.html">Badges</a>
+								<a class="list-group-item" href="breadcrumb.html">Breadcrumb</a>
+								<a class="list-group-item" href="buttons.html">Buttons</a>
+								<a class="list-group-item" href="card.html">Card</a>
+								<a class="list-group-item" href="font-icons.html">Font icons</a>
+								<a class="list-group-item" href="google-map.html">Google Map</a>
+								<a class="list-group-item" href="nav-and-tabs.html">Nav and Tabs</a>
+								<a class="list-group-item" href="pagination.html">Pagination</a>
+								<a class="list-group-item" href="progress.html">Progress</a>
+				        <a class="list-group-item" href="sticky-element.html">Sticky element</a>
+				        <a class="list-group-item" href="sticky-footer.html">Sticky footer</a>
+				        <a class="list-group-item" href="utility-classes.html">Utility classes</a>
+							<b class="text-dark text-uppercase mt-3 mb-2">Plugins</b>
+				        <a class="list-group-item" href="tiny-slider.html">Tiny Slider</a>
+						</div>
+					</div>
+				</div>
+		  </div>
+		</nav>		
+		<!-- Left sidebar END -->
+
+		<!-- Main content START -->
+		<div class="main-content">
+			<div class="row">
+				<div class="col-12">
+					<!-- Page title -->
+					<div class="my-5">
+						<h1>Alerts</h1>
+            <p class="lead">Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</p>
+						<hr class="my-5">
+					</div>
+<!-- Page content START -->
+
+<!-- Alerts Examples -->
+<h3 class="mt-5">Examples</h3>
+<p>Alerts are available for any length of text, as well as an optional close button. For proper styling, use one of the eight <strong>required</strong> contextual classes (e.g., <code>.alert-success</code>).</p>
+
+<!-- Tab START -->
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-1">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-2">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<div class="tab-pane show active" id="tab-1">
+			<div class="alert alert-secondary" role="alert">
+		  A simple secondary alert—check it out!
+		</div>
+		<div class="alert alert-success" role="alert">
+		  A simple success alert—check it out!
+		</div>
+		<div class="alert alert-danger" role="alert">
+		  A simple danger alert—check it out!
+		</div>
+		<div class="alert alert-warning" role="alert">
+		  A simple warning alert—check it out!
+		</div>
+		<div class="alert alert-info" role="alert">
+		  A simple info alert—check it out!
+		</div>
+		<div class="alert alert-light" role="alert">
+		  A simple light alert—check it out!
+		</div>
+		<div class="alert alert-dark" role="alert">
+		  A simple dark alert—check it out!
+		</div>
+	</div>
+
+	<div class="tab-pane" id="tab-2">
+<div class="position-relative">
+<pre id="copy-1" class="my-3">
+<code class="language-markup" data-lang="html">&lt;div class="alert alert-primary" role="alert"&gt;
+  A simple primary alert—check it out!
+&lt;/div&gt;
+&lt;div class="alert alert-secondary" role="alert"&gt;
+  A simple secondary alert—check it out!
+&lt;/div&gt;
+&lt;div class="alert alert-success" role="alert"&gt;
+  A simple success alert—check it out!
+&lt;/div&gt;
+&lt;div class="alert alert-danger" role="alert"&gt;
+  A simple danger alert—check it out!
+&lt;/div&gt;
+&lt;div class="alert alert-warning" role="alert"&gt;
+  A simple warning alert—check it out!
+&lt;/div&gt;
+&lt;div class="alert alert-info" role="alert"&gt;
+  A simple info alert—check it out!
+&lt;/div&gt;
+&lt;div class="alert alert-light" role="alert"&gt;
+  A simple light alert—check it out!
+&lt;/div&gt;
+&lt;div class="alert alert-dark" role="alert"&gt;
+  A simple dark alert—check it out!
+&lt;/div&gt;
+</code></pre>
+<button id="copy_id-1" data-clipboard-action="copy" data-clipboard-target="#copy-1" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+
+<!-- Link-color Examples -->
+<h3 class="mt-5">Link color</h3>
+<p>Use the <code>.alert-link</code> utility class to quickly provide matching colored links within any alert.</p>
+
+<!-- Tab START -->
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-5">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-6">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<div class="tab-pane show active" id="tab-5">
+		<div class="alert alert-primary" role="alert">
+		  A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+		</div>
+		<div class="alert alert-secondary" role="alert">
+		  A simple secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+		</div>
+		<div class="alert alert-success" role="alert">
+		  A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+		</div>
+		<div class="alert alert-danger" role="alert">
+		  A simple danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+		</div>
+		<div class="alert alert-warning" role="alert">
+		  A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+		</div>
+		<div class="alert alert-info" role="alert">
+		  A simple info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+		</div>
+		<div class="alert alert-light" role="alert">
+		  A simple light alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+		</div>
+		<div class="alert alert-dark" role="alert">
+		  A simple dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+		</div>
+	</div>
+
+	<div class="tab-pane" id="tab-6">
+<div class="position-relative">
+<pre id="copy-3" class="my-3">
+<code class="language-markup" data-lang="html">&lt;div class="alert alert-primary" role="alert"&gt;
+  A simple primary alert with &lt;a href="#" class="alert-link"&gt;an example link&lt;/a&gt;. Give it a click if you like.
+&lt;/div&gt;
+&lt;div class="alert alert-secondary" role="alert"&gt;
+  A simple secondary alert with &lt;a href="#" class="alert-link"&gt;an example link&lt;/a&gt;. Give it a click if you like.
+&lt;/div&gt;
+&lt;div class="alert alert-success" role="alert"&gt;
+  A simple success alert with &lt;a href="#" class="alert-link"&gt;an example link&lt;/a&gt;. Give it a click if you like.
+&lt;/div&gt;
+&lt;div class="alert alert-danger" role="alert"&gt;
+  A simple danger alert with &lt;a href="#" class="alert-link"&gt;an example link&lt;/a&gt;. Give it a click if you like.
+&lt;/div&gt;
+&lt;div class="alert alert-warning" role="alert"&gt;
+  A simple warning alert with &lt;a href="#" class="alert-link"&gt;an example link&lt;/a&gt;. Give it a click if you like.
+&lt;/div&gt;
+&lt;div class="alert alert-info" role="alert"&gt;
+  A simple info alert with &lt;a href="#" class="alert-link"&gt;an example link&lt;/a&gt;. Give it a click if you like.
+&lt;/div&gt;
+&lt;div class="alert alert-light" role="alert"&gt;
+  A simple light alert with &lt;a href="#" class="alert-link"&gt;an example link&lt;/a&gt;. Give it a click if you like.
+&lt;/div&gt;
+&lt;div class="alert alert-dark" role="alert"&gt;
+  A simple dark alert with &lt;a href="#" class="alert-link"&gt;an example link&lt;/a&gt;. Give it a click if you like.
+&lt;/div&gt;
+</code></pre>
+<button id="copy_id-3" data-clipboard-action="copy" data-clipboard-target="#copy-3" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+
+<!-- Additional content Examples -->
+<h3 class="mt-5">Additional content</h3>
+<p>Alerts can also contain additional HTML elements like headings, paragraphs and dividers.</p>
+
+<!-- Tab START -->
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-7">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-8">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<div class="tab-pane show active" id="tab-7">
+		<div class="alert alert-success" role="alert">
+		  <h4 class="alert-heading">Well done!</h4>
+		  <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+		  <hr>
+		  <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+		</div>
+	</div>
+
+	<div class="tab-pane" id="tab-8">
+<div class="position-relative">
+<pre id="copy-4" class="my-3">
+<code class="language-markup" data-lang="html">&lt;div class="alert alert-success" role="alert"&gt;
+	&lt;h4 class="alert-heading"&gt;Well done!&lt;/h4&gt;
+	&lt;p&gt;Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.&lt;/p&gt;
+	&lt;hr&gt;
+	&lt;p class="mb-0"&gt;Whenever you need to, be sure to use margin utilities to keep things nice and tidy.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+<button id="copy_id-4" data-clipboard-action="copy" data-clipboard-target="#copy-4" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+<!-- Dismissing Examples -->
+<h3 class="mt-5">Dismissing alert</h3>
+
+<!-- Tab START -->
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-9">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-10">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<div class="tab-pane show active" id="tab-9">
+		<div class="alert alert-warning alert-dismissible fade show" role="alert">
+		  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+		  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+		</div>
+	</div>
+
+<div class="tab-pane" id="tab-10">
+<div class="position-relative">
+<pre id="copy-5" class="my-3">
+<code class="language-markup" data-lang="html">&lt;div class="alert alert-warning alert-dismissible fade show" role="alert"&gt;
+	&lt;strong&gt;Holy guacamole!&lt;/strong&gt; You should check in on some of those fields below.
+	&lt;button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"&gt;&lt;/button&gt;
+&lt;/div&gt;
+</code></pre>
+<button id="copy_id-5" data-clipboard-action="copy" data-clipboard-target="#copy-5" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+<!-- Custom Alerts -->
+<h3 class="mt-5">Custom Alert</h3>
+<p>We have created custom alert with SVG shapes. </p>
+<!-- Tab START -->
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-3">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-4">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<div class="tab-pane show active" id="tab-3">
+		<div class="alert alert-warning py-2 m-0 bg-primary border-0 rounded-0 alert-dismissible fade show text-center overflow-hidden" role="alert">
+	<!-- SVG shape START -->
+	<figure class="position-absolute top-50 start-50 translate-middle">
+		<svg width="1848" height="481" viewBox="0 0 1848.9 481.8" xmlns="http://www.w3.org/2000/svg">
+			<path class="fill-success" d="m779.4 251c-10.3-11.5-19.9-23.8-29.4-36.1-9-11.6-18.4-22.8-27.1-34.7-15.3-21.2-30.2-45.8-54.8-53.3-10.5-3.2-21.6-3.2-30.6 2.5-7.6 4.8-13 12.6-17.3 20.9-10.8 20.6-16.1 44.7-24.6 66.7-7.9 20.2-19.4 38.6-33.8 54.3-14.7 16.2-31.7 30-50.4 41-15.9 9.4-33.4 17.2-52 19.3-18.4 2-38-2.5-56.5-6.2-22.4-4.4-45.1-9.7-67.6-10.9-9.8-0.5-19.8-0.3-29.1 2.3-9.8 2.8-18.7 8.6-26.6 15.2-17.3 14.5-30.2 34.4-43.7 52.9-12.9 17.6-26.8 34.9-45.4 45.4-19.5 11-42.6 12.1-65 6.6-52.3-13.1-93.8-56.5-127.9-101.5-8.8-11.6-17.3-23.4-25.6-35.4-0.6-0.9-1.1-1.8-1.6-2.7-1.1-2.4-0.9-2.6 0.6-1.2 1 0.9 1.9 1.9 2.7 3 35.3 47.4 71.5 98.5 123.2 123.9 22.8 11.2 48.2 17.2 71.7 12.2 23-5 40.6-21.2 55.3-39.7 24.5-30.7 46.5-75.6 87.1-83 19.5-3.5 40.7 0.1 60.6 3.7 21.2 3.9 42.3 9.1 63.6 11.7 17.8 2.3 35.8-0.1 52.2-7 20-8.1 38.4-20.2 54.8-34.6 16.2-14.1 31-30.7 41.8-50.4 11.1-20.2 17-43.7 24.9-65.7 6.1-16.9 13.8-36.2 29.3-44.5 16.1-8.6 37.3-1.9 52.3 10.6 18.7 15.6 31.2 39.2 46.7 58.2"/>
+			<path class="fill-warning" d="m1157.9 344.9c9.8 7.6 18.9 15.8 28.1 24 8.6 7.7 17.6 15.2 26 23.2 14.8 14.2 29.5 30.9 51.2 34.7 9.3 1.6 18.8 0.9 26.1-3.8 6.1-3.9 10.2-9.9 13.2-16.2 7.6-15.6 10.3-33.2 15.8-49.6 5.2-15.1 13.6-29 24.7-41.3 11.4-12.6 24.8-23.6 40-32.8 12.9-7.8 27.3-14.6 43.1-17.3 15.6-2.6 32.8-0.7 49 0.7 19.6 1.7 39.4 4 58.8 3.4 8.4-0.3 17-1.1 24.8-3.6 8.2-2.7 15.4-7.4 21.6-12.7 13.7-11.6 23.1-26.7 33.3-40.9 9.6-13.5 20.2-26.9 35.3-35.6 15.8-9.2 35.6-11.6 55.2-9.1 45.7 5.8 84.8 34.3 117.6 64.4 8.7 8 17.2 16.2 25.6 24.6 2.5 3.2 1.9 3-1.2 1-34.3-32-69.7-66.9-116.5-81.9-20.5-6.5-42.7-9.2-62.4-4-19.3 5.1-33.1 17.9-44.3 32.2-18.5 23.7-33.9 57.5-68.1 65.5-16.5 3.8-34.9 2.6-52.3 1.3-18.5-1.4-37-3.7-55.4-4.2-15.5-0.5-30.7 2.5-44.2 8.5-16.5 7.2-31.3 17.1-44.3 28.5-12.8 11.2-24.1 24.1-31.9 39-7.9 15.3-11.1 32.5-16.2 48.9-3.9 12.6-9 26.9-21.6 33.9-13.1 7.3-31.9 3.8-45.7-4.1-17.2-10-29.9-26.1-44.6-38.8"/>
+			<path class="fill-warning" d="m1840.8 379c-8.8 40.3-167.8 79.9-300.2 45.3-42.5-11.1-91.4-32-138.7-11.6-38.7 16.7-55 66-90.8 67.4-25.1 1-48.6-20.3-58.1-39.8-31-63.3 50.7-179.9 155.7-208.1 50.4-13.5 97.3-3.2 116.1 1.6 36.3 9.3 328.6 87.4 316 145.2z"/>
+			<path class="fill-success" d="M368.3,247.3C265.6,257.2,134,226,110.9,141.5C85,47.2,272.5-9.4,355.5-30.7s182.6-31.1,240.8-18.6    C677.6-31.8,671.5,53.9,627,102C582.6,150.2,470.9,237.5,368.3,247.3z"/>
+		</svg>
+	</figure>
+	<!-- SVG shape END -->
+  <div class="position-relative">
+  	<p class="text-white m-0">Unlimited download! Starting from just $15/m <a href="#" class="btn btn-sm btn-light-soft ms-3 mb-0">Grab now!</a></p>
+  </div>
+  <!-- Close button -->
+  <button type="button" class="btn-close btn-close-white opacity-9 p-3" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+	</div>
+
+	<div class="tab-pane" id="tab-4">
+<div class="position-relative">
+<pre id="copy-2" class="my-3">
+<code class="language-markup" data-lang="html">&lt;div class="alert alert-warning py-2 m-0 bg-primary border-0 rounded-0 alert-dismissible fade show text-center overflow-hidden" role="alert"&gt;
+	&lt;!-- SVG shape START --&gt;
+	&lt;figure class="position-absolute top-50 start-50 translate-middle"&gt;
+		&lt;svg width="1848" height="481" viewBox="0 0 1848.9 481.8" xmlns="http://www.w3.org/2000/svg"&gt;
+			&lt;path class="fill-success" d="m779.4 251c-10.3-11.5-19.9-23.8-29.4-36.1-9-11.6-18.4-22.8-27.1-34.7-15.3-21.2-30.2-45.8-54.8-53.3-10.5-3.2-21.6-3.2-30.6 2.5-7.6 4.8-13 12.6-17.3 20.9-10.8 20.6-16.1 44.7-24.6 66.7-7.9 20.2-19.4 38.6-33.8 54.3-14.7 16.2-31.7 30-50.4 41-15.9 9.4-33.4 17.2-52 19.3-18.4 2-38-2.5-56.5-6.2-22.4-4.4-45.1-9.7-67.6-10.9-9.8-0.5-19.8-0.3-29.1 2.3-9.8 2.8-18.7 8.6-26.6 15.2-17.3 14.5-30.2 34.4-43.7 52.9-12.9 17.6-26.8 34.9-45.4 45.4-19.5 11-42.6 12.1-65 6.6-52.3-13.1-93.8-56.5-127.9-101.5-8.8-11.6-17.3-23.4-25.6-35.4-0.6-0.9-1.1-1.8-1.6-2.7-1.1-2.4-0.9-2.6 0.6-1.2 1 0.9 1.9 1.9 2.7 3 35.3 47.4 71.5 98.5 123.2 123.9 22.8 11.2 48.2 17.2 71.7 12.2 23-5 40.6-21.2 55.3-39.7 24.5-30.7 46.5-75.6 87.1-83 19.5-3.5 40.7 0.1 60.6 3.7 21.2 3.9 42.3 9.1 63.6 11.7 17.8 2.3 35.8-0.1 52.2-7 20-8.1 38.4-20.2 54.8-34.6 16.2-14.1 31-30.7 41.8-50.4 11.1-20.2 17-43.7 24.9-65.7 6.1-16.9 13.8-36.2 29.3-44.5 16.1-8.6 37.3-1.9 52.3 10.6 18.7 15.6 31.2 39.2 46.7 58.2"/&gt;
+			&lt;path class="fill-warning" d="m1157.9 344.9c9.8 7.6 18.9 15.8 28.1 24 8.6 7.7 17.6 15.2 26 23.2 14.8 14.2 29.5 30.9 51.2 34.7 9.3 1.6 18.8 0.9 26.1-3.8 6.1-3.9 10.2-9.9 13.2-16.2 7.6-15.6 10.3-33.2 15.8-49.6 5.2-15.1 13.6-29 24.7-41.3 11.4-12.6 24.8-23.6 40-32.8 12.9-7.8 27.3-14.6 43.1-17.3 15.6-2.6 32.8-0.7 49 0.7 19.6 1.7 39.4 4 58.8 3.4 8.4-0.3 17-1.1 24.8-3.6 8.2-2.7 15.4-7.4 21.6-12.7 13.7-11.6 23.1-26.7 33.3-40.9 9.6-13.5 20.2-26.9 35.3-35.6 15.8-9.2 35.6-11.6 55.2-9.1 45.7 5.8 84.8 34.3 117.6 64.4 8.7 8 17.2 16.2 25.6 24.6 2.5 3.2 1.9 3-1.2 1-34.3-32-69.7-66.9-116.5-81.9-20.5-6.5-42.7-9.2-62.4-4-19.3 5.1-33.1 17.9-44.3 32.2-18.5 23.7-33.9 57.5-68.1 65.5-16.5 3.8-34.9 2.6-52.3 1.3-18.5-1.4-37-3.7-55.4-4.2-15.5-0.5-30.7 2.5-44.2 8.5-16.5 7.2-31.3 17.1-44.3 28.5-12.8 11.2-24.1 24.1-31.9 39-7.9 15.3-11.1 32.5-16.2 48.9-3.9 12.6-9 26.9-21.6 33.9-13.1 7.3-31.9 3.8-45.7-4.1-17.2-10-29.9-26.1-44.6-38.8"/&gt;
+			&lt;path class="fill-warning" d="m1840.8 379c-8.8 40.3-167.8 79.9-300.2 45.3-42.5-11.1-91.4-32-138.7-11.6-38.7 16.7-55 66-90.8 67.4-25.1 1-48.6-20.3-58.1-39.8-31-63.3 50.7-179.9 155.7-208.1 50.4-13.5 97.3-3.2 116.1 1.6 36.3 9.3 328.6 87.4 316 145.2z"/&gt;
+			&lt;path class="fill-success" d="M368.3,247.3C265.6,257.2,134,226,110.9,141.5C85,47.2,272.5-9.4,355.5-30.7s182.6-31.1,240.8-18.6    C677.6-31.8,671.5,53.9,627,102C582.6,150.2,470.9,237.5,368.3,247.3z"/&gt;
+		&lt;/svg&gt;
+	&lt;/figure&gt;
+	&lt;!-- SVG shape END --&gt;
+  &lt;div class="position-relative"&gt;
+  	&lt;p class="text-white m-0"&gt;Unlimited download! Starting from just $15/m &lt;a href="#" class="btn btn-sm btn-light-soft ms-3 mb-0"&gt;Grab now!&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;!-- Close button --&gt;
+  &lt;button type="button" class="btn-close btn-close-white opacity-9 p-3" data-bs-dismiss="alert" aria-label="Close"&gt;&lt;/button&gt;
+&lt;/div&gt;
+</code></pre>
+<button id="copy_id-2" data-clipboard-action="copy" data-clipboard-target="#copy-2" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+<p class="mt-5">For more information refer <a href="https://getbootstrap.com/docs/5.0/components/alerts/">official Bootstrap documentation</a> for detailed technical explanation.
+</p>
+ 
+
+<!-- Page content END -->	
+				</div>
+			</div>
+		</div>
+		<!-- Main content END -->
+	</div>
+</div>
+</main>
+
+<!-- =======================
+JavaScripts -->
+
+<!-- Bootstrap JS -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+<script src="assets/js/simple-scrollbar.min.js"></script>
+<script src="assets/js/prism.js"></script>
+<script src="assets/js/clipboard.min.js"></script>
+ 
+<!-- Template Functions -->
+<script src="assets/js/functions.js"></script>
+
+</body>
+</html>

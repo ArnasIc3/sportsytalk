@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Doc - Blogzine Theme</title>
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Webestica.com">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+
+	<!-- Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/doc.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/prism.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/glightbox/css/glightbox.css">
+
+</head>
+
+<body>
+
+<!-- **************** MAIN CONTENT START **************** -->
+<main>
+<!-- Navbar top START -->
+<div class="navbar-top bg-dark px-3 px-sm-4 px-md-5">
+	<div class="d-flex justify-content-between align-items-center">
+		<!-- Logo START -->
+			<a class="navbar-brand py-3" href="index.html">
+				<img class="navbar-brand-item" src="assets/images/logo.svg" alt="logo">			
+			</a>
+			<!-- Logo END -->
+
+		<!-- Navbar right -->
+		<div>
+			<ul class="text-end list-inline m-0">
+        <li class="list-inline-item me-2 me-md-4"> <a class="text-white" href="https://blogzine.webestica.com">Live Preview</a> </li>
+        <li class="list-inline-item me-2 me-md-4"> <a class="text-white" href="https://support.webestica.com" target="_blank">Support</a> </li>
+        <li class="list-inline-item text-white"> <span class="badge bg-danger text-white">v1.3.1</span></li>
+      </ul>
+		</div>
+	</div>
+</div>
+<!-- Navbar top END -->
+
+<div class="container-fluid px-0">
+	<div class="page-wrapper">
+		<!-- Left sidebar START -->
+		<nav class="navbar navbar-expand-sm navbar-light bg-light px-3">
+		  <a class="navbar-brand py-2 d-sm-none" href="#">Doc nav</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#docNav" aria-controls="docNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="docNav">
+		    <div class="left-sidebar bg-light">
+					<div class="content h-100vh">
+						 <div class="list-group list-group-borderless p-3 p-md-4">
+							<b class="text-dark text-uppercase mb-2">Getting Started</b>
+								<a class="list-group-item" href="index.html">Introduction</a>
+								<a class="list-group-item" href="gulp.html">Gulp</a>
+								<a class="list-group-item" href="customization.html">Customization</a>
+				        <a class="list-group-item" href="color-scheme.html">Color Scheme</a>
+								<a class="list-group-item" href="logo-settings.html">Logo Settings</a>
+								<a class="list-group-item" href="page-loading.html">Page Loading</a>
+								<a class="list-group-item" href="fonts.html">Fonts</a>
+								<a class="list-group-item" href="dark-mode.html">Dark mode</a>
+								<a class="list-group-item" href="rtl.html">RTL Version</a>
+								<a class="list-group-item" href="lazy-load.html">Lazy Load</a>
+				        <a class="list-group-item" href="sources-and-credits.html">Sources and Credits</a>
+				        <a class="list-group-item" href="changelog.html">Changelog</a>
+				        <a class="list-group-item" href="updates.html">Updates</a>
+				        <a class="list-group-item" href="support.html">Support</a>
+							<b class="text-dark text-uppercase mt-3 mb-2">Component</b>
+								<a class="list-group-item" href="alerts.html">Alerts</a>
+								<a class="list-group-item" href="avatar.html">Avatar</a>
+								<a class="list-group-item" href="badges.html">Badges</a>
+								<a class="list-group-item" href="breadcrumb.html">Breadcrumb</a>
+								<a class="list-group-item" href="buttons.html">Buttons</a>
+								<a class="list-group-item" href="card.html">Card</a>
+								<a class="list-group-item" href="font-icons.html">Font icons</a>
+								<a class="list-group-item" href="google-map.html">Google Map</a>
+								<a class="list-group-item" href="nav-and-tabs.html">Nav and Tabs</a>
+								<a class="list-group-item" href="pagination.html">Pagination</a>
+								<a class="list-group-item" href="progress.html">Progress</a>
+				        <a class="list-group-item" href="sticky-element.html">Sticky element</a>
+				        <a class="list-group-item" href="sticky-footer.html">Sticky footer</a>
+				        <a class="list-group-item" href="utility-classes.html">Utility classes</a>
+							<b class="text-dark text-uppercase mt-3 mb-2">Plugins</b>
+				        <a class="list-group-item" href="tiny-slider.html">Tiny Slider</a>
+						</div>
+					</div>
+				</div>
+		  </div>
+		</nav>		
+		<!-- Left sidebar END -->
+
+		<!-- Main content START -->
+		<div class="main-content">
+			<div class="row">
+				<div class="col-12">
+					<!-- Page title -->
+					<div class="my-5">
+						<h1>Dark mode</h1>
+            	<p class="lead">How to work with dark mode?</p>
+						<hr class="my-5">
+					</div>
+
+<!-- Page content START -->
+<h4>Dark mode switch (Toggle)</h4>
+<p class="mb-4">Dark mode switcher is enabled by default. If you don't want switcher you just need to remove switcher code from all HTML files. See switcher code example below:</pclass>
+
+
+<h5 class="mt-5">Dark mode button with dropdown</h5>
+<!-- Tab START -->
+	<ul class="nav nav-tabs nav-tabs-line">
+		<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-1">Result</a> </li>
+		<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-2">HTML</a> </li>
+	</ul>
+	<div class="tab-content bg-light p-4">
+		<div class="tab-pane show active" id="tab-1">
+			<!-- Dark mode options START -->
+			<div class="nav-item dropdown mx-2 d-inline-block">
+				<!-- Switch button -->
+				<button class="modeswitch" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static">
+					<svg class="theme-icon-active"><use href="#"></use></svg>
+				</button>
+				<!-- Dropdown items -->
+				<ul class="dropdown-menu min-w-auto dropdown-menu-end" aria-labelledby="bd-theme">
+					<li class="mb-1">
+						<button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+							<svg width="16" height="16" fill="currentColor" class="bi bi-brightness-high-fill fa-fw mode-switch me-1" viewBox="0 0 16 16">
+								<path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+								<use href="#"></use>
+							</svg>Light
+						</button>
+					</li>
+					<li class="mb-1">
+						<button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-stars-fill fa-fw mode-switch me-1" viewBox="0 0 16 16">
+								<path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+								<path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+								<use href="#"></use>
+							</svg>Dark
+						</button>
+					</li>
+					<li>
+						<button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-half fa-fw mode-switch me-1" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+								<use href="#"></use>
+							</svg>Auto
+						</button>
+					</li>
+				</ul>
+			</div>
+			<!-- Dark mode options END -->
+		</div>
+	
+		<div class="tab-pane" id="tab-2">
+	<div class="position-relative">
+	<pre id="copy-1" class="my-3">
+	<code class="language-markup" data-lang="html">&lt;!-- Dark mode options START --&gt;
+	&lt;div class="nav-item dropdown mx-2"&gt;
+		&lt;!-- Switch button --&gt;
+		&lt;button class="modeswitch" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static"&gt;
+			&lt;svg class="theme-icon-active"&gt;&lt;use href="#"&gt;&lt;/use&gt;&lt;/svg&gt;
+		&lt;/button&gt;
+		&lt;!-- Dropdown items --&gt;
+		&lt;ul class="dropdown-menu min-w-auto dropdown-menu-end" aria-labelledby="bd-theme"&gt;
+			&lt;li class="mb-1"&gt;
+				&lt;button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light"&gt;
+					&lt;svg width="16" height="16" fill="currentColor" class="bi bi-brightness-high-fill fa-fw mode-switch me-1" viewBox="0 0 16 16"&gt;
+						&lt;path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/&gt;
+						&lt;use href="#"&gt;&lt;/use&gt;
+					&lt;/svg&gt;Light
+				&lt;/button&gt;
+			&lt;/li&gt;
+			&lt;li class="mb-1"&gt;
+				&lt;button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"&gt;
+					&lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-stars-fill fa-fw mode-switch me-1" viewBox="0 0 16 16"&gt;
+						&lt;path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/&gt;
+						&lt;path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/&gt;
+						&lt;use href="#"&gt;&lt;/use&gt;
+					&lt;/svg&gt;Dark
+				&lt;/button&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+				&lt;button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto"&gt;
+					&lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-half fa-fw mode-switch me-1" viewBox="0 0 16 16"&gt;
+						&lt;path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/&gt;
+						&lt;use href="#"&gt;&lt;/use&gt;
+					&lt;/svg&gt;Auto
+				&lt;/button&gt;
+			&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;!-- Dark mode options END --&gt;
+	</code></pre>
+	<button id="copy_id-1" data-clipboard-action="copy" data-clipboard-target="#copy-1" class="copy-link btn btn-primary btn-sm">Copy</button>
+	</div>
+	</div>
+	</div>
+
+
+<h5 class="mt-5">Dark mode icon with dropdown</h5>
+<!-- Tab START -->
+<ul class="nav nav-tabs nav-tabs-line">
+	<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-3">Result</a> </li>
+	<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-4">HTML</a> </li>
+</ul>
+<div class="tab-content bg-light p-4">
+	<div class="tab-pane show active" id="tab-3">
+		<!-- Dark mode options START -->
+		<div class="dropdown d-inline-block me-2">
+			<a href="#" class="text-warning mb-0" id="bd-theme"
+			aria-expanded="false"
+			data-bs-toggle="dropdown"
+			data-bs-display="static">
+				<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-circle-half theme-icon-active fa-fw" viewBox="0 0 16 16">
+					<path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+					<use href="#"></use>
+				</svg>
+			</a>
+
+			<ul class="dropdown-menu min-w-auto dropdown-menu-end" aria-labelledby="bd-theme">
+				<li class="mb-1">
+					<button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+						<svg width="16" height="16" fill="currentColor" class="bi bi-brightness-high-fill fa-fw mode-switch me-1" viewBox="0 0 16 16">
+							<path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+							<use href="#"></use>
+						</svg>Light
+					</button>
+				</li>
+				<li class="mb-1">
+					<button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-stars-fill fa-fw mode-switch me-1" viewBox="0 0 16 16">
+							<path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+							<path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+							<use href="#"></use>
+						</svg>Dark
+					</button>
+				</li>
+				<li>
+					<button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-half fa-fw mode-switch me-1" viewBox="0 0 16 16">
+							<path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+							<use href="#"></use>
+						</svg>Auto
+					</button>
+				</li>
+			</ul>
+		</div>
+		<!-- Dark mode options END -->
+
+	</div>
+
+	<div class="tab-pane" id="tab-4">
+<div class="position-relative">
+<pre id="copy-2" class="my-3">
+<code class="language-markup" data-lang="html">&lt;!-- Dark mode options START --&gt;
+&lt;div class="dropdown me-2"&gt;
+	&lt;a href="#" class="text-warning mb-0" id="bd-theme"
+	aria-expanded="false"
+	data-bs-toggle="dropdown"
+	data-bs-display="static"&gt;
+		&lt;svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-circle-half grayscale theme-icon-active fa-fw" viewBox="0 0 16 16"&gt;
+			&lt;path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/&gt;
+			&lt;use href="#"&gt;&lt;/use&gt;
+		&lt;/svg&gt;
+	&lt;/a&gt;
+
+	&lt;ul class="dropdown-menu min-w-auto dropdown-menu-end" aria-labelledby="bd-theme"&gt;
+		&lt;li class="mb-1"&gt;
+			&lt;button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light"&gt;
+				&lt;svg width="16" height="16" fill="currentColor" class="bi bi-brightness-high-fill fa-fw mode-switch me-1" viewBox="0 0 16 16"&gt;
+					&lt;path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/&gt;
+					&lt;use href="#"&gt;&lt;/use&gt;
+				&lt;/svg&gt;Light
+			&lt;/button&gt;
+		&lt;/li&gt;
+		&lt;li class="mb-1"&gt;
+			&lt;button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"&gt;
+				&lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-stars-fill fa-fw mode-switch me-1" viewBox="0 0 16 16"&gt;
+					&lt;path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/&gt;
+					&lt;path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/&gt;
+					&lt;use href="#"&gt;&lt;/use&gt;
+				&lt;/svg&gt;Dark
+			&lt;/button&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto"&gt;
+				&lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-half fa-fw mode-switch me-1" viewBox="0 0 16 16"&gt;
+					&lt;path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/&gt;
+					&lt;use href="#"&gt;&lt;/use&gt;
+				&lt;/svg&gt;Auto
+			&lt;/button&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+&lt;!-- Dark mode options END --&gt;
+</code></pre>
+<button id="copy_id-2" data-clipboard-action="copy" data-clipboard-target="#copy-2" class="copy-link btn btn-primary btn-sm">Copy</button>
+</div>
+</div>
+</div>
+<!-- Tab END -->
+
+<h5 class="mt-5">Dark mode inline buttons</h5>
+<!-- Tab START -->
+	<ul class="nav nav-tabs nav-tabs-line">
+		<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab-5">Result</a> </li>
+		<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab-6">HTML</a> </li>
+	</ul>
+	<div class="tab-content bg-dark p-4">
+		<div class="tab-pane show active" id="tab-5">
+			<!-- Dark mode options START -->
+			<div class="align-items-center text-center py-0">
+				<span class="me-3">mode:</span>
+				<div class="btn-group theme-icon-active" role="group" aria-label="Default button group">
+					<button type="button" class="btn btn-light btn-sm mb-0" data-bs-theme-value="light">
+						<svg width="16" height="16" fill="currentColor" class="bi bi-brightness-high-fill fa-fw mode-switch" viewBox="0 0 16 16">
+							<path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+							<use href="#"></use>
+						</svg>
+					</button>
+					<button type="button" class="btn btn-light btn-sm mb-0" data-bs-theme-value="dark">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-stars-fill fa-fw mode-switch" viewBox="0 0 16 16">
+							<path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+							<path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+							<use href="#"></use>
+						</svg>
+					</button>
+					<button type="button" class="btn btn-light btn-sm mb-0 active" data-bs-theme-value="auto">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-half fa-fw mode-switch" viewBox="0 0 16 16">
+							<path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+							<use href="#"></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+			<!-- Dark mode options END -->
+		</div>
+	
+		<div class="tab-pane" id="tab-6">
+	<div class="position-relative">
+	<pre id="copy-3" class="my-3">
+	<code class="language-markup" data-lang="html">&lt;!-- Dark mode options START --&gt;
+&lt;div class="align-items-center text-center py-0"&gt;
+	&lt;span class="me-3"&gt;mode:&lt;/span&gt;
+	&lt;div class="btn-group theme-icon-active" role="group" aria-label="Default button group"&gt;
+		&lt;button type="button" class="btn btn-light btn-sm mb-0" data-bs-theme-value="light"&gt;
+			&lt;svg width="16" height="16" fill="currentColor" class="bi bi-brightness-high-fill fa-fw mode-switch" viewBox="0 0 16 16"&gt;
+				&lt;path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/&gt;
+				&lt;use href="#"&gt;&lt;/use&gt;
+			&lt;/svg&gt;
+		&lt;/button&gt;
+		&lt;button type="button" class="btn btn-light btn-sm mb-0" data-bs-theme-value="dark"&gt;
+			&lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-stars-fill fa-fw mode-switch" viewBox="0 0 16 16"&gt;
+				&lt;path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/&gt;
+				&lt;path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/&gt;
+				&lt;use href="#"&gt;&lt;/use&gt;
+			&lt;/svg&gt;
+		&lt;/button&gt;
+		&lt;button type="button" class="btn btn-light btn-sm mb-0 active" data-bs-theme-value="auto"&gt;
+			&lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-half fa-fw mode-switch" viewBox="0 0 16 16"&gt;
+				&lt;path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/&gt;
+				&lt;use href="#"&gt;&lt;/use&gt;
+			&lt;/svg&gt;
+		&lt;/button&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Dark mode options END --&gt;
+	</code></pre>
+	<button id="copy_id-3" data-clipboard-action="copy" data-clipboard-target="#copy-3" class="copy-link btn btn-primary btn-sm">Copy</button>
+	</div>
+	</div>
+	</div>
+
+<h5 class="mt-5">Only dark mode</h5>
+<p>If you prefer only dark mode in your theme:</p>
+<ol>
+  <li>Add below attribute in your <code>html</code> tag in all HTML files.
+<pre>
+<code class="language-markup" data-lang="html">&lt;html lang="en" data-bs-theme="dark"&gt;
+</code></pre>
+  </li>
+  <li>Remove darkmode script from head tag.</li>
+</ol>
+
+
+<h5 class="mt-5">Only light mode (Remove dark mode)</h5>
+<p>To remove dark mode from theme, follow below steps:</p>
+<ol>
+  <li>Add below line in <code>_user-variables.scss</code> file while running gulp.
+<pre><code class="language-markup" data-lang="html">$enable-dark-mode:            false; </code></pre></li>
+  <li>Remove switcher code from all HTML files</li>
+  <li>Remove darkmode script from head tag. (Optional but recommended)</li>
+</ol>
+<p><span class="badge bg-danger me-2">Note:</span> If you are not working with gulp, you can skip 1st step..</p>
+</p>
+
+<h5 class="mt-5">Dark mode customization</h5>
+<h6 class="mt-4">Modify Dark colors using SCSS</h6>
+<p>You can find all the variables used to create the dark mode in <code>assets/scss/_dark-mode.scss</code> file. If you want to override a variable, copy that variable to your <code>assets/scss/_user.scss</code> file and update it as per your need. When you change the variable with scss, make sure that the <a href="gulp.html">gulp</a> is running.</p>
+<p><span class="badge bg-danger me-2">Note:</span>Sometimes brand primary colors do not readable in dark mode, so we have provided option to set different primary colors for dark mode. To change dark mode primary color go to <code>_user.scss</code> file and follow the instruction in the same file.</p>
+
+<h6 class="mt-4">Modify Dark colors using CSS</h6>
+<p>You can find all the CSS variables used to create the dark mode in <code>assets/css/style.css</code> file. Look for the selector <code>data-bs-theme="dark"</code> and you will see all the available variables. If you want to override a variable, copy that variable to your <code>custom.css</code> file and update it as per your need.</p>
+
+<h6>Dark mode items</h6>
+<p>You can show or hide any elements in dark or light mode. Use <code>.light-mode-item</code> for elements that you want to show in light mode only. Use<code>.dark-mode-item</code> for elements that you want to show in dark mode only. See below example that we have used for theme logo.</p>
+<pre>
+<code class="language-markup" data-lang="html">&lt;img class="light-mode-item" src="assets/images/logo.svg" alt="logo"&gt;
+&lt;img class="dark-mode-item" src="assets/images/logo-light.svg" alt="logo"&gt;
+</code></pre>
+
+<!-- Page content END -->	
+				</div>
+			</div>
+		</div>
+		<!-- Main content END -->
+	</div>
+</div>
+</main>
+
+<!-- =======================
+JavaScripts -->
+
+<!-- Bootstrap JS -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+<script src="assets/js/simple-scrollbar.min.js"></script>
+<script src="assets/js/prism.js"></script>
+<script src="assets/js/clipboard.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.js"></script>
+ 
+<!-- Template Functions -->
+<script src="assets/js/functions.js"></script>
+
+</body>
+</html>
