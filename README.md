@@ -1,2 +1,1 @@
-Sportsytalk
-pradzia
+Copyright sportsytalk.com
