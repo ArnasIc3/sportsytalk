@@ -1,0 +1,47 @@
+// Bootstrap variables
+@import "../vendor/bootstrap/scss/functions";
+@import "../vendor/bootstrap/scss/variables";
+
+// Theme variables
+@import "variables";
+@import "variables-dark";
+
+// User variables
+@import "user-variables";
+
+// Bootstrap core
+@import "../vendor/bootstrap/scss/bootstrap";
+
+// Extended bootstrap utilities 
+@import "custom/utilities";
+@import "../vendor/bootstrap/scss/utilities/api";
+
+// Extended bootstrap components
+@import "custom/breadcrumb";
+@import "custom/buttons";
+@import "custom/card";
+@import "custom/dropdowns";
+@import "custom/list-group"; 
+@import "custom/nav";
+@import "custom/navbar";
+@import "custom/pagination";
+@import "custom/progress";
+@import "custom/reboot";
+@import "custom/type";
+@import "custom/badge";
+@import "custom/tables";
+
+// Theme components
+@import "components/apexchart";
+@import "components/general";
+@import "components/avatar";
+@import "components/divider";
+@import "components/overlay";
+@import "components/tiny-slider";
+@import "components/utilities";
+
+// Theme dark
+@import "dark-mode";
+
+// In this scss you can write your scss/css
+@import "user";
