@@ -9,24 +9,6 @@
 	<meta name="author" content="Webestica.com">
 	<meta name="description" content="Bootstrap based News, Magazine and Blog Theme">
 
-	<!-- Clock -->
-	<script>
-		$(document).ready(function() {
-		setInterval( function() {
-		var hours = new Date().getHours();
-		$(".hours").html(( hours < 10 ? "0" : "" ) + hours);
-		}, 1000);
-		setInterval( function() {
-		var minutes = new Date().getMinutes();
-		$(".min").html(( minutes < 10 ? "0" : "" ) + minutes);
-		},1000);
-		setInterval( function() {
-		var seconds = new Date().getSeconds();
-		$(".sec").html(( seconds < 10 ? "0" : "" ) + seconds);
-		},1000);
-		});
-		</script>
-
 	<!-- Dark mode -->
 	<script>
 		const storedTheme = localStorage.getItem('theme')
@@ -88,7 +70,7 @@
 	</script>
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="img_hello_world.png">
+	<link rel="shortcut icon" href="Fotkes/stminLM.png">
 
 	<!-- Google Font -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -178,19 +160,7 @@ Header START -->
 
 					<ul class="nav">
 						<li class="nav-item">
-							<a class="nav-link px-2 fs-5" href="#"><i class="fab fa-facebook-square"></i></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link px-2 fs-5" href="#"><i class="fab fa-twitter-square"></i></a>
-						</li>
-						<li class="nav-item">
 							<a class="nav-link px-2 fs-5" href="#"><i class="fab fa-linkedin"></i></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link px-2 fs-5" href="#"><i class="fab fa-youtube-square"></i></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link ps-2 pe-0 fs-5" href="#"><i class="fab fa-vimeo"></i></a>
 						</li>
 					</ul>
 				</div>
@@ -222,7 +192,7 @@ Header START -->
 				</a>
 				<!-- Logo END -->
 				<div class="text-center text-md-end">
-					<a class="btn btn-dark rounded-0" style= "width: 95pt;" href="#">Login <i class="bi-box-arrow-right"></i></a>
+					<a class="btn btn-dark rounded-0" style= "width: 95pt;"  href="signin.html">Login <i class="bi-box-arrow-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -251,7 +221,7 @@ Header START -->
 							<li class="nav-item"> <a class="nav-link" href="about-us.html">About Us</a></li>
 							<!-- Nav item 3 Mega menu -->
 							<li class="nav-item dropdown dropdown-fullwidth">
-								<a class="nav-link dropdown-toggle" href="#" id="megaMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> News</a>
+								<a class="nav-link dropdown-toggle" href="#" id="megaMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sports</a>
 								<div class="dropdown-menu" aria-labelledby="megaMenu">
 									<div class="container">
 										<div class="row g-4 p-3 flex-fill">
@@ -340,6 +310,8 @@ Header START -->
 									</div>
 								</div>
 							</li>
+							<!-- Nav item 1 Demos -->
+							<li class="nav-item"> <a class="nav-link" href="news.html">News</a></li>
 						</ul>
 					</div>
 					<!-- Main navbar END -->
@@ -361,21 +333,154 @@ Header START -->
 	</nav>
 	<!-- Logo Nav END -->
 </header>
+<!-- **************** MAIN CONTENT **************** -->
+<main>
+<!-- =======================
 
-<style>
-	h1 {text-align: center;}
-	p {text-align: center}
-</style>
+<!-Main hero START -->
+<section class="py-0 py-md-5 overflow-hidden position-relative">
+	<div class="container">
+		<div class="row">
+      <!-- Hero title -->
+			<div class="col-lg-6 mx-auto text-center pt-5 position-relative">
+        <h1 class="fw-bolder display-2">Sports. News. Talks.</h1>
+        <p class="lead mb-0">Daily and up-to-date updates about sports which you are interested in!</p>
+			</div>
+		</div>
+		<br>
+		<div class = "text-center">
+			<button type="button" class="btn btn-dark"> <a style = "color:white"; href="news.html">Get your news now! </a> <i style = " color:red" class="bi-broadcast"></i></button>
+		</div>
+	</div>
+</section>
+<!-- =======================
+Main hero END -->
 
-<div style = "display: block; margin-left: auto; margin-right: auto; width: 30%;">
-	<img class="navbar-brand-item light-mode-item" src="Fotkes/stminLM.png" >
-	<img class="navbar-brand-item dark-mode-item" src="Fotkes/stminDM.png" >
-	<h1>COMING SOON</h1>
-</div>
 
+<!--Latest news slider START -->
+<section class="py-4 card-grid">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<!-- Slider START -->
+				<div class="tiny-slider">
+					<div class="tiny-slider-inner"
+					data-autoplay="true"
+					data-hoverpause="true"
+					data-gutter="24"
+					data-arrow="false"
+					data-dots="false"
+					data-items-md="2" 
+					data-items-sm="2" 
+					data-items-xs="1"
+					data-items="3" >
 
-<!-- Divider -->
-<div class="container"><div class="border-bottom border-primary border-2 opacity-1"></div></div>
+						<!-- Card item START -->
+						<div class="card">
+							<div class="row g-3">
+								<div class="col-3">
+									<img class="rounded-3" src="Fotkes/stmin.png" alt="">
+								</div>
+								<div class="col-9">
+									<h5><a href="post-single-5.html" class="btn-link stretched-link text-reset fw-bold">Mercedes 'understand' Brazil slump ahead of Vegas</a></h5>
+									<!-- Card info -->
+									<ul class="nav nav-divider align-items-center small">
+										<li class="nav-item">Nov 14, 2023</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- Card item END -->
+						<!-- Card item START -->
+						<div class="card">
+							<div class="row g-3">
+								<div class="col-3">
+									<img class="rounded-3" src="Fotkes/stmin.png" alt="">
+								</div>
+								<div class="col-9">
+									<h5><a href="post-single-5.html" class="btn-link stretched-link text-reset fw-bold">Man Utd's Eriksen out for a month</a></h5>
+									<!-- Card info -->
+									<ul class="nav nav-divider align-items-center small">
+										<li class="nav-item">Nov 07, 2023</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- Card item END -->
+						<!-- Card item START -->
+						<div class="card">
+							<div class="row g-3">
+								<div class="col-3">
+									<img class="rounded-3" src="Fotkes/stmin.png" alt="">
+								</div>
+								<div class="col-9">
+									<h5><a href="post-single-5.html" class="btn-link stretched-link text-reset fw-bold">LeBron sits with injury while Davis propel Lakers.</a></h5>
+									<!-- Card info -->
+									<ul class="nav nav-divider align-items-center small">
+										<li class="nav-item">Nov 13, 2023</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- Card item END -->
+						<!-- Card item START -->
+						<div class="card">
+							<div class="row g-3">
+								<div class="col-3">
+									<img class="rounded-3" src="Fotkes/SkirmantasStrašinskas.jpg" style =" width: 50%;" alt="">
+								</div>
+								<div class="col-9">
+									<h5><a href="post-single-5.html" class="btn-link stretched-link text-reset fw-bold">New wunderkind raises the 8ball rankings.</a></h5>
+									<!-- Card info -->
+									<ul class="nav nav-divider align-items-center small">
+										<li class="nav-item">Nov 14, 2023</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- Card item END -->
+					</div>
+				</div>
+			</div>
+		</div> <!-- Row END -->
+	</div>
+</section>
+<!-- =======================
+Latest news slider END -->
+
+<!-- =======================
+Newsletter START -->
+<section class="pb-0 pt-3 mt-1">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="bg-dark p-3 p-sm-4 rounded-3 position-relative overflow-hidden">
+					<div class="row">
+						<div class="col-md-8 col-lg-6 mx-auto text-center py-5 position-relative">
+							<!-- Title -->
+							<h2 class="display-6 text-white">Never miss hot sports news!</h2>
+							<p class="text-white">Get the freshest headlines and updates sent uninterrupted to your inbox.</p>
+							<!-- Form -->
+							<form class="row row-cols-sm-auto g-2 align-items-center justify-content-center mt-3">
+								<div class="col-12">
+							    <input type="email" class="form-control" placeholder="Enter your email address">
+							  </div>
+							  <div class="col-12">
+							    <button type="submit" class="btn btn-primary m-0">Subscribe</button>
+							  </div>
+							  <div class="form-text text-white opacity-6 mt-2">By subscribing you agree to our 
+							  	<a href="#" class="text-decoration-underline text-reset">Privacy Policy</a>
+							  </div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- =======================
+Newsletter END -->
 
 </main>
 <!-- **************** MAIN CONTENT END **************** -->
@@ -393,7 +498,7 @@ Footer START -->
 		<!-- Footer Widget -->
 			<div class="col-md-6 col-lg-4 mb-4">
 				<h5 class="dark-mode-item" class="mt-4" style = "text-align:center;">Get your sports news on SportsyTalk!</h5>
-				<h5 class="light-mode-item" class="mt-4" style = "text-align:center;">Get your sports on SportsyTalk!</h5>
+				<h5 class="light-mode-item" class="mt-4" style = "text-align:center;">Get your sports news on SportsyTalk!</h5>
 				<div class="text-center">
 					<img class="light-mode-item" class="text-center" class="img-fluid" style = "width: 44%" src="Fotkes/stminLM.png" alt="logo">	
 					<img class="dark-mode-item" class="text-center" class="img-fluid" style = "width: 44%" src="Fotkes/stminDM.png" alt="logo">
