@@ -170,35 +170,6 @@ Header START -->
 		</div>
 	</div>
 
-	<!-- Logo Nav START -->
-	<div>
-		<div class="container">
-			<div class="d-sm-flex justify-content-sm-between align-items-sm-center my-0">
-				<div class="text-center text-md-start">
-						<div class = "btn bg-dark text-white rounded-1" style="width: 74pt;" id = "current-time"> </div>
-					<script>
-						let time = document.getElementById("current-time");
-
-						setInterval(() =>{
-							let d = new Date();
-							time.innerHTML = d.toLocaleTimeString();
-						})
-					</script>
-				</div>
-				<!-- Logo START -->
-				<a class="navbar-brand d-block" href="index.html">
-					<img class="navbar-brand-item light-mode-item" src="Fotkes/stminLM.png" alt="logo" style="height: 98px;">
-					<img class="navbar-brand-item dark-mode-item mx-auto" src="Fotkes/stminDM.png" alt="logo" style="height: 98px;">
-				</a>
-				<!-- Logo END -->
-				<div class="text-center text-md-end">
-					<a class="btn btn-dark rounded-0" style= "width: 95pt;"  href="signin.html">Login <i class="bi-box-arrow-right"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Navbar logo section END -->
-
 	<!-- Navbar START -->
 	<div class="navbar-light navbar-sticky header-static">
 		<nav class="navbar navbar-expand-lg">
@@ -332,275 +303,341 @@ Header START -->
 	</nav>
 	<!-- Logo Nav END -->
 </header>
-<!-- **************** MAIN CONTENT **************** -->
+<!-- =======================
+Header END -->
+
+<!-- **************** MAIN CONTENT START **************** -->
 <main>
-<!-- =======================
+<!-- Divider -->
+<div class="border-bottom border-primary border-1 opacity-1"></div>
 
-<!-Main hero START -->
-<section class="py-0 py-md-5 overflow-hidden position-relative" style="background-image: url(Fotkes/bgmp.png); background-position: center center; background-repeat: no-repeat;">
+<!-- =======================
+Inner intro START -->
+<section id="item-1" class="pb-3 pb-lg-5">
 	<div class="container">
-		<div class="row">
-      <!-- Hero title -->
-			<div class="col-lg-6 mx-auto text-center pt-5 position-relative">
-        <h1 class="fw-bolder display-2">Sports. News. Talks.</h1>
-        <p class="lead mb-0">Daily and up-to-date updates about sports which you are interested in!</p>
+		<div class="row align-items-center">
+			<!-- Image -->
+			<div class="col-md-6 position-relative">
+				<img class="rounded" src="assets/images/blog/4by3/post-single.jpg" alt="Image">
 			</div>
-		</div>
-		<br>
-		<div class = "text-center">
-			<button type="button" class="btn btn-dark"> <a style = "color:white"; href="news.html">Get your news now! </a> <i style = " color:red" class="bi-broadcast"></i></button>
+			<!-- Content -->
+			<div class="col-md-6 mt-4 mt-md-0">
+        <a href="#" class="badge bg-primary bg-opacity-10 text-primary mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Basketball</a>
+				<span class="ms-2 small">Updated: 10 November 2023 07:30 IST</span>
+				<h1 class="display-6">What is happening in Kaunas Žalgiris camp this week?</h1>
+				<p class="lead">The idea of competing multiple times a week in diffrent countries might seem challenging but Žalgiris is determine to win. However after multiple lost matches the spirits are still high as ever! </p>
+			</div>			 
 		</div>
 	</div>
 </section>
 <!-- =======================
-Main hero END -->
+Inner intro END -->
 
-
-<!--Latest news slider START -->
-<section class="py-4 card-grid">
-	<div class="container">
+<!-- =======================
+Main START -->
+<section class="pt-0">
+	<div class="container position-relative" data-sticky-container>
 		<div class="row">
-			<div class="col">
-				<!-- Slider START -->
-				<div class="tiny-slider">
-					<div class="tiny-slider-inner"
-					data-autoplay="true"
-					data-hoverpause="true"
-					data-gutter="24"
-					data-arrow="false"
-					data-dots="false"
-					data-items-md="2" 
-					data-items-sm="2" 
-					data-items-xs="1"
-					data-items="3" >
-
-						<!-- Card item START -->
-						<div class="card">
-							<div class="row g-3">
-								<div class="col-3">
-									<img class="rounded-3" src="Fotkes/stmin.png" alt="">
-								</div>
-								<div class="col-9">
-									<h5><a href="post-single-5.html" class="btn-link stretched-link text-reset fw-bold">Mercedes 'understand' Brazil slump ahead of Vegas</a></h5>
-									<!-- Card info -->
-									<ul class="nav nav-divider align-items-center small">
-										<li class="nav-item">Nov 14, 2023</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<!-- Card item END -->
-						<!-- Card item START -->
-						<div class="card">
-							<div class="row g-3">
-								<div class="col-3">
-									<img class="rounded-3" src="Fotkes/stmin.png" alt="">
-								</div>
-								<div class="col-9">
-									<h5><a href="post-single-5.html" class="btn-link stretched-link text-reset fw-bold">Man Utd's Eriksen out for a month</a></h5>
-									<!-- Card info -->
-									<ul class="nav nav-divider align-items-center small">
-										<li class="nav-item">Nov 07, 2023</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<!-- Card item END -->
-						<!-- Card item START -->
-						<div class="card">
-							<div class="row g-3">
-								<div class="col-3">
-									<img class="rounded-3" src="Fotkes/stmin.png" alt="">
-								</div>
-								<div class="col-9">
-									<h5><a href="post-single-5.html" class="btn-link stretched-link text-reset fw-bold">LeBron sits with injury while Davis propel Lakers.</a></h5>
-									<!-- Card info -->
-									<ul class="nav nav-divider align-items-center small">
-										<li class="nav-item">Nov 13, 2023</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<!-- Card item END -->
-						<!-- Card item START -->
-						<div class="card">
-							<div class="row g-3">
-								<div class="col-3">
-									<img class="rounded-3" src="Fotkes/SkirmantasStrašinskas.jpg" style =" width: 50%;" alt="">
-								</div>
-								<div class="col-9">
-									<h5><a href="post-single-5.html" class="btn-link stretched-link text-reset fw-bold">New wunderkind raises the 8ball rankings.</a></h5>
-									<!-- Card info -->
-									<ul class="nav nav-divider align-items-center small">
-										<li class="nav-item">Nov 14, 2023</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<!-- Card item END -->
+			<!-- Left sidebar START -->
+			<div class="col-md-2">
+				<div data-sticky data-margin-top="80" data-sticky-for="991">
+					<!-- Advertisement -->
+					<div class="mt-4">
+						<a href="#" class="d-block card-img-flash">
+							<img src="assets/images/adv.png" alt="">
+						</a>
 					</div>
 				</div>
 			</div>
-		</div> <!-- Row END -->
-	</div>
-</section>
-<!-- =======================
-Latest news slider END -->
+			<!-- Left sidebar END -->
+			<!-- Main Content START -->
+			<div class="col-lg-7 mb-5">
+      	<p><span class="dropcap">L</span>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan suscipit massa, quis laoreet lectus accumsan a. Integer imperdiet urna odio, non viverra massa aliquam non. Proin egestas ultricies lectus ut porttitor. Fusce leo risus, malesuada vitae mattis ut, ultricies non ligula. Vestibulum sodales dignissim odio. Donec vitae malesuada nunc. Quisque elementum ornare dolor. Phasellus consectetur tellus sed convallis egestas. Praesent commodo commodo aliquam. Phasellus blandit neque non est feugiat efficitur. Quisque at nulla in nibh efficitur imperdiet et eget enim. Etiam a mi ullamcorper, condimentum lectus eu, mattis neque. Donec gravida in lectus eget ultricies.
+			 <a href="#" class="text-reset"><u>Praesent euismod lacus vel lorem mollis sodales.</u></a> Maecenas tempor, justo id facilisis volutpat, diam purus aliquet purus, id vehicula nulla lectus feugiat ante. Aenean sed placerat massa. Vestibulum at maximus diam. Proin consequat bibendum sem. Aliquam placerat velit ut congue venenatis. Vivamus convallis mauris in sodales lacinia. Mauris semper cursus aliquam. Sed venenatis quis sapien non ornare. Pellentesque diam erat, porttitor ut nibh quis, vulputate efficitur dolor. Nam ultricies orci libero, id aliquam lacus fringilla quis. Fusce non egestas libero. Fusce tortor nulla, dictum in orci vel, vestibulum venenatis elit. Praesent eu tortor quis felis ornare tempus. Suspendisse varius tincidunt tortor, id feugiat lorem gravida non. </p>
+				<!-- Image -->
+				<figure class="figure mt-2">
+				  <a href="assets/images/blog/3by2/04.jpg" data-glightbox data-gallery="image-popup">
+		      	<img class="rounded" src="assets/images/blog/3by2/04.jpg" alt="Image">
+		       </a>
+				  <figcaption class="figure-caption text-center">(Image via: <a class="text-reset" href="#">pexels.com</a>)</figcaption>
+				</figure>
 
-<!-- =======================
-Category START -->
-<section class="pt-0 pt-md-5">
-	<div class="container">
-		<!-- Title -->
-		<div class="row">
-			<div class="col-12">
+				<p>Duis nec tincidunt erat, vel condimentum enim. Fusce et viverra mi. Integer lectus mauris, bibendum ac lectus sed, elementum finibus enim. Nam risus eros, viverra ut eros in, ultrices tincidunt nisl. Donec vestibulum eleifend augue, consequat semper nibh consequat in. In sed metus tincidunt, congue ligula ac, semper quam. Nullam quis metus at augue tincidunt viverra. Aliquam orci risus, aliquet et ligula id, iaculis interdum mauris. Pellentesque ante magna, vehicula ut maximus vitae, feugiat sit amet lacus. Sed volutpat justo non malesuada pulvinar. Praesent suscipit, diam at finibus pulvinar, quam ligula hendrerit lacus, faucibus faucibus nulla diam eget enim. Proin quis lacus nibh. Maecenas sodales odio diam, et tempus mauris pellentesque quis. Maecenas sit amet sapien sapien. Vivamus nibh dolor, feugiat sit amet commodo non, pulvinar eget urna. Aliquam luctus libero ut consectetur vulputate.</p>
 
-				<!-- Title -->
-				<div class="d-flex justify-content-between align-items-center mb-4">
-					<h3 class="m-0">Categories</h3>
-					<a href="#" class="text-body small"><u>View all</u></a>
+				<!-- Divider -->
+				<div class="text-center h5 mb-4">. . .</div>
+
+				<!-- Images -->
+				<div class="row">
+					<div class="col-md-6 mb-4">
+						<a href="assets/images/blog/4by3/03.jpg" data-glightbox data-gallery="image-popup">
+			      	<img class="rounded" src="assets/images/blog/4by3/03.jpg" alt="Image">
+			       </a>
+					</div>
+					<div class="col-md-6 mb-4">
+						<a href="assets/images/blog/4by3/04.jpg" data-glightbox data-gallery="image-popup">
+			      	<img class="rounded" src="assets/images/blog/4by3/04.jpg" alt="Image">
+			       </a>
+					</div>
 				</div>
+				<p>Aliquam in mattis risus, nec hendrerit sem. Nunc ut tellus dictum, finibus augue a, tempus tortor. Proin sed diam eget est elementum tincidunt. Nulla rutrum ante in vulputate laoreet. Vivamus nec ex finibus erat dictum faucibus non at velit. Suspendisse placerat metus enim, a facilisis neque volutpat ac. Donec dictum rhoncus risus, sit amet dictum ipsum. Praesent laoreet, massa sit amet accumsan luctus, turpis orci malesuada nisl, eget tincidunt justo tortor tempor lectus. Pellentesque elementum urna in ipsum vehicula, non porttitor ex porttitor. Quisque sed rutrum metus. Pellentesque venenatis tristique mattis.</p>				
+				<h4 class="mt-4">Productive rant about business</h4>
+
+				<!-- blockquote -->
+				<figure class="my-5">
+				  <blockquote class="blockquote">
+				    <p>Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful</p>
+				  </blockquote>
+				  <figcaption class="blockquote-footer">
+				    Albert Schweitzer
+				  </figcaption>
+				</figure>
+				<p>Praesent euismod lacus vel lorem mollis sodales. Maecenas tempor, justo id facilisis volutpat, diam purus aliquet purus, id vehicula nulla lectus feugiat ante. Aenean sed placerat massa. Vestibulum at maximus diam. Proin consequat bibendum sem. Aliquam placerat velit ut congue venenatis. Vivamus convallis mauris in sodales lacinia. Mauris semper cursus aliquam. Sed venenatis quis sapien non ornare. Pellentesque diam erat, porttitor ut nibh quis, vulputate efficitur dolor. Nam ultricies orci libero, id aliquam lacus fringilla quis. Fusce non egestas libero. Fusce tortor nulla, dictum in orci vel, vestibulum venenatis elit. Praesent eu tortor quis felis ornare tempus. Suspendisse varius tincidunt tortor, id feugiat lorem gravida non.	</p>
 				
-				<!-- Slider -->
-				<div class="tiny-slider arrow-hover arrow-dark arrow-blur arrow-round">
-					<div class="tiny-slider-inner"
-					data-autoplay="false"
-					data-hoverpause="true"
-					data-gutter="24"
-					data-arrow="true"
-					data-dots="false"
-					data-items-xl="5" 
-					data-items-lg="4" 
-					data-items-md="3" 
-					data-items-sm="2" 
-					data-items-xs="2"
-					>
-						<!-- Category item -->
-						<div>
-							<div class="card bg-transparent">
-								<img class="card-img" src="Fotkes/Football.jpg" alt="card image">
-								<div class="card-body ps-0">
-									<h5 class="mb-0"><a href="#" class="stretched-link">Football</a></h5>
-								</div>
-							</div>
-						</div>
-						<!-- Category item -->
-						<div>
-							<div class="card bg-transparent">
-								<img class="card-img" src="Fotkes/Basketball.jpg" alt="card image">
-								<div class="card-body ps-0">
-									<h5 class="mb-0"><a href="#" class="stretched-link">Basketball</a></h5>
-								</div>
-							</div>
-						</div>
-						<!-- Category item -->
-						<div>
-							<div class="card bg-transparent">
-								<img class="card-img" src="Fotkes/Cricket.jpg" alt="card image">
-								<div class="card-body ps-0">
-									<h5 class="mb-0"><a href="#" class="stretched-link">Cricket</a></h5>
-								</div>
-							</div>
-						</div>
-						<!-- Category item -->
-						<div>
-							<div class="card bg-transparent">
-								<img class="card-img" src="Fotkes/Tennis.jpg" alt="card image">
-								<div class="card-body ps-0">
-									<h5 class="mb-0"><a href="#" class="stretched-link">Tennis</a></h5>
-								</div>
-							</div>
-						</div>
-						<!-- Category item -->
-						<div>
-							<div class="card bg-transparent">
-								<img class="card-img" src="Fotkes/f1.jpg" alt="card image">
-								<div class="card-body ps-0">
-									<h5 class="mb-0"><a href="#" class="stretched-link">F1</a></h5>
-								</div>
-							</div>
-						</div>
-						<!-- Category item -->
-						<div>
-							<div class="card bg-transparent">
-								<img class="card-img" src="Fotkes/boxing.jpg" alt="card image">
-								<div class="card-body ps-0">
-									<h5 class="mb-0"><a href="#" class="stretched-link">Boxing</a></h5>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> <!-- Slider END -->
-			</div>
-		</div>
-	</div>
-</section>
-<!--Category END -->
+				<p>Duis nec tincidunt erat, vel condimentum enim. Fusce et viverra mi. Integer lectus mauris, bibendum ac lectus sed, elementum finibus enim. Nam risus eros, viverra ut eros in, ultrices tincidunt nisl. Donec vestibulum eleifend augue, consequat semper nibh consequat in. In sed metus tincidunt, congue ligula ac, semper quam. Nullam quis metus at augue tincidunt viverra. Aliquam orci risus, aliquet et ligula id, iaculis interdum mauris. Pellentesque ante magna, vehicula ut maximus vitae, feugiat sit amet lacus. Sed volutpat justo non malesuada pulvinar. Praesent suscipit, diam at finibus pulvinar, quam ligula hendrerit lacus, faucibus faucibus nulla diam eget enim. Proin quis lacus nibh. Maecenas sodales odio diam, et tempus mauris pellentesque quis. Maecenas sit amet sapien sapien. Vivamus nibh dolor, feugiat sit amet commodo non, pulvinar eget urna. Aliquam luctus libero ut consectetur vulputate.</p>
+				<!-- Light bg content -->
+				<div class="bg-light p-3 p-md-4">
+					<q class="lead">Aliquam in mattis risus, nec hendrerit sem. Nunc ut tellus dictum, finibus augue a, tempus tortor. Proin sed diam eget est elementum tincidunt. Nulla rutrum ante in vulputate laoreet. Vivamus nec ex finibus erat dictum faucibus non at velit. Suspendisse placerat metus enim, a facilisis neque volutpat ac. Donec dictum rhoncus risus, sit amet dictum ipsum.</q>
+				</div>
 
-<!--Feedback START -->
-<section class="pt-0 pt-md-5">
-	<div class="container">
-		<div class="d-sm-flex justify-content-sm-between align-items-sm-center my-0">
-		<div class="row">
-      <!-- Feedback title -->
-	  <div>
-		<div class="card bg-transparent" style = "text-align: center;">
-			<img src="Fotkes/feedback-icon.png" width="300" height="300">
+				<!-- Related post START -->
+				<div class="mt-5">
+					<h2 class="my-3"><i class="bi bi-symmetry-vertical me-2"></i>Related post</h2>
+					<div class="tiny-slider arrow-hover arrow-blur arrow-white arrow-round">
+						<div class="tiny-slider-inner"
+							data-autoplay="true"
+							data-hoverpause="true"
+							data-gutter="24"
+							data-arrow="true"
+							data-dots="false"
+							data-items-xl="2" 
+							data-items-xs="1">
+
+							<!-- Card item START -->
+							<div class="card">
+								<!-- Card img -->
+								<div class="position-relative">
+									<img class="card-img" src="assets/images/blog/4by3/07.jpg" alt="Card image">
+									<div class="card-img-overlay d-flex align-items-start flex-column p-3">
+										<!-- Card overlay Top -->
+										<div class="w-100 mb-auto d-flex justify-content-end">
+											<div class="text-end ms-auto">
+												<!-- Card format icon -->
+												<div class="icon-md bg-white bg-opacity-10 bg-blur text-white fw-bold rounded-circle" title="8.5 rating">8.5</div>
+											</div>
+										</div>
+										<!-- Card overlay bottom -->
+										<div class="w-100 mt-auto">
+											<a href="#" class="badge text-bg-info mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Marketing</a>
+										</div>
+									</div>
+								</div>
+								<div class="card-body px-0 pt-3">
+									<h5 class="card-title"><a href="post-single-2.html" class="btn-link text-reset stretched-link fw-bold">7 common mistakes everyone makes while traveling</a></h5>
+									<!-- Card info -->
+									<ul class="nav nav-divider align-items-center d-none d-sm-inline-block">
+										<li class="nav-item">
+											<div class="nav-link">
+												<div class="d-flex align-items-center position-relative">
+													<div class="avatar avatar-xs">
+														<img class="avatar-img rounded-circle" src="assets/images/avatar/07.jpg" alt="avatar">
+													</div>
+													<span class="ms-3">by <a href="#" class="stretched-link text-reset btn-link">Lori</a></span>
+												</div>
+											</div>
+										</li>
+										<li class="nav-item">Mar 07, 2022</li>
+									</ul>
+								</div>
+							</div>
+							<!-- Card item END -->
+							<!-- Card item START -->
+							<div class="card">
+								<!-- Card img -->
+								<div class="position-relative">
+									<img class="card-img" src="assets/images/blog/4by3/08.jpg" alt="Card image">
+									<div class="card-img-overlay d-flex align-items-start flex-column p-3">
+										<!-- Card overlay bottom -->
+										<div class="w-100 mt-auto">
+											<a href="#" class="badge text-bg-danger mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Sports</a>
+										</div>
+									</div>
+								</div>
+								<div class="card-body px-0 pt-3">
+									<h5 class="card-title"><a href="post-single-2.html" class="btn-link text-reset stretched-link fw-bold">Skills that you can learn from business</a></h5>
+									<!-- Card info -->
+									<ul class="nav nav-divider align-items-center d-none d-sm-inline-block">
+										<li class="nav-item">
+											<div class="nav-link">
+												<div class="d-flex align-items-center position-relative">
+													<div class="avatar avatar-xs">
+														<img class="avatar-img rounded-circle" src="assets/images/avatar/08.jpg" alt="avatar">
+													</div>
+													<span class="ms-3">by <a href="#" class="stretched-link text-reset btn-link">Joan</a></span>
+												</div>
+											</div>
+										</li>
+										<li class="nav-item">Aug 15, 2022</li>
+									</ul>
+								</div>
+							</div>
+							<!-- Card item END -->
+							<!-- Card item START -->
+							<div class="card">
+								<!-- Card img -->
+								<div class="position-relative">
+									<img class="card-img" src="assets/images/blog/4by3/09.jpg" alt="Card image">
+									<div class="card-img-overlay d-flex align-items-start flex-column p-3">
+										<!-- Card overlay bottom -->
+										<div class="w-100 mt-auto">
+											<a href="#" class="badge text-bg-success mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Marketing</a>
+										</div>
+									</div>
+								</div>
+								<div class="card-body px-0 pt-3">
+									<h5 class="card-title"><a href="post-single-2.html" class="btn-link text-reset stretched-link fw-bold">10 tell-tale signs you need to get a new business</a></h5>
+									<!-- Card info -->
+									<ul class="nav nav-divider align-items-center d-none d-sm-inline-block">
+										<li class="nav-item">
+											<div class="nav-link">
+												<div class="d-flex align-items-center position-relative">
+													<div class="avatar avatar-xs">
+														<img class="avatar-img rounded-circle" src="assets/images/avatar/09.jpg" alt="avatar">
+													</div>
+													<span class="ms-3">by <a href="#" class="stretched-link text-reset btn-link">Bryan</a></span>
+												</div>
+											</div>
+										</li>
+										<li class="nav-item">Jun 01, 2022</li>
+									</ul>
+								</div>
+							</div>
+							<!-- Card item END -->
+						</div>
+					</div> <!-- Slider END -->
+				</div>
+				<!-- Related post END -->
+				
+				<!-- Divider -->
+				<hr>
+
+				<!-- Comments START -->
+				<div>
+					<h3>1 comments</h3>
+					<!-- Comment level 1-->
+					<div class="my-4 d-flex">
+					  <img class="avatar avatar-md rounded-circle float-start me-3" src="assets/images/avatar/01.jpg" alt="avatar">
+					  <div>
+					    <div class="mb-2">
+					    	<h5 class="m-0">Ona</h5>
+					    	<span class="me-3 small">November, 2023 at 6:01 am </span>
+					    	<a href="#" class="text-body fw-normal">Reply</a>
+					    </div>
+						<p>Good luck in the future when the price of players will double!</p>
+					  </div>
+				</div>
+				</div>
+				<!-- Comments END -->
+				<!-- Reply START -->
+				<div>
+					<h3>Leave a reply</h3>
+					<small>Your email address will not be published. Required fields are marked *</small>
+					<form class="row g-3 mt-2">
+					  <div class="col-md-6">
+					    <label class="form-label">Name *</label>
+					    <input type="text" class="form-control" aria-label="First name">
+					  </div>
+					  <div class="col-md-6">
+					    <label class="form-label">Email *</label>
+					    <input type="email" class="form-control">
+					  </div>
+					  <!-- custom checkbox -->
+						<div class="col-md-12">
+							<div class="form-check">
+							  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+							  <label class="form-check-label" for="flexCheckDefault">Save my name and email in this browser for the next time I comment. </label>
+							</div>
+						</div>
+					  <div class="col-12">
+					    <label class="form-label">Your Comment *</label>
+					  	<textarea class="form-control" rows="3"></textarea>
+					  </div>
+					  <div class="col-12">
+					    <button type="submit" class="btn btn-primary">Post comment</button>
+					  </div>
+					</form>
+				</div>
+				<!-- Reply END -->
 			</div>
-		</div>
-	</div>
-			<div class="col-lg-7 bg-dark align-text pt-5 position-relative rounded-3" style = "text-align: center;">
-        <h4 class="fw-bolder display-4 text-white">Give us feedback!</h4>
-		<br>
-        <p class="lead mb-0 text-white">We strive to express our passion for sports! Feedback is well appreciated!</p>
-		<br>
+			<!-- Main Content END -->
+			
+			<!-- Right sidebar START -->
+			<div class="col-lg-3">
+				<div data-sticky data-margin-top="80" data-sticky-for="991">
+	      	<h4>Share this article</h4>
+					<ul class="nav text-white-force">
+						<li class="nav-item">
+							<a class="nav-link icon-md rounded-circle me-2 mb-2 p-0 fs-5 bg-facebook" href="#">
+								<i class="fab fa-facebook-square align-middle"></i>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link icon-md rounded-circle me-2 mb-2 p-0 fs-5 bg-twitter" href="#">
+								<i class="fab fa-twitter-square align-middle"></i>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link icon-md rounded-circle me-2 mb-2 p-0 fs-5 bg-linkedin" href="#">
+								<i class="fab fa-linkedin align-middle"></i>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link icon-md rounded-circle me-2 mb-2 p-0 fs-5 bg-pinterest" href="#">
+								<i class="fab fa-pinterest align-middle"></i>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link icon-md rounded-circle me-2 mb-2 p-0 fs-5 bg-primary" href="#">
+								<i class="far fa-envelope align-middle"></i>
+							</a>
+						</li>
+					</ul>
+					<!-- Advertisement -->
+					<div class="mt-4">
+						<a href="#" class="d-block card-img-flash">
+							<img src="assets/images/adv.png" alt="">
+						</a>
+					</div>
 				</div>
 			</div>
+			<!-- Right sidebar END -->
 		</div>
 	</div>
 </section>
 <!-- =======================
-Feedback END -->
+Main END -->
 
 <!-- =======================
-Newsletter START -->
-<section class="pb-0 pt-3 mt-1">
-	<div class="container">
-		<div class="row">
-			<div class="col">
-				<div class="bg-dark p-3 p-sm-4 rounded-3 position-relative overflow-hidden">
-					<div class="row">
-						<div class="col-md-8 col-lg-6 mx-auto text-center py-5 position-relative">
-							<!-- Title -->
-							<h2 class="display-6 text-white">Never miss hot sports news!</h2>
-							<p class="text-white">Get the freshest headlines and updates sent uninterrupted to your inbox.</p>
-							<!-- Form -->
-							<form class="row row-cols-sm-auto g-2 align-items-center justify-content-center mt-3">
-								<div class="col-12">
-							    <input type="email" class="form-control" placeholder="Enter your email address">
-							  </div>
-							  <div class="col-12">
-							    <button type="submit" class="btn btn-primary m-0">Subscribe</button>
-							  </div>
-							  <div class="form-text text-white opacity-6 mt-2">By subscribing you agree to our 
-							  	<a href="#" class="text-decoration-underline text-reset">Privacy Policy</a>
-							  </div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+Sticky post START -->
+<div class="sticky-post bg-light border p-4 mb-5 text-sm-end rounded d-none d-xxl-block">
+  <div class="d-flex align-items-center">
+    <!-- Title -->
+    <div class="me-3">
+      <span>Next post<i class="bi bi-arrow-right ms-3 rtl-flip"></i></span>
+      <h6 class="m-0"> <a href="javascript:void(0)" class="stretched-link btn-link text-reset">Zalgiris lose another match against Panathinaikos. Fans saddened</a></h6>
+    </div>
+    <!-- image -->
+    <div class="col-4 d-none d-md-block">
+      <img src="assets/images/blog/4by3/post-single.jpg" alt="Image">
+    </div>
+  </div>
+</div>
 <!-- =======================
-Newsletter END -->
+Sticky post END -->
 
 </main>
 <!-- **************** MAIN CONTENT END **************** -->
 
-<!-- =======================
-Footer START -->
 <!-- =======================
 Footer START -->
 <footer class="pb-0">
@@ -667,26 +704,13 @@ Footer START -->
 	</div>
 </footer>
 <!-- =======================
-JS libraries, plugins and custom scripts -->
-
-<!-- =======================
-Cookies alert START -->
-<div class="alert alert-light alert-dismissible fade show position-fixed bottom-0 start-50 translate-middle-x z-index-99 d-lg-flex justify-content-between align-items-center shadow p-4 col-9 col-md-5" role="alert">
-	<p class="m-0 pe-3">This website stores cookies on your computer. To find out more about the cookies we use, see our <a class="text-reset" href="#"> <u>Privacy Policy</u></a></p>
-	<div class="d-flex mt-3 mt-lg-0">
-		<button type="button" class="btn btn-success-soft btn-sm mb-0 me-2" data-bs-dismiss="alert" aria-label="Close">
-			<span aria-hidden="true">Accept</span>
-		</button>
-		<button type="button" class="btn btn-danger-soft btn-sm mb-0" data-bs-dismiss="alert" aria-label="Close">
-			<span aria-hidden="true">Decline</span>
-		</button>
-	</div>
-</div>
-<!-- =======================
-Cookies alert END -->
+Footer END -->
 
 <!-- Back to top -->
 <div class="back-top"><i class="bi bi-arrow-up-short"></i></div>
+
+<!-- =======================
+JS libraries, plugins and custom scripts -->
 
 <!-- Bootstrap JS -->
 <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -694,9 +718,10 @@ Cookies alert END -->
 <!-- Vendors -->
 <script src="assets/vendor/tiny-slider/tiny-slider.js"></script>
 <script src="assets/vendor/sticky-js/sticky.min.js"></script>
-<script src="assets/vendor/plyr/plyr.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.js"></script>
 
 <!-- Template Functions -->
 <script src="assets/js/functions.js"></script>
+
 </body>
 </html>

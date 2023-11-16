@@ -357,6 +357,18 @@ Inner intro START -->
 						<div class="mb-3">
 							<label class="form-label" for="exampleInputPassword1">Password</label>
 							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="*********">
+							<script>
+								document
+									.getElementById("togglepassword")
+									.addEventListener("change"), function
+									(){
+										if(this.checked){
+											passwordInput.type = "text";
+										} else {
+											passwordInput.type = "password";
+										}
+									};
+							</script>
 						</div>
 						<!-- Checkbox -->
 						<div class="mb-3 form-check">
@@ -408,13 +420,13 @@ Footer START -->
 
 		<!-- Footer Widget -->
 			<div class="col-md-6 col-lg-4 mb-4">
-				<h5 class="dark-mode-item" class="mt-4" style = "text-align:center;">Get your sports news on SportsyTalk!</h5>
+				<h5 class="dark-mode-item" class="mt-4" style = " width:370px; text-align:center;">Get your sports news on SportsyTalk!</h5>
 				<h5 class="light-mode-item" class="mt-4" style = "text-align:center;">Get your sports news on SportsyTalk!</h5>
 				<div class="text-center">
 					<img class="light-mode-item" class="text-center" class="img-fluid" style = "width: 44%" src="Fotkes/stminLM.png" alt="logo">
 					<img class="dark-mode-item" class="text-center" class="img-fluid" style = "width: 44%" src="Fotkes/stminDM.png" alt="logo">
 				</div>
-				<p class="dark-mode-item" class="mt-3" style = "text-align:center; color:white; font-style:oblique;">The next-generation of news source which provides up-to-date news for all kind of lovers of sports!</p>
+				<p class="dark-mode-item" class="mt-3" style = " text-align:center; display:flex; color:white; font-style:oblique;">The next-generation of news source which provides up-to-date news for all kind of lovers of sports!</p>
 				<p class="light-mode-item" class="mt-3" style = "text-align:center; color:black; font-style:oblique;">The next-generation of news source which provides up-to-date news for all kind of lovers of sports!</p>
 			</div>
 
