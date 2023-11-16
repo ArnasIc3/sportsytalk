@@ -17522,3 +17522,23 @@ a.text-primary-hover:hover, button.text-primary-hover:hover {
 
 /*User CSS*/
 /*# sourceMappingURL=style.css.map */
+
+.typing{
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:
+    typing 1.5s steps(15),
+    cursor 0.2s step-end infinite alternate;
+}
+
+/* cursor blinking */
+@keyframes cursor {
+  50% {border-color: transparent;}
+}
+
+/* typing effect */
+@keyframes typing {
+  from {width: 0}
+}
