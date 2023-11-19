@@ -17524,18 +17524,18 @@ a.text-primary-hover:hover, button.text-primary-hover:hover {
 /*# sourceMappingURL=style.css.map */
 
 .typing{
-  border-right: 5px solid;
+  border-right: 3px solid;
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
   animation:
-    typing 1.5s steps(15),
-    cursor 0.2s step-end infinite alternate;
+    typing 1s steps(15),
+    cursor 0.5s step-end infinite alternate;
 }
 
 /* cursor blinking */
 @keyframes cursor {
-  50% {border-color: transparent;}
+  70% {border-color: transparent;}
 }
 
 /* typing effect */
