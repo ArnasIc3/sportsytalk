@@ -1,0 +1,15 @@
+﻿@using SportsyTalk.Feeds;
+@model RssFeedItem
+
+<div class="col">
+    <div class="card shadow-lg">
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <img src="@Model.ImageUrl" class="card-img-top" sstyle="height:150px;" alt="...">
+        }
+        <div class="card-body">
+            <h5 class="card-title">@Model.Title</h5>
+            <p class="card-text">@Model.Description</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+﻿@model CategoryMenuItemModel
+
+<div class="col">
+    <div class="card">
+        <img src="~/images/categories/@Model.Image" class="card-img-top" sstyle="height:150px;" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@Model.Title <span class="badge @(Model.SportsCount > 0 ? "bg-primary" : "bg-secondary")">@Model.SportsCount</span></h5>
+            <p class="card-text"></p>
+            <a asp-controller="Home" asp-action="CategoryDetails" asp-route-id="@Model.Id" class="btn @(Model.SportsCount == 0 ? "disabled btn-secondary" : "btn-primary" )">Rodyti</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+﻿@using SportsyTalk.Feeds;
+@model RssFeed
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 mt-2">
+@foreach(var item in Model.Items)
+{
+    <partial name="RssFeedItemCard" model="item" />
+}
+</div>

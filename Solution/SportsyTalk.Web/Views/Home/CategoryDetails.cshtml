@@ -1,0 +1,58 @@
+﻿@model CategoryDetailsModel
+@{
+    ViewData["Title"] = "Category > ";
+}
+@if (Model.SelectedCategory != null)
+{
+    <div class="row">
+        <div class="d-none d-sm-none d-md-block col-md-3">
+            <div class="list-group">
+                @foreach(var cat in Model.AllCategories)
+                {
+                    <a asp-controller="Home" asp-action="CategoryDetails" asp-route-id="@cat.Id" class="list-group-item list-group-item-action @(cat.Id == Model.SelectedCategory.Id ? "active" : "") @(cat.SportsCount == 0 ? "disabled" : "" )">
+                        <span>@cat.Title</span>
+                        <span class="float-end badge text-bg-primary @(cat.SportsCount == 0 ? "invisible" : "")">@cat.SportsCount</span>
+                    </a>
+                }
+            </div>
+        </div>
+        <div class="col">
+            <div class="row">
+                <div class="col"><h3>@Model.SelectedCategory.Title</h3></div>
+                <div class="col text-end">
+                    <div class="dropdown d-block d-sm-block d-md-none d-lg-none">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Visos kategorijos
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            @foreach (var cat in Model.AllCategories)
+                            {
+                                <li>
+                                    <a asp-controller="Home" asp-action="CategoryDetails" asp-route-id="@cat.Id" class="dropdown-item @(cat.Id == Model.SelectedCategory.Id ? "active" : "") @(cat.SportsCount == 0 ? "disabled" : "" )">
+                                        <span>@cat.Title</span>
+                                        <span class="text-end badge text-bg-primary @(cat.SportsCount == 0 ? "invisible" : "")">@cat.SportsCount</span>
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                    <partial name="~/Views/Home/Categories/@Model.SelectedCategory.HtmlFile"/>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 mt-2">
+                @foreach(var sport in Model.Sports)
+                {
+                    <partial name="SportCard" model="sport"/>    
+                }
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div>Nėra tokios sporto kategorijos</div>
+}
