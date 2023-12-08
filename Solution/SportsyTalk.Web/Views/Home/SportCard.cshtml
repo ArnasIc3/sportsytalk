@@ -1,0 +1,12 @@
+﻿@model SportDetailsModel
+
+<div class="col">
+    <div class="card">
+        <img src="~/images/sport.jpg" class="card-img-top" sstyle="height:150px;" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@Model.Title</h5>
+            <p class="card-text"></p>
+            <a asp-controller="Home" asp-action="SportDetails" asp-route-id="@Model.Id" class="btn btn-primary">Rodyti</a>
+        </div>
+    </div>
+</div>
