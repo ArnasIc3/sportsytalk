@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>SportsyTalk</title>
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="SportsyTalk">
+	<meta name="description" content="SportsyTalk - the latest sports news!">
+
+	<!-- Dark mode -->
+	<script>
+		const storedTheme = localStorage.getItem('theme')
+ 
+		const getPreferredTheme = () => {
+			if (storedTheme) {
+				return storedTheme
+			}
+			return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'light'
+		}
+
+		const setTheme = function (theme) {
+			if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+				document.documentElement.setAttribute('data-bs-theme', 'dark')
+			} else {
+				document.documentElement.setAttribute('data-bs-theme', theme)
+			}
+		}
+
+		setTheme(getPreferredTheme())
+
+		window.addEventListener('DOMContentLoaded', () => {
+		    var el = document.querySelector('.theme-icon-active');
+			if(el != 'undefined' && el != null) {
+				const showActiveTheme = theme => {
+				const activeThemeIcon = document.querySelector('.theme-icon-active use')
+				const btnToActive = document.querySelector(`[data-bs-theme-value="${theme}"]`)
+				const svgOfActiveBtn = btnToActive.querySelector('.mode-switch use').getAttribute('href')
+
+				document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
+					element.classList.remove('active')
+				})
+
+				btnToActive.classList.add('active')
+				activeThemeIcon.setAttribute('href', svgOfActiveBtn)
+			}
+
+			window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+				if (storedTheme !== 'light' || storedTheme !== 'dark') {
+					setTheme(getPreferredTheme())
+				}
+			})
+
+			showActiveTheme(getPreferredTheme())
+
+			document.querySelectorAll('[data-bs-theme-value]')
+				.forEach(toggle => {
+					toggle.addEventListener('click', () => {
+						const theme = toggle.getAttribute('data-bs-theme-value')
+						localStorage.setItem('theme', theme)
+						setTheme(theme)
+						showActiveTheme(theme)
+					})
+				})
+
+			}
+		})
+		
+	</script>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="Fotkes/stmindm.png">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+
+	<!-- Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+<!-- =======================
+Header START -->
+<header class="bg-transparent">
+	<div class="navbar-top d-none d-lg-block bg-dark">
+		<div class="container">
+			<div class="d-md-flex justify-content-between align-items-center">
+					<!-- Dark mode options START -->
+					<div class="nav-item dropdown mx-2">
+						<!-- Switch button -->
+						<button class="modeswitch" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static">
+							<svg class="theme-icon-active"><use href="#"></use></svg>
+						</button>
+						<!-- Dropdown items -->
+						<ul class="dropdown-menu min-w-auto dropdown-menu-end" aria-labelledby="bd-theme">
+							<li class="mb-1">
+								<button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+									<svg width="16" height="16" fill="currentColor" class="bi bi-brightness-high-fill fa-fw mode-switch me-1" viewBox="0 0 16 16">
+										<path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+										<use href="#"></use>
+									</svg>Light
+								</button>
+							</li>
+							<li class="mb-1">
+								<button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-stars-fill fa-fw mode-switch me-1" viewBox="0 0 16 16">
+										<path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+										<path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+										<use href="#"></use>
+									</svg>Dark
+								</button>
+							</li>
+							<li>
+								<button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-half fa-fw mode-switch me-1" viewBox="0 0 16 16">
+										<path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+										<use href="#"></use>
+									</svg>Auto
+								</button>
+							</li>
+						</ul>
+					</div>
+					<!-- Dark mode options END -->
+
+					<ul class="nav">
+						<li class="nav-item">
+							<a class="nav-link px-2 fs-5" href="#"><i class="fab fa-linkedin"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Divider -->
+			<div class="border-bottom border-2 border-primary opacity-1"></div>
+		</div>
+	</div>
+
+	<!-- Logo Nav START -->
+	<div>
+		<div class="container">
+			<div class="d-sm-flex justify-content-sm-between align-items-sm-center my-0">
+				<div class="text-center text-md-start">
+						<div class = "btn bg-dark text-white rounded-1" style="width: 74pt;" id = "current-time"> </div>
+					<script>
+						let time = document.getElementById("current-time");
+
+						setInterval(() =>{
+							let d = new Date();
+							time.innerHTML = d.toLocaleTimeString();
+						})
+					</script>
+				</div>
+				<!-- Logo START -->
+				<a class="navbar-brand d-block" href="index.html">
+					<img class="navbar-brand-item light-mode-item" src="Fotkes/stminLM.png" alt="logo" style="height: 98px;">
+					<img class="navbar-brand-item dark-mode-item mx-auto" src="Fotkes/stminDM.png" alt="logo" style="height: 98px;">
+				</a>
+				<!-- Logo END -->
+				<div class="text-center text-md-end">
+					<a class="btn btn-dark rounded-0" style= "width: 95pt;"  href="signin.html">Login <i class="bi-box-arrow-right"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Navbar logo section END -->
+
+	<!-- Navbar START -->
+	<div class="navbar-light navbar-sticky header-static">
+		<nav class="navbar navbar-expand-lg">
+			<div class="container">
+				<div class="w-100 border-top border-bottom border-secondary d-flex">
+					<!-- Responsive navbar toggler -->
+					<button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="text-secondary h6 ps-lg-3">Menu</span>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<!-- Main navbar START -->
+					<div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+						<ul class="navbar-nav navbar-nav-scroll navbar-lh-sm">
+							
+							<!-- Nav item 1 Demos -->
+							<li class="nav-item"> <a class="nav-link" href="index.html">Home</a></li>
+
+							<!-- Nav item 2 Demos -->
+							<li class="nav-item"> <a class="nav-link" href="about-us.html">About Us</a></li>
+							<!-- Nav item 3 Mega menu -->
+							<li class="nav-item dropdown dropdown-fullwidth">
+								<a class="nav-link dropdown-toggle" href="#" id="megaMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sports</a>
+								<div class="dropdown-menu" aria-labelledby="megaMenu">
+									<div class="container">
+										<div class="row g-4 p-3 flex-fill">
+											<!-- Card item START -->
+											<div class="col-sm-6 col-lg-3">
+												<div class="card bg-transparent">
+													<!-- Card img -->
+													<img class="card-img rounded-0 grayscale" src="Fotkes/i1.jpg" alt="Card image">
+													<div class="card-body px-0 pt-3">
+														<h6 class="card-title mb-0"><a href="#" class="btn-link text-reset fw-bold">Owners' vote shows the Oakland A's move is about money, not fans</a></h6>
+														<!-- Card info -->
+														<ul class="nav nav-divider align-items-center text-uppercase small mt-2">
+															<li class="nav-item">
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<!-- Card item END -->
+											<!-- Card item START -->
+											<div class="col-sm-6 col-lg-3">
+												<div class="card bg-transparent">
+													<!-- Card img -->
+													<img class="card-img rounded-0 grayscale" src="Fotkes/i.jpg" alt="Card image">
+													<div class="card-body px-0 pt-3">
+														<h6 class="card-title mb-0"><a href="#" class="btn-link text-reset fw-bold">U-M's Harbaugh accepts ban; Big Ten ends probe</a></h6>
+														<!-- Card info -->
+														<ul class="nav nav-divider align-items-center text-uppercase small mt-2">
+														</ul>
+													</div>
+												</div>
+											</div>
+											<!-- Card item END -->
+											<!-- Card item START -->
+											<div class="col-sm-6 col-lg-3">
+												<div class="card bg-transparent">
+													<!-- Card img -->
+													<img class="card-img rounded-0 grayscale" src="Fotkes/i3.jpg" alt="Card image">
+													<div class="card-body px-0 pt-3">
+														<h6 class="card-title mb-0"><a href="#" class="btn-link text-reset fw-bold">Rating Man United's signings since 2018: After a billion dollars spent, who has lived up to expectations?</a></h6>
+														<!-- Card info -->
+														<ul class="nav nav-divider align-items-center text-uppercase small mt-2">
+														</ul>
+													</div>
+												</div>
+											</div>
+											<!-- Card item END -->
+											<!-- Card item START -->
+											<div class="col-sm-6 col-lg-3">
+												<div class="card bg-transparent">
+													<!-- Card img -->
+													<img class="card-img rounded-0 grayscale" src="Fotkes/i2.jpg" alt="Card image">
+													<div class="card-body px-0 pt-3">
+														<h6 class="card-title mb-0"><a href="#" class="btn-link text-reset fw-bold">The NFL's race to the bottom: Your guide to eight teams' pursuit of the No. 1 pick</a></h6>
+														<!-- Card info -->
+														<ul class="nav nav-divider align-items-center text-uppercase small mt-2">
+														</ul>
+													</div>
+												</div>
+											</div>
+											<!-- Card item END -->
+										</div> <!-- Row END -->
+										<!-- Trending tags -->
+										<div class="row px-3">
+											<div class="col-12">
+												<ul class="list-inline mt-3">
+													<li class="list-inline-item">Trending tags:</li>
+													<li class="list-inline-item"><a href="#" class="btn btn-sm btn-primary-soft">Basketball</a></li>
+													<li class="list-inline-item"><a href="#" class="btn btn-sm btn-warning-soft">Football</a></li>
+													<li class="list-inline-item"><a href="#" class="btn btn-sm btn-success-soft">Volleyball</a></li>
+													<li class="list-inline-item"><a href="#" class="btn btn-sm btn-danger-soft">Rugby</a></li>
+													<li class="list-inline-item"><a href="#" class="btn btn-sm btn-info-soft">Boxing</a></li>
+													<li class="list-inline-item"><a href="#" class="btn btn-sm btn-primary-soft">Formula 1</a></li>
+												</ul>
+											</div>
+										</div> <!-- Row END -->
+									</div>
+								</div>
+							</li>
+							<!-- Nav item 1 Demos -->
+							<li class="nav-item"> <a class="nav-link" href="news.html">News</a></li>
+						</ul>
+					</div>
+					<!-- Main navbar END -->
+
+					<!-- Nav right START -->
+					<div class="nav flex-nowrap align-items-center me-2">
+						<!-- Offcanvas menu toggler -->
+						<div class="nav-item">
+							<a class="nav-link pe-0" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button" aria-controls="offcanvasMenu">
+								<i class="bi bi-text-right rtl-flip fs-2" data-bs-target="#offcanvasMenu"> </i>
+							</a>
+						</div>
+					</div>
+					<!-- Nav right END -->
+				</div>
+			</div>
+		</nav>
+	</div>
+	</nav>
+	<!-- Logo Nav END -->
+</header>
+<!-- =======================
+Header END -->
+
+<!-- **************** MAIN CONTENT START **************** -->
+<main>
+<!-- =======================
+Main content START -->
+<section class="position-relative pt-0">
+	<div class="container" data-sticky-container>
+		<div class="row">
+			<!-- Main Post START -->
+			<div class="col-lg-9">
+				<div class="row gy-4">
+					<!-- Card item START -->
+					<div class="col-sm-6">
+						<div class="card">
+							<!-- Card img -->
+							<div class="position-relative">
+								<img class="card-img" src="Fotkes/i2.jpg" alt="Card image">
+								<div class="card-img-overlay d-flex align-items-start flex-column p-3">
+									<!-- Card overlay bottom -->
+									<div class="w-100 mt-auto">
+										<!-- Card category -->
+									</div>
+								</div>
+							</div>
+							<div class="card-body px-0 pt-3">
+								<h4 class="card-title"><a href="post-single.html" class="btn-link text-reset fw-bold">Surprise Retirement Announcement: Veteran Athlete Bids Farewell to a Storied Career in Emotional Press Conference</a></h4>
+								<p class="card-text">In an emotional press conference, a veteran athlete bid farewell to a storied career, leaving behind a legacy of achievements and memories that will be cherished by fans worldwide.</p>
+								<!-- Card info -->
+								<ul class="nav nav-divider align-items-center d-none d-sm-inline-block">
+									<li class="nav-item">
+										<div class="nav-link">
+											<div class="d-flex align-items-center position-relative">
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- Card item END -->
+					<!-- Card item START -->
+					<div class="col-sm-6">
+						<div class="card">
+							<!-- Card img -->
+							<div class="position-relative">
+								<img class="card-img" src="Fotkes/i3.jpg" alt="Card image">
+								<div class="card-img-overlay d-flex align-items-start flex-column p-3">
+									<!-- Card overlay Top -->
+									<div class="w-100 mb-auto d-flex justify-content-end">
+										<div class="text-end ms-auto">
+											<!-- Card format icon -->
+										</div>
+									</div>
+									<!-- Card overlay bottom -->
+									<div class="w-100 mt-auto">
+										<!-- Card category -->
+									</div>
+								</div>
+							</div>
+							<div class="card-body px-0 pt-3">
+								<h4 class="card-title"><a href="post-single.html" class="btn-link text-reset fw-bold">Injury Blow for Championship Contender: Star Player Faces Race Against Time to Recover for Crucial Match</a></h4>
+								<p class="card-text">Dealt a severe blow by an unfortunate injury, the championship contender faces a race against time to recover and rejoin their team for a crucial upcoming match.</p>
+								<!-- Card info -->
+								<ul class="nav nav-divider align-items-center d-none d-sm-inline-block">
+									<li class="nav-item">
+										<div class="nav-link">
+											<div class="d-flex align-items-center position-relative">
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- Card item END -->
+					<!-- Card item START -->
+					<div class="col-sm-6">
+						<div class="card">
+							<!-- Card img -->
+							<div class="position-relative">
+								<img class="card-img" src="Fotkes/i4.jpg" alt="Card image">
+								<div class="card-img-overlay d-flex align-items-start flex-column p-3">
+									<!-- Card overlay bottom -->
+									<div class="w-100 mt-auto">
+										<!-- Card category -->
+									</div>
+								</div>
+							</div>
+							<div class="card-body px-0 pt-3">
+								<h4 class="card-title"><a href="post-single.html" class="btn-link text-reset fw-bold">Epic Showdown Looms: Fierce Rivalry Rekindled as Top Teams Prepare for Title Showdown in Upcoming Clash</a></h4>
+								<p class="card-text">As the anticipation builds for the upcoming clash, the fierce rivalry between top teams promises an epic showdown that will undoubtedly leave an indelible mark on the sports landscape.</p>
+								<!-- Card info -->
+								<ul class="nav nav-divider align-items-center d-none d-sm-inline-block">
+									<li class="nav-item">
+										<div class="nav-link">
+											<div class="d-flex align-items-center position-relative">
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- Card item END -->
+					<!-- Card item START -->
+					<div class="col-sm-6">
+						<div class="card">
+							<!-- Card img -->
+							<div class="position-relative">
+								<img class="card-img" src="Fotkes/i (2).jpg" alt="Card image">
+								<div class="card-img-overlay d-flex align-items-start flex-column p-3">
+									<!-- Card overlay bottom -->
+									<div class="w-100 mt-auto">
+										<!-- Card category -->
+									</div>
+								</div>
+							</div>
+							<div class="card-body px-0 pt-3">
+								<h4 class="card-title"><a href="post-single.html" class="btn-link text-reset fw-bold">Controversial Decision Rocks the Sporting World: Referee's Call Sparks Heated Debate in Major Match</a></h4>
+								<p class="card-text">A contentious referee decision sparked heated debates across the sports community, leaving fans questioning the outcome of a major match that will be remembered for controversy.</p>
+								<!-- Card info -->
+								<ul class="nav nav-divider align-items-center d-none d-sm-inline-block">
+									<li class="nav-item">
+										<div class="nav-link">
+											<div class="d-flex align-items-center position-relative">
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- Card item END -->
+					<!-- Card item START -->
+					<div class="col-sm-6">
+						<div class="card">
+							<!-- Card img -->
+							<div class="position-relative">
+								<img class="card-img" src="Fotkes/i (3).jpg" alt="Card image">
+								<div class="card-img-overlay d-flex align-items-start flex-column p-3">
+									<!-- Card overlay Top -->
+									<div class="w-100 mb-auto d-flex justify-content-end">
+										<div class="text-end ms-auto">
+											<!-- Card format icon -->
+										</div>
+									</div>
+									<!-- Card overlay bottom -->
+									<div class="w-100 mt-auto">
+										<!-- Card category -->
+									</div>
+								</div>
+							</div>
+							<div class="card-body px-0 pt-3">
+								<h4 class="card-title"><a href="post-single.html" class="btn-link text-reset fw-bold">Underdog Triumph: Unexpected Team Stuns Fans with Upset Win in High-Stakes Championship Game</a></h4>
+								<p class="card-text">In a stunning upset that left fans in disbelief, the underdog team emerged victorious in the championship game, proving that anything is possible on the field of play. </p>
+							</div>
+						</div>
+					</div>
+					<!-- Card item END -->
+					<!-- Card item START -->
+					<div class="col-sm-6">
+						<div class="card">
+							<!-- Card img -->
+							<div class="position-relative">
+								<img class="card-img" src="Fotkes/i.jpg" alt="Card image">
+								<div class="card-img-overlay d-flex align-items-start flex-column p-3">
+									<!-- Card overlay bottom -->
+									<div class="w-100 mt-auto">
+										<!-- Card category -->
+									</div>
+								</div>
+							</div>
+							<div class="card-body px-0 pt-3">
+								<h4 class="card-title"><a href="post-single.html" class="btn-link text-reset fw-bold">Record-Breaking Victory: Unstoppable Athlete Shatters Long-Standing World Record in Track and Field Event</a></h4>
+								<p class="card-text">After an awe-inspiring display of speed and skill, the athlete's relentless determination shattered a decades-old world record, cementing their place in sports history.</p>
+								<!-- Card info -->
+								<ul class="nav nav-divider align-items-center d-none d-sm-inline-block">
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- Card item END -->
+					<!-- Load more START -->
+					<div class="col-12 text-center mt-5">
+						<button type="button" class="btn btn-primary-soft">Load more posts <i class="bi bi-arrow-down-circle ms-2 align-middle"></i></button>
+					</div>
+					<!-- Load more END -->
+				</div>
+			</div>
+			<!-- Main Post END -->
+
+			<!-- Sidebar START -->
+			<div class="col-lg-3 mt-5 mt-lg-5">
+				<div data-sticky data-margin-top="80" data-sticky-for="767">
+					<!-- Trending topics widget START -->
+					<div>
+						<h4 class="mb-3">Choose your sport!</h4>
+						<!-- Category item -->
+						<div class="text-center mb-3 card-bg-scale position-relative overflow-hidden rounded" style="background-image:url(Fotkes/Basketball.jpg); background-position: center left; background-size: cover;">
+							<div class="bg-dark-overlay-4 p-3">
+								<a href="#" class="stretched-link btn-link fw-bold text-white h5">Basketball</a>
+							</div>
+						</div>
+						<!-- Category item -->
+						<div class="text-center mb-3 card-bg-scale position-relative overflow-hidden rounded" style="background-image:url(fotkes/Football.jpg); background-position: center left; background-size: cover;">
+							<div class="bg-dark-overlay-4 p-3">
+								<a href="#" class="stretched-link btn-link fw-bold text-white h5">Football</a>
+							</div>
+						</div>
+						<!-- Category item -->
+						<div class="text-center mb-3 card-bg-scale position-relative overflow-hidden rounded" style="background-image:url(assets/images/blog/4by3/03.jpg); background-position: center left; background-size: cover;">
+							<div class="bg-dark-overlay-4 p-3">
+								<a href="#" class="stretched-link btn-link fw-bold text-white h5">Volleyball</a>
+							</div>
+						</div>
+						<!-- Category item -->
+						<div class="text-center mb-3 card-bg-scale position-relative overflow-hidden rounded" style="background-image:url(assets/images/blog/4by3/04.jpg); background-position: center left; background-size: cover;">
+							<div class="bg-dark-overlay-4 p-3">
+								<a href="#" class="stretched-link btn-link fw-bold text-white h5">Rugby</a>
+							</div>
+						</div>
+						<!-- Category item -->
+						<div class="text-center mb-3 card-bg-scale position-relative overflow-hidden rounded" style="background-image:url(fotkes/boxing.jpg); background-position: center left; background-size: cover;">
+							<div class="bg-dark-overlay-4 p-3">
+								<a href="#" class="stretched-link btn-link fw-bold text-white h5">Boxing</a>
+							</div>
+						</div>
+						<!-- Category item -->
+						<div class="text-center mb-3 card-bg-scale position-relative overflow-hidden rounded" style="background-image:url(Fotkes/f1.jpg); background-position: center left; background-size: cover;">
+							<div class="bg-dark-overlay-4 p-3">
+								<a href="#" class="stretched-link btn-link fw-bold text-white h5">Formula 1</a>
+							</div>
+						</div>
+					<!-- Trending topics widget END -->
+
+					<div class="row">
+						<!-- Recent post widget START -->
+						<div class="col-12 col-sm-6 col-lg-12">
+							<h4 class="mt-4 mb-3">Trending sports news</h4>
+							<!-- Recent post item -->
+							<div class="card mb-3">
+								<div class="row g-3">
+									<div class="col-4">
+										<img class="rounded" src="Fotkes/stminDM.png" alt="">
+									</div>
+									<div class="col-8">
+										<h6><a href="post-single-2.html" class="btn-link stretched-link text-reset fw-bold">Champions Classic 2023: Inside Duke-Michigan State, KU-Kentucky</a></h6>
+										<div class="small mt-1">Nov 14, 2023</div>
+									</div>
+								</div>
+							</div>
+							<!-- Recent post item -->
+							<div class="card mb-3">
+								<div class="row g-3">
+									<div class="col-4">
+										<img class="rounded" src="Fotkes/stminDM.png" alt="">
+									</div>
+									<div class="col-8">
+										<h6><a href="post-single-2.html" class="btn-link stretched-link text-reset fw-bold">Why Premier League, European football is anything but fair</a></h6>
+										<div class="small mt-1">Nov 14, 2023</div>
+									</div>
+								</div>
+							</div>
+							<!-- Recent post item -->
+							<div class="card mb-3">
+								<div class="row g-3">
+									<div class="col-4">
+										<img class="rounded" src="Fotkes/stminDM.png" alt="">
+									</div>
+									<div class="col-8">
+										<h6><a href="post-single-2.html" class="btn-link stretched-link text-reset fw-bold">LaMelo, Hornets searching for success as in-season tournament continues</a></h6>
+										<div class="small mt-1">Nov 14, 2023</div>
+									</div>
+								</div>
+							</div>
+							<!-- Recent post item -->
+							<div class="card mb-3">
+								<div class="row g-3">
+									<div class="col-4">
+										<img class="rounded" src="Fotkes/stminDM.png" alt="">
+									</div>
+									<div class="col-8">
+										<h6><a href="post-single-2.html" class="btn-link stretched-link text-reset fw-bold">Giants downplay frustration on the sideline in loss to Cowboys</a></h6>
+										<div class="small mt-1">Nov 14, 2023</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Recent post widget END -->
+					</div>
+				</div>
+			</div>
+			<!-- Sidebar END -->
+		</div> <!-- Row end -->
+	</div>
+</section>
+<!-- =======================
+Main content END -->
+
+</main>
+<!-- **************** MAIN CONTENT END **************** -->
+
+<!-- =======================
+Footer START -->
+<footer class="pb-0">
+	<div class="container">
+		<hr>
+		<!-- Widgets START -->
+		<div class="row pt-5">
+
+		<!-- Footer Widget -->
+			<div class="col-md-6 col-lg-4 mb-4">
+				<h5 class="dark-mode-item" class="mt-4" style = " width:370px; text-align:center;">Get your sports news on SportsyTalk!</h5>
+				<h5 class="light-mode-item" class="mt-4" style = "text-align:center;">Get your news on SportsyTalk!</h5>
+				<div class="text-center">
+					<img class="light-mode-item" class="text-center" class="img-fluid" style = "width: 44%" src="Fotkes/stminLM.png" alt="logo">	
+					<img class="dark-mode-item" class="text-center" class="img-fluid" style = "width: 44%" src="Fotkes/stminDM.png" alt="logo">
+				</div>
+				<p class="dark-mode-item" class="mt-3" style = "text-align:center; color:white; font-style:oblique;">The next-generation of news source which provides up-to-date news for all kind of lovers of sports!</p>
+				<p class="light-mode-item" class="mt-3" style = "text-align:center; color:black; font-style:oblique;">The next-generation of news source which provides up-to-date news for all kind of lovers of sports!</p>
+			</div>
+
+
+		<!-- Footer Widget -->
+			<div class="col-md-6 col-lg-3 mb-4">
+				<h5 class="mb-4">Navigation</h5>
+				<div class="row">
+					<div class="col-6">
+						<ul class="nav flex-column">
+							<li class="nav-item" ><a class="nav-link" href="index.html">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="about-us.html">About us</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Footer Widget -->
+			<div class="col-sm-6 col-lg-3 mb-4">
+				<h5 class="mb-4">Browse by Tag</h5>
+				<ul class="list-inline" >
+					<li class="list-inline-item"><a href="#" class="btn btn-sm btn-warning">Basketball</a></li>
+					<li class="list-inline-item"><a href="#" class="btn btn-sm btn-warning">Football</a></li>
+					<li class="list-inline-item"><a href="#" class="btn btn-sm btn-warning">Volleyball</a></li>
+					<li class="list-inline-item"><a href="#" class="btn btn-sm btn-warning">Rugby</a></li>
+					<li class="list-inline-item"><a href="#" class="btn btn-sm btn-warning">Boxing</a></li>
+					<li class="list-inline-item"><a href="#" class="btn btn-sm btn-warning">Formula 1</a></li>
+				</ul>
+			</div>
+
+			<!-- Footer Widget -->
+			<div class="col-sm-6 col-lg-2 mb-4">
+				<h5 class="mb-4">Check our socials!</h5>
+				<ul class="nav flex-column">
+					<li class="nav-item"><a class="nav-link pt-0" href="#"><i class="fab fa-facebook-square fa-fw me-2 text-facebook"></i>Facebook</a></li>
+					<li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-twitter-square fa-fw me-2 text-twitter"></i>Twitter</a></li>
+					<li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-linkedin fa-fw me-2 text-linkedin"></i>Linkedin</a></li>
+					<li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-youtube-square fa-fw me-2 text-youtube"></i>Youtube</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="mt-4" style = "text-align:center;">©2023 <a href="" class="text-reset btn-link" target="_blank">sportsytalk</a>.com All rights reserved
+		<!-- Widgets END -->
+	</div>
+</footer>
+<!-- =======================
+Footer END -->
+
+<!-- Back to top -->
+<div class="back-top"><i class="bi bi-arrow-up-short"></i></div>
+
+<!-- =======================
+JS libraries, plugins and custom scripts -->
+
+<!-- Bootstrap JS -->
+<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Vendors -->
+<script src="assets/vendor/sticky-js/sticky.min.js"></script>
+
+<!-- Template Functions -->
+<script src="assets/js/functions.js"></script>
+
+</body>
+</html>
