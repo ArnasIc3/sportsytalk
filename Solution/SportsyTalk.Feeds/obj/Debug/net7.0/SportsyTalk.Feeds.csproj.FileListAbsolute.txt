@@ -1,0 +1,11 @@
+C:\Dev\Repos\ArnasIc3\sportsytalk\Solution\SportsyTalk.Feeds\bin\Debug\net7.0\SportsyTalk.Feeds.deps.json
+C:\Dev\Repos\ArnasIc3\sportsytalk\Solution\SportsyTalk.Feeds\bin\Debug\net7.0\SportsyTalk.Feeds.dll
+C:\Dev\Repos\ArnasIc3\sportsytalk\Solution\SportsyTalk.Feeds\bin\Debug\net7.0\SportsyTalk.Feeds.pdb
+C:\Dev\Repos\ArnasIc3\sportsytalk\Solution\SportsyTalk.Feeds\obj\Debug\net7.0\SportsyTalk.Feeds.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Repos\ArnasIc3\sportsytalk\Solution\SportsyTalk.Feeds\obj\Debug\net7.0\SportsyTalk.Feeds.AssemblyInfoInputs.cache
+C:\Dev\Repos\ArnasIc3\sportsytalk\Solution\SportsyTalk.Feeds\obj\Debug\net7.0\SportsyTalk.Feeds.AssemblyInfo.cs
+C:\Dev\Repos\ArnasIc3\sportsytalk\Solution\SportsyTalk.Feeds\obj\Debug\net7.0\SportsyTalk.Feeds.csproj.CoreCompileInputs.cache
+C:\Dev\Repos\ArnasIc3\sportsytalk\Solution\SportsyTalk.Feeds\obj\Debug\net7.0\SportsyTalk.Feeds.dll
+C:\Dev\Repos\ArnasIc3\sportsytalk\Solution\SportsyTalk.Feeds\obj\Debug\net7.0\refint\SportsyTalk.Feeds.dll
+C:\Dev\Repos\ArnasIc3\sportsytalk\Solution\SportsyTalk.Feeds\obj\Debug\net7.0\SportsyTalk.Feeds.pdb
+C:\Dev\Repos\ArnasIc3\sportsytalk\Solution\SportsyTalk.Feeds\obj\Debug\net7.0\ref\SportsyTalk.Feeds.dll

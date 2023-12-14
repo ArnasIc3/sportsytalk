@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Dev\Repos\ArnasIc3\sportsytalk\Solution\SportsyTalk.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Dev/Repos/ArnasIc3/sportsytalk/Solution/SportsyTalk.Web/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Dev/Repos/ArnasIc3/sportsytalk/Solution/SportsyTalk.Web/Views/Home/Carousel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJvdXNlbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,12 +52,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXRlZ29yeURldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Dev/Repos/ArnasIc3/sportsytalk/Solution/SportsyTalk.Web/Views/Home/Customize.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDdXN0b21pemUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Dev/Repos/ArnasIc3/sportsytalk/Solution/SportsyTalk.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Dev/Repos/ArnasIc3/sportsytalk/Solution/SportsyTalk.Web/Views/Home/IndexOld.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleE9sZC5jc2h0bWw=
+[C:/Dev/Repos/ArnasIc3/sportsytalk/Solution/SportsyTalk.Web/Views/Home/News.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Dev/Repos/ArnasIc3/sportsytalk/Solution/SportsyTalk.Web/Views/Home/Privacy.cshtml]
@@ -74,6 +82,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Dev/Repos/ArnasIc3/sportsytalk/Solution/SportsyTalk.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Dev/Repos/ArnasIc3/sportsytalk/Solution/SportsyTalk.Web/Views/Shared/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Dev/Repos/ArnasIc3/sportsytalk/Solution/SportsyTalk.Web/Views/Shared/_ValidationScriptsPartial.cshtml]

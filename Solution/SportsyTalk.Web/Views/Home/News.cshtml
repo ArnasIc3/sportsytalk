@@ -1,0 +1,78 @@
+﻿@model NewsModel
+@{
+    ViewData["Title"] = "News";
+    bool isAuthenticated = User.Identity?.IsAuthenticated ?? false;
+}
+
+<div class="container">
+    @if (!isAuthenticated)
+    {
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-info my-3">
+                    <h4>Do you want ?:</h4>
+                    <ul>
+                        <li>More sports to choose from.</li>
+                        <li>Ability to customize your feed.</li>
+                        <li>Weekly newsletter about your favourite sports.</li>
+                    </ul>
+                    <div>Create an account today and start using all of the benefits!</div>
+                    <div class="mt-2">
+                        <partial model="Model.LoginModel" name="Login"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    <div class="row">
+
+        <div class="@(isAuthenticated ? "col-md-9" : "col")">
+            @foreach (var feed in Model.Feeds)
+            {
+                <h1 class="my-3">@feed.Title</h1>
+                <div class="container">
+                    <div class="row">
+                        @foreach (var feedItem in feed.Items)
+                        {
+                            <div class="@(isAuthenticated ? "col-lg-4 col-12" : "col-lg-3 col-12")">
+                                <div class="card m-1 shadow-lg bg-body-tertiary">
+                                    @if (!string.IsNullOrEmpty(feedItem.ImageUrl))
+                                    {
+                                        <img src="@feedItem.ImageUrl" class="card-img-top img-fluid" alt="..." style="max-height:250px;">
+                                    }
+                                    <div class="card-body p-2">
+                                        <h5 class="card-title"><a href="@(feedItem.LinkUrl ?? "#")" class="stretched-link">@feedItem.Title</a></h5>
+                                        <div class="mt-1 mb-3" style="font-size:0.8em">@feedItem.PubDate</div>
+                                        <div class="card-text">
+                                            @Html.Raw(feedItem.Description)
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+        @if (isAuthenticated)
+        {
+            <div class="col-md-3">
+
+                <h4 class="my-3">Customize your feed</h4>
+                <div style="text-align:center">
+                    <a class="btn btn-primary btnlg" asp-controller="Home" asp-action="Customize">Customize</a>
+                </div>
+                <h4 class="my-3">Choose your sport!</h4>
+                @foreach (var sport in Model.SportMenuItems)
+                {
+                    <div class="text-center mb-3 card-bg-scale position-relative overflow-hidden rounded border border-white" style="background-image:url(/images/sports/@(sport.Photo)); background-position: center left; background-size: cover;">
+                        <div class="bg-dark-overlay-4 p-3">
+                            <a asp-action="News" asp-controller="Home" asp-route-sportId="@sport.Id" class="stretched-link btn-link fw-bold text-white h5">@sport.Title</a>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>
+

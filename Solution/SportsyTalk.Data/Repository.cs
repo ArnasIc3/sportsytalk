@@ -1,6 +1,6 @@
-﻿using SportsyTalk.Data.Entities;
-using Dapper;
+﻿using Dapper;
 using Microsoft.Data.SqlClient;
+using SportsyTalk.Data.Entities;
 
 namespace SportsyTalk.Data
 {
@@ -17,34 +17,16 @@ namespace SportsyTalk.Data
             conn.Open();
             return conn;
         }
-        public List<Category> GetCategories()
-        {
-            using var conn = GetConnection();
-            return SqlMapper.Query<Category>(conn, Queries.GET_CATEGORIES_SQL).ToList();
-        }
-
-        public List<CategorySportsCount> GetCategoriesSportsCount()
-        {
-            using var conn = GetConnection();
-            return SqlMapper.Query<CategorySportsCount>(conn, Queries.GET_CATEGORIES_SPORTS_COUNT_SQL).ToList();
-        }
-
-        public List<Sport> GetSportsByCategory(int categoryId)
-        {
-            using var conn = GetConnection();
-            return SqlMapper.Query<Sport>(conn, Queries.GET_SPORTS_BY_CATEGORY_SQL, new { CategoryId = categoryId }).ToList();
-        }
 
         public List<Sport> GetSports()
         {
             using var conn = GetConnection();
             return SqlMapper.Query<Sport>(conn, Queries.GET_SPORTS_SQL).ToList();
         }
-
-        public List<Portal> GetPortals()
+        public List<Sport> GetSports(string email)
         {
             using var conn = GetConnection();
-            return SqlMapper.Query<Portal>(conn, Queries.GET_PORTALS_SQL).ToList();
+            return SqlMapper.Query<Sport>(conn, Queries.GET_SPORTS_BY_EMAIL_SQL, new { Email = email }).ToList();
         }
 
         public List<Feed> GetFeedsBySport(int sportId)
@@ -53,10 +35,21 @@ namespace SportsyTalk.Data
             return SqlMapper.Query<Feed>(conn, Queries.GET_FEEDS_BY_SPORT_SQL, new { SportId = sportId }).ToList();
         }
 
-        public List<Portal> GetPortalsBySport(int sportId)
+        public List<Feed> GetFeedsForHome()
         {
             using var conn = GetConnection();
-            return SqlMapper.Query<Portal>(conn, Queries.GET_PORTALS_BY_SPORT_SQL, new { SportId = sportId }).ToList();
+            return SqlMapper.Query<Feed>(conn, Queries.GET_FEEDS_FOR_HOME_SQL).ToList();
+        }
+
+        public void Save(string email, int sportsId)
+        {
+            using var conn = GetConnection();
+            SqlMapper.Execute(conn, Queries.SAVE_USER_SPORT, new { Email = email, Sports_ID = sportsId });
+        }
+        public void Delete(string email, int sportsId)
+        {
+            using var conn = GetConnection();
+            SqlMapper.Execute(conn, Queries.DELETE_USER_SPORT, new { Email = email, Sports_ID = sportsId });
         }
     }
 }
