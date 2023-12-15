@@ -1,6 +1,8 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @{
     var isAuthenticated = User.Identity?.IsAuthenticated ?? false;
+    var controller = ViewContext.RouteData.Values["Controller"]?.ToString()?.ToLower();
+	var action = ViewContext.RouteData.Values["Action"]?.ToString()?.ToLower();
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -96,7 +98,7 @@
 	<!-- =======================
 	Header START -->
 	<header class="bg-transparent">
-		<div class="navbar-top d-none d-lg-block bg-dark">
+		<div class="navbar-top d-lg-block bg-dark mb-1 py-1">
 			<div class="container">
 				<div class="d-flex justify-content-between align-items-center">
                     <!-- Dark mode options START -->
@@ -107,7 +109,7 @@
                             <svg class="theme-icon-active"><use href="#"></use></svg>
                         </button>
 						<!-- Dropdown items -->
-						<ul class="dropdown-menu min-w-auto dropdown-menu-end" aria-labelledby="bd-theme">
+						<ul class="dropdown-menu min-w-auto dropdown-menu-start" aria-labelledby="bd-theme">
 							<li class="mb-1">
 								<button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
 									<svg width="16" height="16" fill="currentColor" class="bi bi-brightness-high-fill fa-fw mode-switch me-1" viewBox="0 0 16 16">
@@ -136,7 +138,7 @@
 						</ul>
 					</div>
                         <!-- Dark mode options END -->
-                        <div class="text-white" id="current-time"></div>
+						<div style="font-size:0.8em;" class="text-white" id="current-time"></div>
                     </div>
 					<ul class="nav">
 						<li class="nav-item">
@@ -148,14 +150,12 @@
 					</ul>
 				</div>
 			</div>
-			<!-- Divider -->
-			<div class="border-bottom border-2 border-primary opacity-1"></div>
 		</div>
 
 		<!-- Logo Nav START -->
 		<div>
 			<div class="container">
-				<div class="d-sm-flex d-none justify-content-sm-between align-items-sm-center my-0">
+				<div class="d-md-flex d-none justify-content-sm-between align-items-sm-center my-0">
                     <div class="text-center text-md-start w-25">
                         
                         <script>
@@ -181,26 +181,27 @@
 		<!-- Navbar logo section END -->
 		<!-- Navbar START -->
 		<div class="navbar-light navbar-sticky header-static">
-			<nav class="navbar navbar-expand-lg">
-				<div class="container">
-					<div class="w-100 border-top border-bottom border-secondary d-flex justify-content-end align-item-center">
-						<!-- Responsive navbar toggler -->
-						<button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
+            <nav class="navbar navbar-expand-md flex-wrap justify-content-center">
+                <div class="container">
+                    <div style="flex-basis:100%" class="border-bottom border-secondary d-md-block d-none"></div>
+                    <div class="w-100 d-flex justify-content-end align-item-center">
+                        <!-- Responsive navbar toggler -->
+                        <button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
 
-						<!-- Main navbar START -->
+                        <!-- Main navbar START -->
                         <div class="collapse navbar-collapse justify-content-center align-content-center" id="navbarCollapse">
                             <ul class="navbar-nav navbar-nav-scroll navbar-lh-sm">
-                                <li class="nav-item"> <a class="nav-link" asp-action="Index" asp-controller="Home">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" asp-action="News" asp-controller="Home">@(!(User.Identity?.IsAuthenticated ?? false) ? "News" : "My News")</a></li>
-								@if (isAuthenticated)
+                                <li class="nav-item"> <a class="nav-link @(controller=="home" && action == "index" ? "active" : "")" asp-action="Index" asp-controller="Home">Home</a></li>
+								<li class="nav-item"><a class="nav-link @(controller=="home" && action == "news" ? "active" : "")" asp-action="News" asp-controller="Home">@(!(User.Identity?.IsAuthenticated ?? false) ? "News" : "My News")</a></li>
+                                @if (isAuthenticated)
                                 {
                                     <li class="nav-item">
-                                        <a class="nav-link" asp-controller="Home" asp-action="Customize">Customize</a>
+										<a class="nav-link @(controller=="home" && action == "customize" ? "active" : "")" asp-controller="Home" asp-action="Customize">Customize</a>
                                     </li>
                                 }
-                                <li class="nav-item"> <a class="nav-link" asp-action="About" asp-controller="Home">About Us</a></li>
+								<li class="nav-item"> <a class="nav-link @(controller=="home" && action == "about" ? "active" : "")" asp-action="About" asp-controller="Home">About Us</a></li>
                                 <li class="nav-item">
                                     @if (User.Identity?.IsAuthenticated ?? false)
                                     {
@@ -208,15 +209,16 @@
                                     }
                                     else
                                     {
-										<a class="nav-link" asp-controller="Auth" asp-action="Login">Sign in&nbsp;&nbsp;<i style="font-size:1.4em;vertical-align:middle" class="bi-box-arrow-in-right"></i></a>
+										<a class="nav-link @(controller=="auth" && action == "login" ? "active" : "")" asp-controller="Auth" asp-action="Login">Sign in&nbsp;&nbsp;<i style="font-size:1.4em;vertical-align:middle" class="bi-box-arrow-in-right"></i></a>
                                     }
                                 </li>
                             </ul>
                         </div>
-						<!-- Main navbar END -->
-					</div>
-				</div>
-			</nav>
+                        <!-- Main navbar END -->
+                    </div>
+                    <div class="w-100 border-top border-secondary d-md-block d-none"></div>
+                </div>
+            </nav>
 		</div>
 		<!-- Logo Nav END -->
 	</header>

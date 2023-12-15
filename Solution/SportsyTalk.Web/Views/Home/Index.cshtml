@@ -13,10 +13,6 @@
 				<p class="lead mb-0">Daily and up-to-date updates about sports which you are interested in!</p>
 			</div>
 		</div>
-		<br>
-		<div class="text-center">
-			<button type="button" class="btn btn-dark"> <a style="color:white" ; href="news.html">Get your news now! </a> <i style=" color:red" class="bi-broadcast"></i></button>
-		</div>
 	</div>
 </section>
 
@@ -47,7 +43,7 @@
                             <div class="card m-3" style="width:350px;">
                                 <img src="@feedItem.ImageUrl" class="card-img-top img-fluid" alt="..." style="max-height:250px;">
                                 <div class="card-body ps-0">
-                                    <h5 class="card-title"><a href="#" class="stretched-link">@feedItem.Title</a></h5>
+                                    <h5 class="card-title"><a href="@feedItem.LinkUrl" target="_blank" class="stretched-link">@feedItem.Title</a></h5>
                                 </div>
                             </div>
                         }
@@ -67,7 +63,6 @@
 				<!-- Title -->
 				<div class="d-flex justify-content-between align-items-center mb-4">
 					<h3 class="m-0">Categories</h3>
-					<a href="#" class="text-body small"><u>View all</u></a>
 				</div>
 
 				<!-- Slider -->
@@ -91,7 +86,7 @@
                                 <div class="card bg-transparent">
                                     <img class="card-img" src="images/sports/@sport.Photo" alt="card image">
                                     <div class="card-body ps-0">
-                                        <h5 class="mb-0"><a href="#" class="stretched-link">@sport.Title</a></h5>
+                                        <h5 class="mb-0"><a asp-controller="Home" asp-action="News" class="stretched-link">@sport.Title</a></h5>
                                     </div>
                                 </div>
                             </div>

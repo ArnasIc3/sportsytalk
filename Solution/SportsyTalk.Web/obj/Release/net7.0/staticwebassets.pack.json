@@ -1,0 +1,1133 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\SportsyTalk.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SportsyTalk.Web.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\color.css",
+      "PackagePath": "staticwebassets\\css\\color.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\style-rtl.css",
+      "PackagePath": "staticwebassets\\css\\style-rtl.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\style-rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\style-rtl.css.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\apexcharts\\css\\apexcharts.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\apexcharts\\css\\apexcharts.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\apexcharts\\js\\apexcharts.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\apexcharts\\js\\apexcharts.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\apexcharts\\js\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\apexcharts\\js\\apexcharts.min.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_maps.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_maps.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_placeholders.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_variables-dark.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\helpers\\_focus-ring.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\helpers\\_focus-ring.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\helpers\\_icon-link.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\helpers\\_icon-link.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_color-mode.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_color-mode.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\tests\\jasmine.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\tests\\jasmine.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\tests\\mixins\\_color-modes.test.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\tests\\mixins\\_color-modes.test.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\tests\\mixins\\_media-query-color-mode-full.test.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\tests\\mixins\\_media-query-color-mode-full.test.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\tests\\mixins\\_utilities.test.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\tests\\mixins\\_utilities.test.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\tests\\sass-true\\register.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\tests\\sass-true\\register.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\tests\\sass-true\\runner.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\tests\\sass-true\\runner.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\tests\\utilities\\_api.test.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\tests\\utilities\\_api.test.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\imagesLoaded\\imagesloaded.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\imagesLoaded\\imagesloaded.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\imagesLoaded\\imagesloaded.pkgd.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\imagesLoaded\\imagesloaded.pkgd.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\imagesLoaded\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\imagesLoaded\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\imagesLoaded\\js\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\imagesLoaded\\js\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\isotope\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\isotope\\isotope.pkgd.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\isotope\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\isotope\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\jarallax\\jarallax-element.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\jarallax\\jarallax-element.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\jarallax\\jarallax-element.min.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\jarallax\\jarallax-element.min.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\jarallax\\jarallax-element.min.js.map",
+      "PackagePath": "staticwebassets\\css\\vendor\\jarallax\\jarallax-element.min.js.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\jarallax\\jarallax-video.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\jarallax\\jarallax-video.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\jarallax\\jarallax-video.min.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\jarallax\\jarallax-video.min.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\jarallax\\jarallax-video.min.js.map",
+      "PackagePath": "staticwebassets\\css\\vendor\\jarallax\\jarallax-video.min.js.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\jarallax\\jarallax.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\jarallax\\jarallax.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\jarallax\\jarallax.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\jarallax\\jarallax.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\jarallax\\jarallax.min.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\jarallax\\jarallax.min.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\jarallax\\jarallax.min.js.map",
+      "PackagePath": "staticwebassets\\css\\vendor\\jarallax\\jarallax.min.js.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\overlay-scrollbar\\css\\OverlayScrollbars.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\overlay-scrollbar\\css\\OverlayScrollbars.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\overlay-scrollbar\\css\\OverlayScrollbars.min.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\overlay-scrollbar\\css\\OverlayScrollbars.min.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\overlay-scrollbar\\js\\OverlayScrollbars.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\overlay-scrollbar\\js\\OverlayScrollbars.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\overlay-scrollbar\\js\\OverlayScrollbars.min.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\overlay-scrollbar\\js\\OverlayScrollbars.min.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\plyr\\plyr.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\plyr\\plyr.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\plyr\\plyr.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\plyr\\plyr.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\quill\\css\\quill.snow.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\quill\\css\\quill.snow.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\quill\\js\\quill.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\quill\\js\\quill.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\quill\\js\\quill.min.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\quill\\js\\quill.min.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\quill\\js\\quill.min.js.map",
+      "PackagePath": "staticwebassets\\css\\vendor\\quill\\js\\quill.min.js.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\sticky-js\\sticky.min.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\sticky-js\\sticky.min.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\tiny-slider\\tiny-slider-rtl.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\tiny-slider\\tiny-slider-rtl.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\tiny-slider\\tiny-slider.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\tiny-slider\\tiny-slider.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\tiny-slider\\tiny-slider.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\tiny-slider\\tiny-slider.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\vanilla-lazyload\\lazyload.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\vanilla-lazyload\\lazyload.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\css\\vendor\\vanilla-lazyload\\lazyload.min.js",
+      "PackagePath": "staticwebassets\\css\\vendor\\vanilla-lazyload\\lazyload.min.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\AdomasJasiukevičius.jpg",
+      "PackagePath": "staticwebassets\\images\\AdomasJasiukevičius.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\ArnasMartinkus.jpg",
+      "PackagePath": "staticwebassets\\images\\ArnasMartinkus.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\JustasAleknavičius.jpg",
+      "PackagePath": "staticwebassets\\images\\JustasAleknavičius.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\KasparasŠumskis.jpg",
+      "PackagePath": "staticwebassets\\images\\KasparasŠumskis.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\MantasGlobys.jpg",
+      "PackagePath": "staticwebassets\\images\\MantasGlobys.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\Patreon_logo.svg.png",
+      "PackagePath": "staticwebassets\\images\\Patreon_logo.svg.png"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\QR-sporstytalk-standart.png",
+      "PackagePath": "staticwebassets\\images\\QR-sporstytalk-standart.png"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\SkirmantasStrašinskas.jpg",
+      "PackagePath": "staticwebassets\\images\\SkirmantasStrašinskas.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\bgmp.png",
+      "PackagePath": "staticwebassets\\images\\bgmp.png"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\feedback-icon.png",
+      "PackagePath": "staticwebassets\\images\\feedback-icon.png"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\feedback.png",
+      "PackagePath": "staticwebassets\\images\\feedback.png"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\i (2).jpg",
+      "PackagePath": "staticwebassets\\images\\i (2).jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\i (3).jpg",
+      "PackagePath": "staticwebassets\\images\\i (3).jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\i.jpg",
+      "PackagePath": "staticwebassets\\images\\i.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\i1.jpg",
+      "PackagePath": "staticwebassets\\images\\i1.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\i2.jpg",
+      "PackagePath": "staticwebassets\\images\\i2.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\i3.jpg",
+      "PackagePath": "staticwebassets\\images\\i3.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\i4.jpg",
+      "PackagePath": "staticwebassets\\images\\i4.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\miciai.jpeg",
+      "PackagePath": "staticwebassets\\images\\miciai.jpeg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\sport.jpg",
+      "PackagePath": "staticwebassets\\images\\sport.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\sports\\Cricket.jpg",
+      "PackagePath": "staticwebassets\\images\\sports\\Cricket.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\sports\\Tennis.jpg",
+      "PackagePath": "staticwebassets\\images\\sports\\Tennis.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\sports\\basketball.jpg",
+      "PackagePath": "staticwebassets\\images\\sports\\basketball.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\sports\\boxing.jpg",
+      "PackagePath": "staticwebassets\\images\\sports\\boxing.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\sports\\f1.jpg",
+      "PackagePath": "staticwebassets\\images\\sports\\f1.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\sports\\football.jpg",
+      "PackagePath": "staticwebassets\\images\\sports\\football.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\sports\\poker.jpg",
+      "PackagePath": "staticwebassets\\images\\sports\\poker.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\stmin.png",
+      "PackagePath": "staticwebassets\\images\\stmin.png"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\stminDM.png",
+      "PackagePath": "staticwebassets\\images\\stminDM.png"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\stminLM.png",
+      "PackagePath": "staticwebassets\\images\\stminLM.png"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\images\\trophy.jpg",
+      "PackagePath": "staticwebassets\\images\\trophy.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\js\\functions.js",
+      "PackagePath": "staticwebassets\\js\\functions.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Dev\\Repos\\ArnasIc3\\sportsytalk\\Solution\\SportsyTalk.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.SportsyTalk.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.SportsyTalk.Web.props",
+      "PackagePath": "build\\SportsyTalk.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.SportsyTalk.Web.props",
+      "PackagePath": "buildMultiTargeting\\SportsyTalk.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.SportsyTalk.Web.props",
+      "PackagePath": "buildTransitive\\SportsyTalk.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

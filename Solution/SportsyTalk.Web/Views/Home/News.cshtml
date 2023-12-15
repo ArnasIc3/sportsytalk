@@ -41,7 +41,7 @@
                                         <img src="@feedItem.ImageUrl" class="card-img-top img-fluid" alt="..." style="max-height:250px;">
                                     }
                                     <div class="card-body p-2">
-                                        <h5 class="card-title"><a href="@(feedItem.LinkUrl ?? "#")" class="stretched-link">@feedItem.Title</a></h5>
+                                        <h5 class="card-title"><a target="_blank" href="@(feedItem.LinkUrl ?? "#")" class="stretched-link">@feedItem.Title</a></h5>
                                         <div class="mt-1 mb-3" style="font-size:0.8em">@feedItem.PubDate</div>
                                         <div class="card-text">
                                             @Html.Raw(feedItem.Description)
