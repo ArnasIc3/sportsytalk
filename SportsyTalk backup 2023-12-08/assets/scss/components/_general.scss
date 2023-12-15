@@ -1,0 +1,422 @@
+// 
+// general.scss
+// Theme general elements and helper styling
+
+
+// GLightbox and plyr controls theme
+.plyr__control--overlaid, .plyr--video .plyr__control.plyr__tab-focus, .plyr--video .plyr__control:hover, .plyr--video .plyr__control[aria-expanded=true], .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true]{
+  background: var(--#{$prefix}primary);
+}
+.plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]:before {
+  background: var(--#{$prefix}primary);
+}
+.plyr--full-ui input[type=range]{
+  color: var(--#{$prefix}primary);
+}
+.plyr--audio .plyr__controls {
+  background: transparent;
+}
+
+/* rtl:raw:
+.glightbox-clean .gclose, .glightbox-modern .gclose{
+  right: auto !important;
+  left: 20px;
+}
+*/
+
+// Search
+.nav-search .dropdown-menu{
+  top: 120%;
+  visibility: hidden;
+  opacity: 0;
+  display: block;
+  transition: $transition-base;
+  width: 300px;
+  left: auto;
+  right: 0;
+}
+.nav-search .dropdown-menu.show{
+  top: 100%;
+  visibility: visible;
+  opacity: 1;
+}
+@include media-breakpoint-down(sm) {
+  .nav-search .dropdown-menu{
+    width: 100%;
+  }
+}
+
+// Back to top
+.back-top {
+  cursor: pointer;
+  position: fixed !important;
+  bottom: 40px;
+  right: 40px;
+  display: block;
+  z-index: 99;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(50%);
+  transition: $transition-base;
+  background: rgba(var(--#{$prefix}primary-rgb), 0.1);
+  color: var(--#{$prefix}primary);
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  i{
+    font-size: 1.6rem;
+    vertical-align: middle;
+  }
+  &:hover{
+    background: var(--#{$prefix}primary);
+    color: var(--#{$prefix}white);
+  }
+  &.back-top-show {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@include media-breakpoint-down(md) {
+  .back-top {
+    bottom: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    i{
+      font-size: 1rem;
+    }
+  }
+}
+
+// sticky post (visible on scroll)
+.sticky-post{
+  position: fixed;
+  bottom: 100px;
+  right: 50px;
+  width: 300px;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateX(50%);
+  transition: $transition-base;
+}
+.sticky-post.sticky-post-sticked{
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0%);
+
+}
+
+// To flip element in RTL
+/* rtl:raw:
+  .rtl-flip {
+    transform: scaleX(-1);
+  }
+  .rtl-flip.bi:before{
+    transform: inherit;
+  }
+*/
+
+// parallax
+.bg-parallax{
+  transform: translate3d(0, 0, 0);
+  &:before {
+    z-index: 0;
+  }
+}
+
+//  Footer fixed 
+@include media-breakpoint-up(md) {
+  footer.footer-sticky {
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1 !important;
+  }
+}
+
+// pre loader
+.preloader {
+  background-color: var(--#{$prefix}body-bg);
+  position: fixed;
+  z-index: 1190;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  .preloader-item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+}
+
+// Dark mode item hide and show
+.dark-mode-item{
+  display: none !important;
+}
+
+html[data-theme='dark']{
+  .dark-mode-item{
+    display: block !important;
+  }
+  .light-mode-item{
+    display: none !important;
+  }
+}
+
+// Dark mode switch
+  .modeswitch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-14%);
+    height: 26px;
+    width: 26px;
+    background: #d8831b;
+    border: 2px solid #d8831b;
+    border-radius: 50%;
+    font-size: 14px;
+    color: var(--#{$prefix}white);
+    transition: all 1s;
+
+    &:before {
+      content: "\f042";
+      font-family: $fa-font-family;
+      font-weight: 900;
+      border: none;
+      height: 26px;
+      width: 26px;
+      line-height: 26px;
+      text-align: center;
+      display: block;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+// Font size accessibility
+html{
+  &.font-lg{
+    font-size:20px;
+    transition: $transition-base;
+    @include media-breakpoint-up(xxl) {
+      .container{
+        max-width: 1300px;
+        transition: $transition-base;
+      }
+    }
+  }
+  &.font-sm{
+    font-size:14px;
+    transition: $transition-base;
+  }
+} 
+
+// Rotating text badge
+.rotating-text-badge { 
+  position: absolute; 
+  right: -330px;
+  top: -100px; 
+  width: 1000px; 
+  height: 1000px; 
+  overflow: hidden; 
+}
+
+/* rtl:raw:
+  .rotating-text-badge { 
+    direction: ltr !important;
+  }
+*/
+
+.rotating-text-badge text { 
+  font-size: 20px; 
+  letter-spacing: 2px;
+}
+.rotating-text-badge svg {
+  width: 1000px;
+  height: 1000px;
+  animation-name: rotate;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+// Spilt fixed
+.spilt-fixed {
+  position: fixed;
+  left: 0;
+  margin-left: 90px;
+  width: 600px;
+}
+
+// Spilt content
+.spilt-content {
+  padding-left: 740px;
+  padding-right: 3rem;
+}
+
+// Media down xl
+@include media-breakpoint-down(xl) { 
+  .spilt-fixed {
+    width: 400px;
+  }
+  .spilt-content { 
+    padding-left: 540px;
+  }
+  .rotating-text-badge {
+    right: -230px;
+    top: 0;
+    width: 740px;
+    height: 740px;
+  }
+}
+
+// Media down lg
+@include media-breakpoint-down(lg) { 
+  .spilt-fixed { 
+    margin-left: 0;
+    position: static;
+    width: 100%;
+    height: auto !important;
+  }
+  .spilt-content {
+    padding-left: 105px;
+    padding-right: 0;
+  }
+ }
+
+ // Media down sm
+ @include media-breakpoint-down(sm) { 
+  .navbar-vertical-compact {
+    width: 70px;
+  }
+  .spilt-content {
+    padding-left: 70px;
+  }
+}
+
+// Overlay scrollbar color
+// .os-theme-dark>.os-scrollbar>.os-scrollbar-track>.os-scrollbar-handle, 
+// .os-theme-dark>.os-scrollbar:hover>.os-scrollbar-track>.os-scrollbar-handle {
+//   background: rgba($black, 0.02);
+// }
+
+// Notification dots blink
+.animation-blink {
+  animation: blink 2s infinite;
+}
+@keyframes blink {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.notif-badge {
+  width: 10px;
+  height: 10px;
+  background: var(--#{$prefix}danger);
+  border-radius: 50%;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  z-index: 1;
+}
+
+// Radio button css for soft success color
+.btn-primary-soft-check{
+  background-color: var(--#{$prefix}light);
+  text-align: start;
+}
+
+.btn-primary-soft-check:hover {
+  background-color: rgba(var(--#{$prefix}primary-rgb), 0.2);
+  border: $border-width $border-style var(--#{$prefix}primary);
+}
+.btn-check:active+.btn-primary-soft-check, .btn-check:checked+.btn-primary-soft-check, .btn-primary-soft-check.active, .btn-primary-soft-check:active, .show>.btn-primary-soft-check.dropdown-toggle {
+  background-color: rgba(var(--#{$prefix}primary-rgb), 0.2);
+  color: none;
+  border: $border-width $border-style var(--#{$prefix}primary) !important;
+}
+.btn-check:focus + .btn, .btn-round-shadow:focus {
+  box-shadow: none;
+}
+/* rtl:raw:
+  .editor-container {
+    direction: rtl;
+  }
+  .editor-container ol {
+    margin: 0 2em;
+  }
+  .ql-snow .ql-picker:not(.ql-color-picker):not(.ql-icon-picker) svg {
+    left: 0;
+    right: inherit;
+  }
+  .ql-editor {
+    text-align: right;
+  }
+  .ql-snow .ql-editor blockquote {
+    border-right: 4px solid #ccc;
+    border-left: 0;
+    padding-right: 16px;
+  }
+
+  .ql-editor ol li:not(.ql-direction-rtl), .ql-editor ul li:not(.ql-direction-rtl) {
+    padding-right: 1.5em;
+  }
+
+  .ql-editor li:not(.ql-direction-rtl)::before {
+    margin-right: -1.5em;
+    margin-left: 0.3em;
+    text-align: left;
+  }
+*/
+
+.ql-snow {
+  .ql-picker{
+    color: var(--#{$prefix}body-color);
+  }
+  .ql-fill, .ql-stroke.ql-fill{
+    fill: var(--#{$prefix}gray-800);
+  }
+  .ql-stroke{
+    stroke: var(--#{$prefix}body-color);
+  }
+}
+
+// Glightbox background
+.glightbox-container .gslide-media{
+  background-color: var(--#{$prefix}body-bg);
+}
+
+.cursor-zoom{
+  cursor: zoom-in;
+}
