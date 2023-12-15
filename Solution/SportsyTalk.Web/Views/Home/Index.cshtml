@@ -1,0 +1,160 @@
+﻿@model HomeModel
+@{
+    ViewData["Title"] = "Home Page";
+   
+}
+
+<section class="py-0 py-md-5 overflow-hidden position-relative" style="background-image: url(Fotkes/bgmp.png); background-position: center center; background-repeat: no-repeat;">
+	<div class="container">
+		<div class="row">
+			<!-- Hero title -->
+			<div class="col-lg-6 mx-auto text-center pt-5 position-relative">
+				<h1 class="fw-bolder display-2 typing">Sportsytalk.com</h1>
+				<p class="lead mb-0">Daily and up-to-date updates about sports which you are interested in!</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="py-4 card-grid">
+	<div class="container">
+		<div class="row">
+            <div class="col">
+                <!-- Title -->
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h3 class="m-0">Top Headlines</h3>
+                </div>
+                <!-- Slider START -->
+                <div class="tiny-slider">
+                    <div class="tiny-slider-inner"
+                         data-autoplay="true"
+                         data-hoverpause="true"
+                         data-gutter="24"
+                         data-arrow="false"
+                         data-dots="false"
+                         data-items-md="2"
+                         data-items-sm="2"
+                         data-items-xs="1"
+                         data-items="3">
+
+                        <!-- Card item START -->
+                        @foreach (var feedItem in Model.HomeFeeds.SelectMany(item => item.Items))
+                        {
+                            <div class="card m-3" style="width:350px;">
+                                <img src="@feedItem.ImageUrl" class="card-img-top img-fluid" alt="..." style="max-height:250px;">
+                                <div class="card-body ps-0">
+                                    <h5 class="card-title"><a href="@feedItem.LinkUrl" target="_blank" class="stretched-link">@feedItem.Title</a></h5>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+		</div> <!-- Row END -->
+	</div>
+</section>
+
+<section class="pt-0 pt-md-5">
+	<div class="container">
+		<!-- Title -->
+		<div class="row">
+			<div class="col-12">
+
+				<!-- Title -->
+				<div class="d-flex justify-content-between align-items-center mb-4">
+					<h3 class="m-0">Categories</h3>
+				</div>
+
+				<!-- Slider -->
+				<div class="tiny-slider arrow-hover arrow-dark arrow-blur arrow-round">
+					<div class="tiny-slider-inner"
+						 data-autoplay="false"
+						 data-hoverpause="true"
+						 data-gutter="24"
+						 data-arrow="true"
+						 data-dots="false"
+						 data-items-xl="5"
+						 data-items-lg="4"
+						 data-items-md="3"
+						 data-items-sm="2"
+						 data-items-xs="2">
+                        <!-- Category item -->
+						
+						@foreach (var sport in Model.SportMenuItems)
+                        {
+                            <div>
+                                <div class="card bg-transparent">
+                                    <img class="card-img" src="images/sports/@sport.Photo" alt="card image">
+                                    <div class="card-body ps-0">
+                                        <h5 class="mb-0"><a asp-controller="Home" asp-action="News" class="stretched-link">@sport.Title</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+
+                        
+						
+					</div>
+				</div> <!-- Slider END -->
+			</div>
+		</div>
+	</div>
+</section>
+<!--Category END -->
+<!--Feedback START -->
+<section class="pt-0 pt-md-5">
+	<div class="container">
+		<div class="d-sm-flex justify-content-sm-between align-items-sm-center my-0">
+			<div class="row">
+				<!-- Feedback title -->
+				<div>
+					<div class="card bg-transparent" style="text-align: center;">
+						<img src="images/feedback-icon.png" width="300" height="300">
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-7 bg-dark align-text pt-5 position-relative rounded-3" style="text-align: center;">
+				<h4 class="fw-bolder display-4 text-white">Give us feedback!</h4>
+				<br>
+				<p class="lead mb-0 text-white">We strive to express our passion for sports! Feedback is well appreciated!</p>
+				<br>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- =======================
+Feedback END -->
+<!-- =======================
+Newsletter START -->
+<section class="pb-0 pt-3 mt-1">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="bg-dark p-3 p-sm-4 rounded-3 position-relative overflow-hidden">
+					<div class="row">
+						<div class="col-md-8 col-lg-6 mx-auto text-center py-5 position-relative">
+							<!-- Title -->
+							<h2 class="display-6 text-white">Never miss hot sports news!</h2>
+							<p class="text-white">Get the freshest headlines and updates sent uninterrupted to your inbox.</p>
+							<!-- Form -->
+							<form class="row row-cols-sm-auto g-2 align-items-center justify-content-center mt-3">
+								<div class="col-12">
+									<input type="email" class="form-control" placeholder="Enter your email address">
+								</div>
+								<div class="col-12">
+									<button type="submit" class="btn btn-primary m-0">Subscribe</button>
+								</div>
+								<div class="form-text text-white opacity-6 mt-2">
+									By subscribing you agree to our
+									<a href="#" class="text-decoration-underline text-reset">Privacy Policy</a>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- =======================
+Newsletter END -->

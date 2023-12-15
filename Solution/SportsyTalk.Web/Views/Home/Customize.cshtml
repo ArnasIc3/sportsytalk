@@ -1,0 +1,58 @@
+﻿@model CustomizeModel
+@{
+    ViewData["Title"] = "Customize Feed";
+}
+
+<div class="container">
+    <div>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="my-3">Customize Feed</h1>
+            </div>
+            <div class="col-12">
+                <div class="alert alert-info my-3">
+                    <ul>
+                        <li>Subscribe to one or more sports you like by clicking <strong>"Subscribe"</strong>.</li>
+                        <li>Select <strong>"My News"</strong> menu item to read your updated feed.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        @foreach (var sport in Model.SportMenuItems)
+        {
+            bool isSubscribed = Model.SelectedSportItems.Any(item=>item.Id == sport.Id);
+            <div class="col-lg-3 col-12">
+                <div id="card_@sport.Id" class="card m-1 shadow-lg bg-body-tertiary @(isSubscribed ? "" : "opacity-50")">
+                    <img src="~/images/sports/@sport.Photo" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body p-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title">@sport.Title</h5>
+                            <div class="card-text">
+                                <button onclick="toggleSport(this, @sport.Id)" class="btn @(isSubscribed ? "btn-danger" :"btn-primary")" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">@(isSubscribed ? "Remove" : "Subscribe")</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<script>
+    async function toggleSport(btn, sportId) {
+        var url = "@Url.Action("ToggleSport","Home")";
+        btn.setAttribute('disabled', true);
+        var data = new FormData();
+        data.append('sportId', sportId);
+        var response = await axios.post(url, data);
+        btn.classList.toggle('btn-primary');
+        btn.classList.toggle('btn-danger');
+        var card = document.getElementById('card_' + sportId);
+        card.classList.toggle('opacity-50');
+        var subscribed = btn.classList.contains('btn-danger');
+        btn.innerHTML = subscribed ? 'Remove' : 'Subscribe';
+        btn.removeAttribute('disabled');
+    }
+</script>
+
