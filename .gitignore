@@ -1,2 +1,4 @@
-/.vs/
-/Solution/.vs/
+.vs
+[Dd]ebug
+[Rr]elease
+obj/
